@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map id="302507" player_count="2" vertical="False" defaultAIStrategy="-1" teamAITypes="" teamFriend="">
+  <maplines>
+    <mapline point1="C" point2="D" />
+    <mapline point1="C" point2="E" />
+    <mapline point1="F" point2="D" />
+    <mapline point1="F" point2="E" />
+    <mapline point1="H" point2="N" />
+    <mapline point1="P" point2="O" />
+    <mapline point1="U" point2="T" />
+    <mapline point1="W" point2="V" />
+    <mapline point1="I" point2="X" />
+    <mapline point1="Z" point2="Y" />
+    <mapline point1="[" point2="\" />
+    <mapline point1="]" point2="^" />
+    <mapline point1="_" point2="`" />
+    <mapline point1="b" point2="a" />
+    <mapline point1="d" point2="c" />
+    <mapline point1="v" point2="A" />
+    <mapline point1="2" point2="1" />
+    <mapline point1="4" point2="3" />
+    <mapline point1="6" point2="5" />
+    <mapline point1="3" point2="2" />
+  </maplines>
+  <mapbuildings>
+    <mapbuilding type="barrier" size="1" tag="C" x="-8" y="4" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="D" x="8" y="4" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="E" x="-8" y="-4" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="F" x="8" y="-4" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="H" x="7" y="4" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="I" x="5" y="4" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Diffusion" size="1" tag="K" x="6.5" y="-0.5" camption="2" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Twist" size="1" tag="M" x="-7.5" y="3.5" camption="7" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="N" x="7" y="-4" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="O" x="8" y="-3" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="P" x="4" y="-3" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Diffusion" size="1" tag="Q" x="7.5" y="3.5" camption="2" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Diffusion" size="1" tag="R" x="7.5" y="0.5" camption="2" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="T" x="8" y="-2" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="U" x="4" y="-2" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="V" x="6" y="-4" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="W" x="6" y="4" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="X" x="5" y="-4" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="Y" x="8" y="-1" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="Z" x="4" y="-1" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="[" x="4" y="-4" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="\" x="4" y="4" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="]" x="8" y="0" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="^" x="4" y="0" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="_" x="8" y="1" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="`" x="4" y="1" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="a" x="8" y="2" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="b" x="4" y="2" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="c" x="8" y="3" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="d" x="4" y="3" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Twist" size="1" tag="e" x="-7.5" y="2" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="teleport" size="1" tag="f" x="-7.5" y="-3.5" camption="7" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Twist" size="1" tag="g" x="-6" y="3.5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Twist" size="1" tag="h" x="-4.5" y="-2" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Twist" size="1" tag="i" x="-4.5" y="3.5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Twist" size="1" tag="j" x="-6" y="2" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Twist" size="1" tag="k" x="-7.5" y="-2" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Twist" size="1" tag="m" x="-4.5" y="2" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Twist" size="1" tag="n" x="-3" y="2" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Twist" size="1" tag="o" x="-1.5" y="2" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Twist" size="1" tag="p" x="0" y="2" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Twist" size="1" tag="q" x="1.5" y="2" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Twist" size="1" tag="r" x="3" y="2" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Twist" size="1" tag="s" x="-3" y="3.5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Twist" size="1" tag="t" x="-6" y="-2" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Twist" size="1" tag="u" x="-6" y="-3.5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="v" x="-8" y="2.75" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="A" x="2.25" y="2.75" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Twist" size="1" tag="B" x="-1.5" y="3.5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Twist" size="1" tag="G" x="0" y="3.5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Twist" size="1" tag="J" x="1.5" y="3.5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Twist" size="1" tag="L" x="3" y="3.5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Twist" size="1" tag="w" x="-1.5" y="-2" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Twist" size="1" tag="x" x="1.5" y="-2" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Twist" size="1" tag="y" x="-3" y="-2" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Twist" size="1" tag="z" x="0" y="-2" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="1" x="4" y="1.25" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="2" x="-6.75" y="1.25" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="3" x="-6.75" y="-1.25" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="4" x="4" y="-1.25" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="5" x="2.25" y="-2.75" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="6" x="-8" y="-2.75" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Twist" size="1" tag="7" x="3" y="-2" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Twist" size="1" tag="8" x="3" y="-3.5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Twist" size="1" tag="9" x="1.5" y="-3.5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Twist" size="1" tag="10" x="0" y="-3.5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Twist" size="1" tag="11" x="-1.5" y="-3.5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Twist" size="1" tag="12" x="-3" y="-3.5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Twist" size="1" tag="13" x="-4.5" y="-3.5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Twist" size="1" tag="14" x="-7.5" y="0.75" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Twist" size="1" tag="15" x="-7.5" y="-0.75" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Lasergun" size="1" tag="16" x="-3" y="0.5" camption="2" lasergunAngle="45" lasergunRotateSkip="45" lasergunRange="90" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Lasergun" size="1" tag="17" x="-1.5" y="-0.5" camption="2" lasergunAngle="225" lasergunRotateSkip="45" lasergunRange="90" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="defense" size="1" tag="19" x="-6" y="0" camption="2" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Lasergun" size="1" tag="22" x="-4.5" y="-0.5" camption="2" lasergunAngle="225" lasergunRotateSkip="45" lasergunRange="90" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Lasergun" size="1" tag="23" x="0" y="0.5" camption="2" lasergunAngle="45" lasergunRotateSkip="45" lasergunRange="90" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Lasergun" size="1" tag="24" x="1.5" y="-0.5" camption="2" lasergunAngle="225" lasergunRotateSkip="45" lasergunRange="90" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="AddTower" size="1" tag="18" x="5.5" y="-2.5" camption="7" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Lasercannon" size="1" tag="20" x="4.5" y="-3.5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Lasercannon" size="1" tag="21" x="3" y="0" camption="2" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="defense" size="1" tag="25" x="-1.5" y="0.5" camption="2" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Lasercannon" size="1" tag="26" x="0" y="-0.5" camption="2" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Lasercannon" size="1" tag="27" x="-3" y="-0.5" camption="2" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Diffusion" size="1" tag="S" x="5.5" y="2.5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Lasercannon" size="1" tag="l" x="7.5" y="-3.5" camption="2" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="tower" size="1" tag="28" x="4.5" y="0.5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Diffusion" size="1" tag="29" x="7.5" y="-1.5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Lasercannon" size="1" tag="30" x="6.5" y="1.5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+  </mapbuildings>
+  <mapplayers>
+    <mapplayer tag="M" ship="1" camption="7" />
+    <mapplayer tag="Q" ship="15" camption="2" />
+    <mapplayer tag="16" ship="0" camption="2" />
+    <mapplayer tag="17" ship="0" camption="2" />
+    <mapplayer tag="19" ship="0" camption="2" />
+    <mapplayer tag="f" ship="0" camption="7" />
+    <mapplayer tag="22" ship="0" camption="2" />
+    <mapplayer tag="23" ship="0" camption="2" />
+    <mapplayer tag="24" ship="0" camption="2" />
+    <mapplayer tag="K" ship="15" camption="2" />
+    <mapplayer tag="R" ship="0" camption="2" />
+    <mapplayer tag="18" ship="3" camption="7" />
+    <mapplayer tag="21" ship="0" camption="2" />
+    <mapplayer tag="25" ship="0" camption="2" />
+    <mapplayer tag="26" ship="0" camption="2" />
+    <mapplayer tag="27" ship="0" camption="2" />
+    <mapplayer tag="l" ship="30" camption="2" />
+  </mapplayers>
+  <candidates>
+    <candidate transformBulidingID="" />
+    <candidate lasergunAngle="" lasergunRotateSkip="" lasergunRange="" />
+    <candidate orbitRevoSpeed="12" />
+    <candidate curseDelay="" />
+    <candidate aistrategy="" />
+    <candidate shipProduceOverride="1" />
+  </candidates>
+</map>

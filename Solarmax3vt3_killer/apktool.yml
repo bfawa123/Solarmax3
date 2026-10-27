@@ -1,0 +1,51 @@
+version: 2.9.3
+apkFileName: Solarmax3vt3_killer.Apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 19
+  targetSdkVersion: 28
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 10933
+  versionName: 1.3.1
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  com/androidquery/AQuery.java: 8
+  com/androidquery/AbstractAQuery.java: 8
+  com/androidquery/WebDialog.java: 8
+  com/androidquery/util/BitmapCache.java: 8
+  com/androidquery/util/Common.java: 8
+  com/androidquery/util/WebImage.java: 8
+  com/androidquery/util/AQUtility.java: 8
+  com/androidquery/util/PredefinedBAOS.java: 8
+  com/androidquery/util/Constants.java: 8
+  com/androidquery/util/Progress.java: 8
+  com/androidquery/util/XmlDom.java: 8
+  com/androidquery/util/web_image.html: 8
+  com/androidquery/util/RatioDrawable.java: 8
+  com/androidquery/auth/AccountHandle.java: 8
+  com/androidquery/auth/TwitterHandle.java: 8
+  com/androidquery/auth/GoogleHandle.java: 8
+  com/androidquery/auth/FacebookHandle.java: 8
+  com/androidquery/auth/BasicHandle.java: 8
+  com/androidquery/callback/Transformer.java: 8
+  com/androidquery/callback/ImageOptions.java: 8
+  com/androidquery/callback/ProxyHandle.java: 8
+  com/androidquery/callback/BitmapAjaxCallback.java: 8
+  com/androidquery/callback/AjaxStatus.java: 8
+  com/androidquery/callback/AjaxCallback.java: 8
+  com/androidquery/callback/AbstractAjaxCallback.java: 8
+  com/androidquery/callback/LocationAjaxCallback.java: 8
+  com/androidquery/service/MarketService.java: 8
+  com/tencent/av/doxygen/api_android_html.dox: 8
+  com/tencent/av/doxygen/latex_header: 8
+  com/tencent/av/doxygen/api_android_latex.dox: 8
+  com/tencent/av/doxygen/latex_footer: 8

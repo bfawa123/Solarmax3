@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="#ff000000" android:gravity="center_horizontal" android:id="@id/txt_title" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_repeatpay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:gravity="center" android:id="@id/btn_a_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/demo_pay_amount_1fen" />
+        <Button android:gravity="center" android:id="@id/btn_a_60" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/demo_pay_amount_6yuan" />
+        <Button android:gravity="center" android:id="@id/btn_a_120" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/demo_pay_amount_12yuan" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_unrepeatpay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:gravity="center" android:id="@id/btn_b_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/demo_pay_amount_1fen_1" />
+        <Button android:gravity="center" android:id="@id/btn_b_60" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/demo_pay_amount_6yuan_1" />
+        <Button android:gravity="center" android:id="@id/btn_b_120" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/demo_pay_amount_12yuan_1" />
+    </LinearLayout>
+    <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:id="@id/txt_title1" android:paddingLeft="30.0dip" android:paddingTop="50.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/demo_tip_text" />
+    <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:id="@id/txt_bottext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" />
+</LinearLayout>

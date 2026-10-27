@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<map id="Void - Easy" player_count="5" vertical="False" defaultAIStrategy="-1" teamAITypes="5,5,5,5,5,5,5,0,0" teamFriend="1,2,1,3,1,4,2,3,2,4,3,4">
+  <mapbuildings>
+    <mapbuilding type="tower" size="1" tag="0" x="4" y="0" camption="8" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="tower" size="1" tag="1" x="2" y="-1" camption="8" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="tower" size="1" tag="2" x="-2" y="2" camption="8" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Lasercannon" size="1" tag="3" x="-7" y="0" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Lasercannon" size="1" tag="4" x="6" y="-3" camption="8" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Lasergun" size="1" tag="5" x="-7" y="2" camption="8" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" lasergunAngle="8" lasergunRotateSkip="2" lasergunRange="1" />
+    <mapbuilding type="Lasergun" size="1" tag="6" x="6" y="0" camption="8" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" lasergunAngle="166" lasergunRotateSkip="14" lasergunRange="28" />
+    <mapbuilding type="Mirror" size="1" tag="7" x="0" y="3" camption="8" fAngle="139" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Mirror" size="1" tag="8" x="0" y="0" camption="8" fAngle="135" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Mirror" size="1" tag="9" x="0" y="-3" camption="8" fAngle="135" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="teleport" size="1" tag="10" x="-4" y="-1" camption="1" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="teleport" size="1" tag="11" x="-2" y="-1" camption="2" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="teleport" size="1" tag="12" x="-2" y="-3" camption="4" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="teleport" size="1" tag="13" x="-4" y="-3" camption="3" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+  </mapbuildings>
+  <mapplayers>
+    <mapplayer tag="0" ship="60" camption="8" />
+    <mapplayer tag="1" ship="60" camption="8" />
+    <mapplayer tag="2" ship="60" camption="8" />
+    <mapplayer tag="4" ship="60" camption="8" />
+    <mapplayer tag="5" ship="50" camption="8" />
+    <mapplayer tag="6" ship="50" camption="8" />
+    <mapplayer tag="7" ship="60" camption="8" />
+    <mapplayer tag="8" ship="60" camption="8" />
+	<mapplayer tag="9" ship="60" camption="8" />
+    <mapplayer tag="10" ship="10" camption="1" />
+    <mapplayer tag="11" ship="10" camption="2" />
+    <mapplayer tag="12" ship="10" camption="4" />
+    <mapplayer tag="13" ship="10" camption="3" />
+  </mapplayers>
+</map>

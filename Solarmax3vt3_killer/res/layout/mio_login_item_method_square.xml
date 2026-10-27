@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="80.0dip" android:layout_height="80.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:id="@id/mipay_method_square" android:background="#00ffffff" android:clickable="false" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_centerInParent="true">
+        <ImageView android:id="@id/mio_method_square_item_icon" android:clickable="false" android:layout_width="42.0dip" android:layout_height="42.0dip" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="10.0sp" android:textColor="@android:color/black" android:id="@id/mio_method_square_item_title" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:maxLines="1" android:layout_below="@id/mio_method_square_item_icon" android:layout_alignParentBottom="false" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

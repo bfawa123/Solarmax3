@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/mg_browser_share_dialog_background" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/moments" android:background="@drawable/mg_browser_icon_moments" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+            <TextView android:textSize="10.0sp" android:gravity="center" android:layout_width="40.0dip" android:layout_height="20.0dip" android:layout_marginTop="10.0dip" android:text="@string/moments" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/wechat" android:background="@drawable/mg_browser_icon_wechat" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+            <TextView android:textSize="10.0sp" android:gravity="center" android:layout_width="40.0dip" android:layout_height="20.0dip" android:layout_marginTop="10.0dip" android:text="@string/wechat" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/weibo" android:background="@drawable/mg_browser_icon_weibo" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+            <TextView android:textSize="10.0sp" android:gravity="center" android:layout_width="40.0dip" android:layout_height="20.0dip" android:layout_marginTop="10.0dip" android:text="@string/weibo" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/qq" android:background="@drawable/mg_browser_icon_qq" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+            <TextView android:textSize="10.0sp" android:gravity="center" android:layout_width="40.0dip" android:layout_height="20.0dip" android:layout_marginTop="10.0dip" android:text="@string/qq" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/qzone" android:background="@drawable/mg_browser_icon_qzone" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+            <TextView android:textSize="10.0sp" android:gravity="center" android:layout_width="40.0dip" android:layout_height="20.0dip" android:layout_marginTop="10.0dip" android:text="@string/qzone" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button android:textColor="@android:color/white" android:gravity="center" android:id="@id/share_cancel" android:background="@color/mg_browser_share_cancel_button_background" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="取消" />
+</LinearLayout>

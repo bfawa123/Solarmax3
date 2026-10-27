@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="preferExternal" package="com.solarmax3.guanwangtlm_pvp" platformBuildVersionCode="10933" platformBuildVersionName="1.3.1">
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true" android:xlargeScreens="true"/>
+    <uses-feature android:glEsVersion="0x00020000"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="com.xiaomi.sdk.permission.PAYMENT"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="com.xiaomi.permission.AUTH_SERVICE"/>
+    <uses-feature android:name="android.hardware.sensor.accelerometer" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen.multitouch" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen.multitouch.distinct" android:required="false"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <application android:allowBackup="true" android:banner="@drawable/app_banner" android:configChanges="keyboardHidden|orientation|screenSize" android:icon="@drawable/solarmax3" android:isGame="true" android:label="@string/app_name" android:name="com.xmgame.sdk.XMGameApplication" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:usesCleartextTraffic="true">
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <meta-data android:name="com.google.android.gms.games.APP_ID" android:value="62PW8WPH9836DPPJ96VP"/>
+        <receiver android:exported="true" android:name="com.appsflyer.SingleInstallBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:icon="@drawable/solarmax3" android:launchMode="singleTask" android:name="com.xiaomi.gamecenter.sdk.mi.LoginPlatformActivity" android:screenOrientation="sensorLandscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.solarmax3.guanwang.wxapi.WXEntryActivity" android:taskAffinity="com.sdk.unity.migame.payment" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:exported="true" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.solarmax3.guanwang.wxapi.WXPayEntryActivity" android:taskAffinity="com.sdk.unity.migame.payment" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboard|orientation|screenSize" android:launchMode="singleTask" android:name="com.xiaomi.gamecenter.sdk.mi.RewardVideoActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:name="com.xiaomi.migamechannel.activity.OfficialWebsiteActivity" android:screenOrientation="landscape"/>
+        <provider android:authorities="com.solarmax3.guanwang.fileprovider_pvp" android:exported="false" android:grantUriPermissions="true" android:name="android.support.v4.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+        <provider android:authorities="com.solarmax3.guanwang.TTMultiProvider_pvp" android:exported="false" android:name="com.bytedance.sdk.openadsdk.multipro.TTMultiProvider"/>
+        <meta-data android:name="unity.build-id" android:value="76179821-0bf5-4dab-8f3e-d09a5bd05257"/>
+        <meta-data android:name="unity.splash-mode" android:value="0"/>
+        <meta-data android:name="unity.splash-enable" android:value="true"/>
+        <meta-data android:name="android.max_aspect" android:value="2.1"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:exported="false" android:name="com.alipay.sdk.app.H5PayActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:exported="false" android:name="com.alipay.sdk.app.H5AuthActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:exported="true" android:launchMode="singleInstance" android:name="com.alipay.sdk.app.PayResultActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="MiLinkGroupAppID" android:value="@integer/MiLinkGroupAppID"/>
+        <activity android:name="com.xiaomi.account.openauth.AuthorizeActivity"/>
+        <activity android:launchMode="singleTask" android:name="com.tencent.tauth.AuthActivity" android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tencent1106134063"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.tencent.connect.common.AssistActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:name="com.ss.android.socialbase.downloader.notification.DownloadNotificationService"/>
+        <service android:name="com.ss.android.socialbase.downloader.downloader.DownloadService"/>
+        <service android:name="com.ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService" android:process=":downloader">
+            <intent-filter>
+                <action android:name="com.ss.android.socialbase.downloader.remote"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.ss.android.socialbase.downloader.impls.DownloadHandleService"/>
+        <service android:enabled="true" android:exported="true" android:name="com.ss.android.socialbase.downloader.impls.RetryJobSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:name="com.ss.android.socialbase.appdownloader.DownloadHandlerService"/>
+        <activity android:launchMode="singleTask" android:name="com.ss.android.socialbase.appdownloader.view.DownloadTaskDeleteActivity" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:launchMode="singleTask" android:name="com.ss.android.downloadlib.activity.TTDelegateActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <receiver android:name="com.ss.android.downloadlib.core.download.DownloadReceiver"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.activity.TTLandingPageActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.activity.TTPlayableLandingPageActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity"/>
+        <activity android:launchMode="singleTask" android:name="com.bytedance.sdk.openadsdk.activity.TTDelegateActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:name="com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService"/>
+        <receiver android:enabled="true" android:exported="true" android:name="com.bytedance.embedapplog.collector.Collector"/>
+        <service android:name="com.bytedance.tea.crash.upload.CrashUploadService" android:process=":npth"/>
+    </application>
+</manifest>

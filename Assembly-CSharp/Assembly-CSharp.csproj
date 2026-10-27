@@ -1,0 +1,1545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4A053BAD-02AF-48D1-93BD-D4EAF6A551E8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Assembly-CSharp</RootNamespace>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Achievement.cs" />
+    <Compile Include="AchievementDifficult.cs" />
+    <Compile Include="AchievementGroup.cs" />
+    <Compile Include="AchievementManager.cs" />
+    <Compile Include="AchievementModel.cs" />
+    <Compile Include="AchievementTaskTemplate.cs" />
+    <Compile Include="AchievementTaskView.cs" />
+    <Compile Include="AchievementTemplate.cs" />
+    <Compile Include="AchievementType.cs" />
+    <Compile Include="AchievementView.cs" />
+    <Compile Include="Active.cs" />
+    <Compile Include="ActiveAnimation.cs" />
+    <Compile Include="ActiveBuyWidnow.cs" />
+    <Compile Include="ActiveChapterObject.cs" />
+    <Compile Include="ActScript\ArtEffect.cs" />
+    <Compile Include="AddAttack.cs" />
+    <Compile Include="AddTowerNode.cs" />
+    <Compile Include="AdsTools.cs" />
+    <Compile Include="AICalculateCache.cs" />
+    <Compile Include="AIData.cs" />
+    <Compile Include="AIManager.cs" />
+    <Compile Include="AircraftCarrierNode.cs" />
+    <Compile Include="AirShip.cs" />
+    <Compile Include="AIStatus.cs" />
+    <Compile Include="AniEffect.cs" />
+    <Compile Include="AnimatedAlpha.cs" />
+    <Compile Include="AnimatedColor.cs" />
+    <Compile Include="AnimatedWidget.cs" />
+    <Compile Include="AnimationOrTween\Direction.cs" />
+    <Compile Include="AnimationOrTween\DisableCondition.cs" />
+    <Compile Include="AnimationOrTween\EnableCondition.cs" />
+    <Compile Include="AnimationOrTween\Trigger.cs" />
+    <Compile Include="AnnularParticles.cs" />
+    <Compile Include="AnyPool.cs" />
+    <Compile Include="AppsFlyerTool.cs" />
+    <Compile Include="ArsenalNode.cs" />
+    <Compile Include="AssetManager.cs" />
+    <Compile Include="AttackPlanetShip.cs" />
+    <Compile Include="AttributeObject.cs" />
+    <Compile Include="AttributePos.cs" />
+    <Compile Include="AudioManger.cs" />
+    <Compile Include="AvatarTemplate.cs" />
+    <Compile Include="AvatarView.cs" />
+    <Compile Include="AverageScoreJson.cs" />
+    <Compile Include="AwardItem.cs" />
+    <Compile Include="BackgroundType.cs" />
+    <Compile Include="BagWindow.cs" />
+    <Compile Include="BagWindowCell.cs" />
+    <Compile Include="BagWindowCellParent.cs" />
+    <Compile Include="BarrierLineNode.cs" />
+    <Compile Include="BarrierNode.cs" />
+    <Compile Include="BarrierPointNode.cs" />
+    <Compile Include="BaseAILogic.cs" />
+    <Compile Include="BaseNewBuff.cs" />
+    <Compile Include="BaseNewSkill.cs" />
+    <Compile Include="BaseWindow.cs" />
+    <Compile Include="BattleData.cs" />
+    <Compile Include="BattleEndData.cs" />
+    <Compile Include="BattleEndWindow.cs" />
+    <Compile Include="BattleLaserLineHalo.cs" />
+    <Compile Include="BattlePlayType.cs" />
+    <Compile Include="BattleReportData.cs" />
+    <Compile Include="BattleRoomsDataHandler.cs" />
+    <Compile Include="BattleSystem.cs" />
+    <Compile Include="BattleUIHalo.cs" />
+    <Compile Include="BattleWarningHalo.cs" />
+    <Compile Include="BattleWindow.cs" />
+    <Compile Include="BattleWindow_off.cs" />
+    <Compile Include="BeCapturedSkill.cs" />
+    <Compile Include="BetterList.cs" />
+    <Compile Include="BGGroup.cs" />
+    <Compile Include="BGManager.cs" />
+    <Compile Include="BGTemplate.cs" />
+    <Compile Include="BGView.cs" />
+    <Compile Include="BlackHoleEffect.cs" />
+    <Compile Include="BlackholeHitEffect.cs" />
+    <Compile Include="BMFont.cs" />
+    <Compile Include="BMGlyph.cs" />
+    <Compile Include="BMSymbol.cs" />
+    <Compile Include="BombEffect.cs" />
+    <Compile Include="BornSkill.cs" />
+    <Compile Include="BuglyTools.cs" />
+    <Compile Include="BuildNode.cs" />
+    <Compile Include="ByteReader.cs" />
+    <Compile Include="CamRotate.cs" />
+    <Compile Include="CamRotator.cs" />
+    <Compile Include="CameraGestureController.cs" />
+    <Compile Include="CannonBombEffect.cs" />
+    <Compile Include="CannonEffect.cs" />
+    <Compile Include="CannonNode.cs" />
+    <Compile Include="CannonSkill.cs" />
+    <Compile Include="CapturedSkill.cs" />
+    <Compile Include="CastleNode.cs" />
+    <Compile Include="ChallengeChapterTemplate.cs" />
+    <Compile Include="ChallengeLevelTemplate.cs" />
+    <Compile Include="ChallengeTemplate.cs" />
+    <Compile Include="ChallengeWindow.cs" />
+    <Compile Include="ChampionshipRankWindow.cs" />
+    <Compile Include="ChampionshipRankWindowCell.cs" />
+    <Compile Include="changeSpriteWidth.cs" />
+    <Compile Include="ChapterInfo.cs" />
+    <Compile Include="ChapterLevelGroup.cs" />
+    <Compile Include="ChapterLevelInfo.cs" />
+    <Compile Include="ChapterWindow.cs" />
+    <Compile Include="ChapterWindowCell.cs" />
+    <Compile Include="ChapterWindowCellEX.cs" />
+    <Compile Include="ChatInput.cs" />
+    <Compile Include="CheckBox.cs" />
+    <Compile Include="CheckType.cs" />
+    <Compile Include="ChessItem.cs" />
+    <Compile Include="ChestWindow.cs" />
+    <Compile Include="ChongDongSkill.cs" />
+    <Compile Include="ChongWangBuff.cs" />
+    <Compile Include="ChongWangSkill.cs" />
+    <Compile Include="ChouXinSkill.cs" />
+    <Compile Include="CloneEffect.cs" />
+    <Compile Include="CloneToBuff.cs" />
+    <Compile Include="CloneToSkill.cs" />
+    <Compile Include="CloudsNode.cs" />
+    <Compile Include="CloudWindow.cs" />
+    <Compile Include="CollectionBuyWindow.cs" />
+    <Compile Include="CollectionWindow.cs" />
+    <Compile Include="Comment.cs" />
+    <Compile Include="CommentEvaluation.cs" />
+    <Compile Include="CommentModel.cs" />
+    <Compile Include="CommentTemplate.cs" />
+    <Compile Include="CommentWindow.cs" />
+    <Compile Include="CommonDialogAntiWindow.cs" />
+    <Compile Include="CommonDialogTileWindow.cs" />
+    <Compile Include="CommonDialogVIPWindow.cs" />
+    <Compile Include="CommonDialogWindow.cs" />
+    <Compile Include="CommonDownloadNotice.cs" />
+    <Compile Include="CommonNoticeWindow.cs" />
+    <Compile Include="CompositeWindow.cs" />
+    <Compile Include="CooperationAssistCell.cs" />
+    <Compile Include="CooperationLevelWindow.cs" />
+    <Compile Include="CooperationRoomWindow.cs" />
+    <Compile Include="CooperationWidnowCell.cs" />
+    <Compile Include="Coroutine.cs" />
+    <Compile Include="CoroutineEvent.cs" />
+    <Compile Include="CPvPRoomWindow.cs" />
+    <Compile Include="CreateRoomWindow.cs" />
+    <Compile Include="CreatureNode.cs" />
+    <Compile Include="HeartNode.cs" />
+    <Compile Include="CRoom2V2Window.cs" />
+    <Compile Include="CultureInfoDict.cs" />
+    <Compile Include="CurseEffect.cs" />
+    <Compile Include="CurseNode.cs" />
+    <Compile Include="CurseSkill.cs" />
+    <Compile Include="CurseWrapperSkill.cs" />
+    <Compile Include="CustomSelectLevelWindow.cs" />
+    <Compile Include="CustomSelectWindow.cs" />
+    <Compile Include="CustomSelectWindowNew.cs" />
+    <Compile Include="CustomTestLevelWindow.cs" />
+    <Compile Include="DailyTaskTemplate.cs" />
+    <Compile Include="DailyTaskView.cs" />
+    <Compile Include="DarkPulse.cs" />
+    <Compile Include="DecompositionWindow.cs" />
+    <Compile Include="DefenseNode.cs" />
+    <Compile Include="DegreeTask.cs" />
+    <Compile Include="DG\Tweening\DOTweenCYInstruction.cs" />
+    <Compile Include="DG\Tweening\DOTweenModuleUI.cs" />
+    <Compile Include="DG\Tweening\DOTweenModuleUnityVersion.cs" />
+    <Compile Include="DG\Tweening\DOTweenModuleUtils.cs" />
+    <Compile Include="DiffusionEffect.cs" />
+    <Compile Include="DiffusionNode.cs" />
+    <Compile Include="DiffusionSkill.cs" />
+    <Compile Include="DestroyLineController.cs" />
+    <Compile Include="DownloadTexture.cs" />
+    <Compile Include="DriftEffect.cs" />
+    <Compile Include="DriftSkillEffect.cs" />
+    <Compile Include="DuWuSkill.cs" />
+    <Compile Include="DyWith.cs" />
+    <Compile Include="EffectManager.cs" />
+    <Compile Include="EffectNode.cs" />
+    <Compile Include="EffectPool.cs" />
+    <Compile Include="EmaillBoxWindow.cs" />
+    <Compile Include="EmaillBoxWindowCell.cs" />
+    <Compile Include="Entity.cs" />
+    <Compile Include="EntityAircraftCarrier.cs" />
+    <Compile Include="EntityArsenal.cs" />
+    <Compile Include="EntityBarrier.cs" />
+    <Compile Include="EntityBarrierLine.cs" />
+    <Compile Include="EntityBlack.cs" />
+    <Compile Include="EntityCannon.cs" />
+    <Compile Include="EntityCastle.cs" />
+    <Compile Include="EntityClouds.cs" />
+    <Compile Include="EntityCreature.cs" />
+    <Compile Include="EntityCurse.cs" />
+    <Compile Include="EntityDefense.cs" />
+    <Compile Include="EntityDiffusion.cs" />
+    <Compile Include="EntityFixedWarpDoor.cs" />
+    <Compile Include="EntityGunturret.cs" />
+    <Compile Include="EntityHouse.cs" />
+    <Compile Include="EntityLasergun.cs" />
+    <Compile Include="EntityMaster.cs" />
+    <Compile Include="EntityMirror.cs" />
+    <Compile Include="EntityNode.cs" />
+    <Compile Include="EntityPlanet.cs" />
+    <Compile Include="EntityPower.cs" />
+    <Compile Include="EntityShip.cs" />
+    <Compile Include="EntityTower.cs" />
+    <Compile Include="EntityWarpDoor.cs" />
+    <Compile Include="EnvelopContent.cs" />
+    <Compile Include="EquipItems.cs" />
+    <Compile Include="EquipRandomItem.cs" />
+    <Compile Include="EventDelegate.cs" />
+    <Compile Include="EventId.cs" />
+    <Compile Include="ExampleDragDropItem.cs" />
+    <Compile Include="ExampleDragDropSurface.cs" />
+    <Compile Include="FengBaoSkill.cs" />
+    <Compile Include="FileStruct.cs" />
+    <Compile Include="FixedWarpDoorNode.cs" />
+    <Compile Include="FlurryAnalytis.cs" />
+    <Compile Include="FollowNode.cs" />
+    <Compile Include="FPS.cs" />
+    <Compile Include="FramePacket.cs" />
+    <Compile Include="FriendCareWindow.cs" />
+    <Compile Include="FriendDataHandler.cs" />
+    <Compile Include="FriendFindWindow.cs" />
+    <Compile Include="FriendMembersWindow.cs" />
+    <Compile Include="FriendNotifyWindow.cs" />
+    <Compile Include="FriendRankingCell.cs" />
+    <Compile Include="FriendRankingWindow.cs" />
+    <Compile Include="FriendSimplePlayer.cs" />
+    <Compile Include="FriendSmartAILogic.cs" />
+    <Compile Include="FriendWindow.cs" />
+    <Compile Include="FriendWindowCell.cs" />
+    <Compile Include="FTPHelper.cs" />
+    <Compile Include="FuctionButton.cs" />
+    <Compile Include="FunctionOpenTips.cs" />
+    <Compile Include="FX_texture_ani_Script.cs" />
+    <Compile Include="GalaxyBgBehaviour.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="GameCore\Loader\ICfgEntry.cs" />
+    <Compile Include="GameCore\Loader\XmlLoader.cs" />
+    <Compile Include="GameLoginBehaviour.cs" />
+    <Compile Include="GameState.cs" />
+    <Compile Include="GameTimeManager.cs" />
+    <Compile Include="GameType.cs" />
+    <Compile Include="GiveUpPacket.cs" />
+    <Compile Include="GlowNode.cs" />
+    <Compile Include="GlowType.cs" />
+    <Compile Include="GMWindow.cs" />
+    <Compile Include="GoldTipsWindow.cs" />
+    <Compile Include="GroundNode.cs" />
+    <Compile Include="GuideEffect.cs" />
+    <Compile Include="GuideManager.cs" />
+    <Compile Include="GuideNode.cs" />
+    <Compile Include="GuideTipCell.cs" />
+    <Compile Include="GunturretAttack.cs" />
+    <Compile Include="GunturretNode.cs" />
+    <Compile Include="HallRoolCell.cs" />
+    <Compile Include="HallSelectionWindow.cs" />
+    <Compile Include="HallWindow.cs" />
+    <Compile Include="HaloNode.cs" />
+    <Compile Include="HaloState.cs" />
+    <Compile Include="HeadEffect.cs" />
+    <Compile Include="HeadEffectManager.cs" />
+    <Compile Include="HideStartTeamAttrSkill.cs" />
+    <Compile Include="HomeTitleWindow.cs" />
+    <Compile Include="HomeWindow.cs" />
+    <Compile Include="HouseNode.cs" />
+    <Compile Include="IBattleController.cs" />
+    <Compile Include="IceBuff.cs" />
+    <Compile Include="InhibitSkill.cs" />
+    <Compile Include="IntensifyTeamAttrSkill.cs" />
+    <Compile Include="InvAttachmentPoint.cs" />
+    <Compile Include="InvBaseItem.cs" />
+    <Compile Include="InvDatabase.cs" />
+    <Compile Include="InvEquipment.cs" />
+    <Compile Include="InvGameItem.cs" />
+    <Compile Include="InvStat.cs" />
+    <Compile Include="IPoolGo.cs" />
+    <Compile Include="IPoolNode.cs" />
+    <Compile Include="ItemDataHandler.cs" />
+    <Compile Include="IVoicePlugin.cs" />
+    <Compile Include="JinGuSkill.cs" />
+    <Compile Include="JJCPreviewWindow.cs" />
+    <Compile Include="JJCPreviewWindowCell.cs" />
+    <Compile Include="Json.cs" />
+    <Compile Include="JsonHelper.cs" />
+    <Compile Include="JsonListData.cs" />
+    <Compile Include="LagPosition.cs" />
+    <Compile Include="LagRotation.cs" />
+    <Compile Include="LanguageSelection.cs" />
+    <Compile Include="LasercannonSkill.cs" />
+    <Compile Include="LasergunAttack.cs" />
+    <Compile Include="LasergunEffectNode.cs" />
+    <Compile Include="LasergunNode.cs" />
+    <Compile Include="LaserLineNode.cs" />
+    <Compile Include="LayerDefine.cs" />
+    <Compile Include="LeagueWindow.cs" />
+    <Compile Include="LevelDataHandler.cs" />
+    <Compile Include="LevelDiffuseCell.cs" />
+    <Compile Include="LevelGroupTemplate.cs" />
+    <Compile Include="LevelScoreJson.cs" />
+    <Compile Include="LevelStarCell.cs" />
+    <Compile Include="LevelTaskTemplate.cs" />
+    <Compile Include="LevelTaskView.cs" />
+    <Compile Include="LineFillAnimationBehaviour.cs" />
+    <Compile Include="Listenner.cs" />
+    <Compile Include="LoadingWindow.cs" />
+    <Compile Include="LoadLevelOnClick.cs" />
+    <Compile Include="LoadResManager.cs" />
+    <Compile Include="LoadScene.cs" />
+    <Compile Include="LobbyAchieveTemplate.cs" />
+    <Compile Include="LobbyAchieveView.cs" />
+    <Compile Include="LobbyChapterCellLineItemTemplate.cs" />
+    <Compile Include="LobbyChapterWindowCell.cs" />
+    <Compile Include="LobbyChapterWindowCellStarsItemTemPlate.cs" />
+    <Compile Include="LobbyWindowView.cs" />
+    <Compile Include="LocalAccountStorage.cs" />
+    <Compile Include="LocalAchievementStorage.cs" />
+    <Compile Include="LocalChaptersStorage.cs" />
+    <Compile Include="Localization.cs" />
+    <Compile Include="LocalLevelScoreStorage.cs" />
+    <Compile Include="LocalOrderStorage.cs" />
+    <Compile Include="LocalPlayer.cs" />
+    <Compile Include="LocalPvpSeasonSystem.cs" />
+    <Compile Include="LocalPvpStorage.cs" />
+    <Compile Include="LocalSettingStorage.cs" />
+    <Compile Include="LocalTaskStorage.cs" />
+    <Compile Include="LoginSDKCallback.cs" />
+    <Compile Include="LogoWindow.cs" />
+    <Compile Include="LookAtTarget.cs" />
+    <Compile Include="LotteryAwardItemBh.cs" />
+    <Compile Include="LotteryItemBh.cs" />
+    <Compile Include="LotteryRewardWindow.cs" />
+    <Compile Include="LuckModel.cs" />
+    <Compile Include="LuckWindow.cs" />
+    <Compile Include="MailItemBh.cs" />
+    <Compile Include="MailModel.cs" />
+    <Compile Include="MailWindow.cs" />
+    <Compile Include="MaitAttachBh.cs" />
+    <Compile Include="MakeEffect.cs" />
+    <Compile Include="MapChapterShow.cs" />
+    <Compile Include="MapEdit.cs" />
+    <Compile Include="MapGenerater.cs" />
+    <Compile Include="MapShow.cs" />
+    <Compile Include="MapShowWindow.cs" />
+    <Compile Include="MasterNode.cs" />
+    <Compile Include="MatchTable.cs" />
+    <Compile Include="MatchWindow.cs" />
+    <Compile Include="MathUtils.cs" />
+    <Compile Include="MiGameAnalytics.cs" />
+    <Compile Include="MiGameSDKCallbackImpl.cs" />
+    <Compile Include="MiGameSDK\AdManager.cs" />
+    <Compile Include="MiGameSDK\MiGameLoginSDK.cs" />
+    <Compile Include="MiGameSDK\MiPlatformSDK.cs" />
+    <Compile Include="MiGameStatisticSDK.cs" />
+    <Compile Include="MimengAdSDK.cs" />
+    <Compile Include="Mirror.cs" />
+    <Compile Include="MirrorSkill.cs" />
+    <Compile Include="MonoSingleton.cs" />
+    <Compile Include="MonthCheckModel.cs" />
+    <Compile Include="MonthCheckTemplate.cs" />
+    <Compile Include="MonthCheckWindow.cs" />
+    <Compile Include="MonthRechargeTipsWindow.cs" />
+    <Compile Include="MouseEvent.cs" />
+    <Compile Include="MovePacket.cs" />
+    <Compile Include="MultiTouchScan.cs" />
+    <Compile Include="MyCircle.cs" />
+    <Compile Include="MyPlaySound.cs" />
+    <Compile Include="NetMessage\AdChannel.cs" />
+    <Compile Include="NetMessage\AdConfig.cs" />
+    <Compile Include="NetMessage\BattleReport.cs" />
+    <Compile Include="NetMessage\BattleType.cs" />
+    <Compile Include="NetMessage\chapterScore.cs" />
+    <Compile Include="NetMessage\ChestItem.cs" />
+    <Compile Include="NetMessage\Chests.cs" />
+    <Compile Include="NetMessage\ClientStorageConst.cs" />
+    <Compile Include="NetMessage\CoinId.cs" />
+    <Compile Include="NetMessage\CooperationType.cs" />
+    <Compile Include="NetMessage\CSAchievementLoad.cs" />
+    <Compile Include="NetMessage\CSAchievementSet.cs" />
+    <Compile Include="NetMessage\CSAdReward.cs" />
+    <Compile Include="NetMessage\CSBattleCastList.cs" />
+    <Compile Include="NetMessage\CSBattleCastStartWatch.cs" />
+    <Compile Include="NetMessage\CSBattleCastStopWatch.cs" />
+    <Compile Include="NetMessage\CSBattleMarkTarget.cs" />
+    <Compile Include="NetMessage\CSBattleReportLoad.cs" />
+    <Compile Include="NetMessage\CSBattleReportPlay.cs" />
+    <Compile Include="NetMessage\CSBattleResume.cs" />
+    <Compile Include="NetMessage\CSBuyChapter.cs" />
+    <Compile Include="NetMessage\CSBuySkin.cs" />
+    <Compile Include="NetMessage\CSChangeLadderScore.cs" />
+    <Compile Include="NetMessage\CSChangeRace.cs" />
+    <Compile Include="NetMessage\CSChapterScore.cs" />
+    <Compile Include="NetMessage\CSClearData.cs" />
+    <Compile Include="NetMessage\CSClientStorageLoad.cs" />
+    <Compile Include="NetMessage\CSClientStorageSet.cs" />
+    <Compile Include="NetMessage\CSCommitRace.cs" />
+    <Compile Include="NetMessage\CSCreateRoom.cs" />
+    <Compile Include="NetMessage\CSCreateUserData.cs" />
+    <Compile Include="NetMessage\CSDecomposeItem.cs" />
+    <Compile Include="NetMessage\CSDiscountChapter.cs" />
+    <Compile Include="NetMessage\CSEditWatchLock.cs" />
+    <Compile Include="NetMessage\CSEditWatchName.cs" />
+    <Compile Include="NetMessage\CSFinishBattle.cs" />
+    <Compile Include="NetMessage\CSFrame.cs" />
+    <Compile Include="NetMessage\CSFriendFollow.cs" />
+    <Compile Include="NetMessage\CSFriendLoad.cs" />
+    <Compile Include="NetMessage\CSFriendRecommend.cs" />
+    <Compile Include="NetMessage\CSFriendSearch.cs" />
+    <Compile Include="NetMessage\CSGainBattleChest.cs" />
+    <Compile Include="NetMessage\CSGainChest.cs" />
+    <Compile Include="NetMessage\CSGainTimerChest.cs" />
+    <Compile Include="NetMessage\CSGenerateOrderID.cs" />
+    <Compile Include="NetMessage\CSGenerateUrl.cs" />
+    <Compile Include="NetMessage\CSGetLadderReward.cs" />
+    <Compile Include="NetMessage\CSGetLeagueInfo.cs" />
+    <Compile Include="NetMessage\CSGetMailItem.cs" />
+    <Compile Include="NetMessage\CSGetRaceData.cs" />
+    <Compile Include="NetMessage\CSGetUserData.cs" />
+    <Compile Include="NetMessage\CSGMCmd.cs" />
+    <Compile Include="NetMessage\CSJoinRoom.cs" />
+    <Compile Include="NetMessage\CSLeagueAdd.cs" />
+    <Compile Include="NetMessage\CSLeagueList.cs" />
+    <Compile Include="NetMessage\CSLeagueMatch.cs" />
+    <Compile Include="NetMessage\CSLeagueQuit.cs" />
+    <Compile Include="NetMessage\CSLeagueRank.cs" />
+    <Compile Include="NetMessage\CSLoadChapter.cs" />
+    <Compile Include="NetMessage\CSLoadChapters.cs" />
+    <Compile Include="NetMessage\CSLoadMatchList.cs" />
+    <Compile Include="NetMessage\CSLoadRank.cs" />
+    <Compile Include="NetMessage\CSLog.cs" />
+    <Compile Include="NetMessage\CSLotteryAward.cs" />
+    <Compile Include="NetMessage\CSLotteryInfo.cs" />
+    <Compile Include="NetMessage\CSLotteryNotes.cs" />
+    <Compile Include="NetMessage\CSMailDel.cs" />
+    <Compile Include="NetMessage\CSMailList.cs" />
+    <Compile Include="NetMessage\CSMailRead.cs" />
+    <Compile Include="NetMessage\CSMallBoxBuy.cs" />
+    <Compile Include="NetMessage\CSMallJewelBuy.cs" />
+    <Compile Include="NetMessage\CSMallOpen.cs" />
+    <Compile Include="NetMessage\CSMapCreate.cs" />
+    <Compile Include="NetMessage\CSMapDel.cs" />
+    <Compile Include="NetMessage\CSMapLoad.cs" />
+    <Compile Include="NetMessage\CSMapMark.cs" />
+    <Compile Include="NetMessage\CSMapSave.cs" />
+    <Compile Include="NetMessage\CSMatch.cs" />
+    <Compile Include="NetMessage\CSMatchComplete.cs" />
+    <Compile Include="NetMessage\CSMatchInvite.cs" />
+    <Compile Include="NetMessage\CSMatchInviteResp.cs" />
+    <Compile Include="NetMessage\CSMatchPos.cs" />
+    <Compile Include="NetMessage\CSMonthCheck.cs" />
+    <Compile Include="NetMessage\CSPing.cs" />
+    <Compile Include="NetMessage\CSPushMonthCheck.cs" />
+    <Compile Include="NetMessage\CSPveRankReportLoad.cs" />
+    <Compile Include="NetMessage\CSQuitBattle.cs" />
+    <Compile Include="NetMessage\CSQuitMatch.cs" />
+    <Compile Include="NetMessage\CSQuitRoom.cs" />
+    <Compile Include="NetMessage\CSRaceSkillLevelUp.cs" />
+    <Compile Include="NetMessage\CSReceiveMonthlyCard.cs" />
+    <Compile Include="NetMessage\CSRefereeRep.cs" />
+    <Compile Include="NetMessage\CSRename.cs" />
+    <Compile Include="NetMessage\CSResume.cs" />
+    <Compile Include="NetMessage\CSRVPReward.cs" />
+    <Compile Include="NetMessage\CSSearchMatch.cs" />
+    <Compile Include="NetMessage\CSSetChapterScore.cs" />
+    <Compile Include="NetMessage\CSSetCurLevel.cs" />
+    <Compile Include="NetMessage\CSSetIcon.cs" />
+    <Compile Include="NetMessage\CSSetLevelScore.cs" />
+    <Compile Include="NetMessage\CSSetLevelStar.cs" />
+    <Compile Include="NetMessage\CSSingleMatch.cs" />
+    <Compile Include="NetMessage\CSStartLevel.cs" />
+    <Compile Include="NetMessage\CSStartMatch2.cs" />
+    <Compile Include="NetMessage\CSStartMatch3.cs" />
+    <Compile Include="NetMessage\CSStartMatch4.cs" />
+    <Compile Include="NetMessage\CSStartMatchReq.cs" />
+    <Compile Include="NetMessage\CSTaskGet.cs" />
+    <Compile Include="NetMessage\CSTaskOk.cs" />
+    <Compile Include="NetMessage\CSTeamCreate.cs" />
+    <Compile Include="NetMessage\CSTeamInvite.cs" />
+    <Compile Include="NetMessage\CSTeamInviteResp.cs" />
+    <Compile Include="NetMessage\CSTeamLeave.cs" />
+    <Compile Include="NetMessage\CSTeamStart.cs" />
+    <Compile Include="NetMessage\CSUnlockChest.cs" />
+    <Compile Include="NetMessage\CSUnWatchRooms.cs" />
+    <Compile Include="NetMessage\CSUploadOldVersionData.cs" />
+    <Compile Include="NetMessage\CSUseItem.cs" />
+    <Compile Include="NetMessage\CSUserInit.cs" />
+    <Compile Include="NetMessage\CSVerifyOrderID.cs" />
+    <Compile Include="NetMessage\CSWatchRooms.cs" />
+    <Compile Include="NetMessage\discountChapter.cs" />
+    <Compile Include="NetMessage\EndEvent.cs" />
+    <Compile Include="NetMessage\EndType.cs" />
+    <Compile Include="NetMessage\ErrCode.cs" />
+    <Compile Include="NetMessage\IntAttr.cs" />
+    <Compile Include="NetMessage\ItemChangeInfo.cs" />
+    <Compile Include="NetMessage\LanguageType.cs" />
+    <Compile Include="NetMessage\LeagueInfo.cs" />
+    <Compile Include="NetMessage\LotteryBoxInfo.cs" />
+    <Compile Include="NetMessage\LotteryOpTypeDefine.cs" />
+    <Compile Include="NetMessage\Mail.cs" />
+    <Compile Include="NetMessage\MailItemList.cs" />
+    <Compile Include="NetMessage\MailLanguage.cs" />
+    <Compile Include="NetMessage\Map.cs" />
+    <Compile Include="NetMessage\MatchSynopsis.cs" />
+    <Compile Include="NetMessage\MatchType.cs" />
+    <Compile Include="NetMessage\MemberInfo.cs" />
+    <Compile Include="NetMessage\MsgId.cs" />
+    <Compile Include="NetMessage\NotifyType.cs" />
+    <Compile Include="NetMessage\Null.cs" />
+    <Compile Include="NetMessage\Pack.cs" />
+    <Compile Include="NetMessage\PackItem.cs" />
+    <Compile Include="NetMessage\PbAchievement.cs" />
+    <Compile Include="NetMessage\PbFrame.cs" />
+    <Compile Include="NetMessage\PbFrames.cs" />
+    <Compile Include="NetMessage\PbMallBox.cs" />
+    <Compile Include="NetMessage\PbMallGold.cs" />
+    <Compile Include="NetMessage\PbSCFrames.cs" />
+    <Compile Include="NetMessage\PveRankReport.cs" />
+    <Compile Include="NetMessage\RaceData.cs" />
+    <Compile Include="NetMessage\RechargeData.cs" />
+    <Compile Include="NetMessage\Result.cs" />
+    <Compile Include="NetMessage\RoomInfo.cs" />
+    <Compile Include="NetMessage\SCAchievementLoad.cs" />
+    <Compile Include="NetMessage\SCAchievementSet.cs" />
+    <Compile Include="NetMessage\SCAddChest.cs" />
+    <Compile Include="NetMessage\SCAdReward.cs" />
+    <Compile Include="NetMessage\SCBattleCastList.cs" />
+    <Compile Include="NetMessage\SCBattleCastStartWatch.cs" />
+    <Compile Include="NetMessage\SCBattleCastStopWatch.cs" />
+    <Compile Include="NetMessage\SCBattleMarkTarget.cs" />
+    <Compile Include="NetMessage\SCBattleReportLoad.cs" />
+    <Compile Include="NetMessage\SCBattleReportPlay.cs" />
+    <Compile Include="NetMessage\SCBattleResume.cs" />
+    <Compile Include="NetMessage\SCBoardFriendState.cs" />
+    <Compile Include="NetMessage\SCBuyChapter.cs" />
+    <Compile Include="NetMessage\SCBuySkin.cs" />
+    <Compile Include="NetMessage\SCChangeLadderScore.cs" />
+    <Compile Include="NetMessage\SCChangeMoney.cs" />
+    <Compile Include="NetMessage\SCChangeMonthlyCard.cs" />
+    <Compile Include="NetMessage\SCChangeRace.cs" />
+    <Compile Include="NetMessage\SCChapterScore.cs" />
+    <Compile Include="NetMessage\SCClientStorageLoad.cs" />
+    <Compile Include="NetMessage\SCClientStorageSet.cs" />
+    <Compile Include="NetMessage\SCCommitRace.cs" />
+    <Compile Include="NetMessage\SCCreateRoom.cs" />
+    <Compile Include="NetMessage\SCCreateUserData.cs" />
+    <Compile Include="NetMessage\SCDecomposeItem.cs" />
+    <Compile Include="NetMessage\SCDiscountChapter.cs" />
+    <Compile Include="NetMessage\SCEditWatchLock.cs" />
+    <Compile Include="NetMessage\SCEditWatchName.cs" />
+    <Compile Include="NetMessage\SCErrCode.cs" />
+    <Compile Include="NetMessage\SCFinishBattle.cs" />
+    <Compile Include="NetMessage\SCFrame.cs" />
+    <Compile Include="NetMessage\SCFriendFollow.cs" />
+    <Compile Include="NetMessage\SCFriendLoad.cs" />
+    <Compile Include="NetMessage\SCFriendNotify.cs" />
+    <Compile Include="NetMessage\SCFriendRecommend.cs" />
+    <Compile Include="NetMessage\SCFriendSearch.cs" />
+    <Compile Include="NetMessage\SCFriendSearchs.cs" />
+    <Compile Include="NetMessage\SCGainBattleChest.cs" />
+    <Compile Include="NetMessage\SCGainChest.cs" />
+    <Compile Include="NetMessage\SCGainTimerChest.cs" />
+    <Compile Include="NetMessage\SCGenerateOrderID.cs" />
+    <Compile Include="NetMessage\SCGenerateUrl.cs" />
+    <Compile Include="NetMessage\SCGetLadderReward.cs" />
+    <Compile Include="NetMessage\SCGetLeagueInfo.cs" />
+    <Compile Include="NetMessage\SCGetMailItem.cs" />
+    <Compile Include="NetMessage\SCGetRaceData.cs" />
+    <Compile Include="NetMessage\SCGetUserData.cs" />
+    <Compile Include="NetMessage\SCIntAttr.cs" />
+    <Compile Include="NetMessage\SCJoinRoom.cs" />
+    <Compile Include="NetMessage\SCKickUserNtf.cs" />
+    <Compile Include="NetMessage\SCLeagueAdd.cs" />
+    <Compile Include="NetMessage\SCLeagueList.cs" />
+    <Compile Include="NetMessage\SCLeagueMatch.cs" />
+    <Compile Include="NetMessage\SCLeagueQuit.cs" />
+    <Compile Include="NetMessage\SCLeagueRank.cs" />
+    <Compile Include="NetMessage\SCLoadChapter.cs" />
+    <Compile Include="NetMessage\SCLoadChapters.cs" />
+    <Compile Include="NetMessage\SCLoadMatchList.cs" />
+    <Compile Include="NetMessage\SCLoadRank.cs" />
+    <Compile Include="NetMessage\SCLog.cs" />
+    <Compile Include="NetMessage\SCLotterNotes.cs" />
+    <Compile Include="NetMessage\SCLotteryAward.cs" />
+    <Compile Include="NetMessage\SCLotteryInfo.cs" />
+    <Compile Include="NetMessage\SCMailDel.cs" />
+    <Compile Include="NetMessage\SCMailList.cs" />
+    <Compile Include="NetMessage\SCMailRead.cs" />
+    <Compile Include="NetMessage\SCMallAll.cs" />
+    <Compile Include="NetMessage\SCMallBoxBuy.cs" />
+    <Compile Include="NetMessage\SCMallJewelBuy.cs" />
+    <Compile Include="NetMessage\SCMapCreate.cs" />
+    <Compile Include="NetMessage\SCMapLoad.cs" />
+    <Compile Include="NetMessage\SCMapSave.cs" />
+    <Compile Include="NetMessage\SCMatch.cs" />
+    <Compile Include="NetMessage\SCMatch2CurNum.cs" />
+    <Compile Include="NetMessage\SCMatch3Notify.cs" />
+    <Compile Include="NetMessage\SCMatch4Info.cs" />
+    <Compile Include="NetMessage\SCMatchComplete.cs" />
+    <Compile Include="NetMessage\SCMatchFail.cs" />
+    <Compile Include="NetMessage\SCMatchInit.cs" />
+    <Compile Include="NetMessage\SCMatchInvite.cs" />
+    <Compile Include="NetMessage\SCMatchInviteReq.cs" />
+    <Compile Include="NetMessage\SCMatchInviteResp.cs" />
+    <Compile Include="NetMessage\SCMatchPos.cs" />
+    <Compile Include="NetMessage\SCMatchUpdate.cs" />
+    <Compile Include="NetMessage\SCMonthCheck.cs" />
+    <Compile Include="NetMessage\SCNotify.cs" />
+    <Compile Include="NetMessage\SCPackUpdate.cs" />
+    <Compile Include="NetMessage\SCPong.cs" />
+    <Compile Include="NetMessage\SCPushMonthCheck.cs" />
+    <Compile Include="NetMessage\SCPveRankReportLoad.cs" />
+    <Compile Include="NetMessage\SCQuitBattle.cs" />
+    <Compile Include="NetMessage\SCQuitMatch.cs" />
+    <Compile Include="NetMessage\SCQuitRoom.cs" />
+    <Compile Include="NetMessage\SCRaceNotify.cs" />
+    <Compile Include="NetMessage\SCRaceSkillLevelUp.cs" />
+    <Compile Include="NetMessage\SCReady.cs" />
+    <Compile Include="NetMessage\SCReceiveMonthlyCard.cs" />
+    <Compile Include="NetMessage\SCRefereeReq.cs" />
+    <Compile Include="NetMessage\SCRefereeStop.cs" />
+    <Compile Include="NetMessage\SCRename.cs" />
+    <Compile Include="NetMessage\SCResume.cs" />
+    <Compile Include="NetMessage\SCRoomListRefresh.cs" />
+    <Compile Include="NetMessage\SCRoomRefresh.cs" />
+    <Compile Include="NetMessage\SCRVPReward.cs" />
+    <Compile Include="NetMessage\SCSelectRaceNotify.cs" />
+    <Compile Include="NetMessage\SCSetChapterScore.cs" />
+    <Compile Include="NetMessage\SCSetCurLevel.cs" />
+    <Compile Include="NetMessage\SCSetLevelScore.cs" />
+    <Compile Include="NetMessage\SCSetLevelStar.cs" />
+    <Compile Include="NetMessage\SCSingleMatch.cs" />
+    <Compile Include="NetMessage\SCStartBattle.cs" />
+    <Compile Include="NetMessage\SCStartLevel.cs" />
+    <Compile Include="NetMessage\SCStartMatch2.cs" />
+    <Compile Include="NetMessage\SCStartMatch3.cs" />
+    <Compile Include="NetMessage\SCStartMatch4.cs" />
+    <Compile Include="NetMessage\SCStartMatchReq.cs" />
+    <Compile Include="NetMessage\SCStartSelectRace.cs" />
+    <Compile Include="NetMessage\SCStrAttr.cs" />
+    <Compile Include="NetMessage\SCSyncUserData.cs" />
+    <Compile Include="NetMessage\SCTaskGet.cs" />
+    <Compile Include="NetMessage\SCTaskOk.cs" />
+    <Compile Include="NetMessage\SCTeamCreate.cs" />
+    <Compile Include="NetMessage\SCTeamDel.cs" />
+    <Compile Include="NetMessage\SCTeamInvite.cs" />
+    <Compile Include="NetMessage\SCTeamInviteReq.cs" />
+    <Compile Include="NetMessage\SCTeamInviteResp.cs" />
+    <Compile Include="NetMessage\SCTeamStart.cs" />
+    <Compile Include="NetMessage\SCTeamUpdate.cs" />
+    <Compile Include="NetMessage\SCUnlockChest.cs" />
+    <Compile Include="NetMessage\SCUnWatchRooms.cs" />
+    <Compile Include="NetMessage\SCUpdateBattleChest.cs" />
+    <Compile Include="NetMessage\SCUpdateTimerChest.cs" />
+    <Compile Include="NetMessage\SCUploadOldVersionData.cs" />
+    <Compile Include="NetMessage\SCUseItem.cs" />
+    <Compile Include="NetMessage\SCUserInit.cs" />
+    <Compile Include="NetMessage\SCVerifyOrderID.cs" />
+    <Compile Include="NetMessage\SCWatchRooms.cs" />
+    <Compile Include="NetMessage\StrAttr.cs" />
+    <Compile Include="NetMessage\TaskRewardType.cs" />
+    <Compile Include="NetMessage\TaskType.cs" />
+    <Compile Include="NetMessage\UploadOldVersionAchieve.cs" />
+    <Compile Include="NetMessage\UploadOldVersionChapter.cs" />
+    <Compile Include="NetMessage\UploadOldVersionLevel.cs" />
+    <Compile Include="NetMessage\UserData.cs" />
+    <Compile Include="NetTexture.cs" />
+    <Compile Include="NewRaceWindow.cs" />
+    <Compile Include="NewSkillBuffLogic.cs" />
+    <Compile Include="NewSkillManager.cs" />
+    <Compile Include="NGUIDebug.cs" />
+    <Compile Include="NGUIMath.cs" />
+    <Compile Include="NGUIText.cs" />
+    <Compile Include="NGUITools.cs" />
+    <Compile Include="NiePanSkill.cs" />
+    <Compile Include="Node.cs" />
+    <Compile Include="NodeAttr.cs" />
+    <Compile Include="NodeAttribute.cs" />
+    <Compile Include="NodeEvent.cs" />
+    <Compile Include="NodeHUD.cs" />
+    <Compile Include="NodeManager.cs" />
+    <Compile Include="NodeOccupiedSpeedBuff.cs" />
+    <Compile Include="NodePopulationBuff.cs" />
+    <Compile Include="NodePopulationMaxBuff.cs" />
+    <Compile Include="NodeProduceSpeedBuff.cs" />
+    <Compile Include="NodeShipCallBuff.cs" />
+    <Compile Include="NodeShipReliveBuff.cs" />
+    <Compile Include="NODESTATE.2.cs" />
+    <Compile Include="NodeState.cs" />
+    <Compile Include="NodeType.cs" />
+    <Compile Include="ObjectPool.cs" />
+    <Compile Include="OccupiedSkill.cs" />
+    <Compile Include="OldDataConvertTools.cs" />
+    <Compile Include="OldLocalAccountStorage.cs" />
+    <Compile Include="OldLocalChaptersStorage.cs" />
+    <Compile Include="OldLocalLevelStorage.cs" />
+    <Compile Include="OldLocalPvpStorage.cs" />
+    <Compile Include="OldLocalSettingStorage.cs" />
+    <Compile Include="OpenURLOnClick.cs" />
+    <Compile Include="OperatorEvent.cs" />
+    <Compile Include="OPTIONTYPE.cs" />
+    <Compile Include="OverKillBuff.cs" />
+    <Compile Include="OverKillSkill.cs" />
+    <Compile Include="Packet.cs" />
+    <Compile Include="PacketHelper.cs" />
+    <Compile Include="PaidLevelBuyTOPWindow.cs" />
+    <Compile Include="PaidLeveScoreWindow.cs" />
+    <Compile Include="PanWithMouse.cs" />
+    <Compile Include="ParticleLife.cs" />
+    <Compile Include="ParticleSystemReset.cs" />
+    <Compile Include="PersonalView.cs" />
+    <Compile Include="Ping.cs" />
+    <Compile Include="PlanetAttack.cs" />
+    <Compile Include="PlanetBomb.cs" />
+    <Compile Include="PlanetNode.cs" />
+    <Compile Include="PlanetShipNumAllEnemyBuff.cs" />
+    <Compile Include="PlanetShipNumBuff.cs" />
+    <Compile Include="PlanetShipNumNoLimitBuff.cs" />
+    <Compile Include="PlanetTeam.cs" />
+    <Compile Include="PlayerData.cs" />
+    <Compile Include="PlayIdleAnimations.cs" />
+    <Compile Include="Plugin\FrameNode.cs" />
+    <Compile Include="Plugin\LockStep.cs" />
+    <Compile Include="Plugin\Rand.cs" />
+    <Compile Include="Plugin\RunLockStepEvent.cs" />
+    <Compile Include="Plugin\RunLockStepFrameError.cs" />
+    <Compile Include="Plugin\RunLockStepLogic.cs" />
+    <Compile Include="Plugin\RunLockStepSpeed.cs" />
+    <Compile Include="Plugin\RunPacketHandler.cs" />
+    <Compile Include="PopItem.cs" />
+    <Compile Include="PopTextWindow.cs" />
+    <Compile Include="POP_TYPE.cs" />
+    <Compile Include="PortraitManager.cs" />
+    <Compile Include="PostCommentJson.cs" />
+    <Compile Include="PowerNode.cs" />
+    <Compile Include="PrefabInstance.cs" />
+    <Compile Include="PrefabPool.cs" />
+    <Compile Include="PreviewView.cs" />
+    <Compile Include="PreviewWindow.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PropertyBinding.cs" />
+    <Compile Include="PropertyReference.cs" />
+    <Compile Include="ProtoBuf\BclHelpers.cs" />
+    <Compile Include="ProtoBuf\BufferExtension.cs" />
+    <Compile Include="ProtoBuf\BufferPool.cs" />
+    <Compile Include="ProtoBuf\DataFormat.cs" />
+    <Compile Include="ProtoBuf\Extensible.cs" />
+    <Compile Include="ProtoBuf\ExtensibleUtil.cs" />
+    <Compile Include="ProtoBuf\FriendData.cs" />
+    <Compile Include="ProtoBuf\Helpers.cs" />
+    <Compile Include="ProtoBuf\IExtensible.cs" />
+    <Compile Include="ProtoBuf\IExtension.cs" />
+    <Compile Include="ProtoBuf\ImplicitFields.cs" />
+    <Compile Include="ProtoBuf\MemberSerializationOptions.cs" />
+    <Compile Include="ProtoBuf\Meta\AttributeMap.cs" />
+    <Compile Include="ProtoBuf\Meta\BasicList.cs" />
+    <Compile Include="ProtoBuf\Meta\CallbackSet.cs" />
+    <Compile Include="ProtoBuf\Meta\LockContentedEventArgs.cs" />
+    <Compile Include="ProtoBuf\Meta\LockContentedEventHandler.cs" />
+    <Compile Include="ProtoBuf\Meta\MetaType.cs" />
+    <Compile Include="ProtoBuf\Meta\MutableList.cs" />
+    <Compile Include="ProtoBuf\Meta\RuntimeTypeModel.cs" />
+    <Compile Include="ProtoBuf\Meta\SubType.cs" />
+    <Compile Include="ProtoBuf\Meta\TypeFormatEventArgs.cs" />
+    <Compile Include="ProtoBuf\Meta\TypeFormatEventHandler.cs" />
+    <Compile Include="ProtoBuf\Meta\TypeModel.cs" />
+    <Compile Include="ProtoBuf\Meta\ValueMember.cs" />
+    <Compile Include="ProtoBuf\NetObjectCache.cs" />
+    <Compile Include="ProtoBuf\PrefixStyle.cs" />
+    <Compile Include="ProtoBuf\Program.cs" />
+    <Compile Include="ProtoBuf\ProtoAfterDeserializationAttribute.cs" />
+    <Compile Include="ProtoBuf\ProtoAfterSerializationAttribute.cs" />
+    <Compile Include="ProtoBuf\ProtoBeforeDeserializationAttribute.cs" />
+    <Compile Include="ProtoBuf\ProtoBeforeSerializationAttribute.cs" />
+    <Compile Include="ProtoBuf\ProtoContractAttribute.cs" />
+    <Compile Include="ProtoBuf\ProtoEnumAttribute.cs" />
+    <Compile Include="ProtoBuf\ProtoException.cs" />
+    <Compile Include="ProtoBuf\ProtoIgnoreAttribute.cs" />
+    <Compile Include="ProtoBuf\ProtoIncludeAttribute.cs" />
+    <Compile Include="ProtoBuf\ProtoMemberAttribute.cs" />
+    <Compile Include="ProtoBuf\ProtoPartialIgnoreAttribute.cs" />
+    <Compile Include="ProtoBuf\ProtoPartialMemberAttribute.cs" />
+    <Compile Include="ProtoBuf\ProtoReader.cs" />
+    <Compile Include="ProtoBuf\ProtoTypeCode.cs" />
+    <Compile Include="ProtoBuf\ProtoWriter.cs" />
+    <Compile Include="ProtoBuf\SerializationContext.cs" />
+    <Compile Include="ProtoBuf\Serializer.cs" />
+    <Compile Include="ProtoBuf\Serializers\ArrayDecorator.cs" />
+    <Compile Include="ProtoBuf\Serializers\BlobSerializer.cs" />
+    <Compile Include="ProtoBuf\Serializers\BooleanSerializer.cs" />
+    <Compile Include="ProtoBuf\Serializers\ByteSerializer.cs" />
+    <Compile Include="ProtoBuf\Serializers\CharSerializer.cs" />
+    <Compile Include="ProtoBuf\Serializers\DateTimeSerializer.cs" />
+    <Compile Include="ProtoBuf\Serializers\DecimalSerializer.cs" />
+    <Compile Include="ProtoBuf\Serializers\DefaultValueDecorator.cs" />
+    <Compile Include="ProtoBuf\Serializers\DoubleSerializer.cs" />
+    <Compile Include="ProtoBuf\Serializers\EnumSerializer.cs" />
+    <Compile Include="ProtoBuf\Serializers\FieldDecorator.cs" />
+    <Compile Include="ProtoBuf\Serializers\GuidSerializer.cs" />
+    <Compile Include="ProtoBuf\Serializers\Int16Serializer.cs" />
+    <Compile Include="ProtoBuf\Serializers\Int32Serializer.cs" />
+    <Compile Include="ProtoBuf\Serializers\Int64Serializer.cs" />
+    <Compile Include="ProtoBuf\Serializers\IProtoSerializer.cs" />
+    <Compile Include="ProtoBuf\Serializers\IProtoTypeSerializer.cs" />
+    <Compile Include="ProtoBuf\Serializers\ISerializerProxy.cs" />
+    <Compile Include="ProtoBuf\Serializers\ListDecorator.cs" />
+    <Compile Include="ProtoBuf\Serializers\MemberSpecifiedDecorator.cs" />
+    <Compile Include="ProtoBuf\Serializers\NetObjectSerializer.cs" />
+    <Compile Include="ProtoBuf\Serializers\NullDecorator.cs" />
+    <Compile Include="ProtoBuf\Serializers\ParseableSerializer.cs" />
+    <Compile Include="ProtoBuf\Serializers\PropertyDecorator.cs" />
+    <Compile Include="ProtoBuf\Serializers\ProtoDecoratorBase.cs" />
+    <Compile Include="ProtoBuf\Serializers\SByteSerializer.cs" />
+    <Compile Include="ProtoBuf\Serializers\SingleSerializer.cs" />
+    <Compile Include="ProtoBuf\Serializers\StringSerializer.cs" />
+    <Compile Include="ProtoBuf\Serializers\SubItemSerializer.cs" />
+    <Compile Include="ProtoBuf\Serializers\SurrogateSerializer.cs" />
+    <Compile Include="ProtoBuf\Serializers\SystemTypeSerializer.cs" />
+    <Compile Include="ProtoBuf\Serializers\TagDecorator.cs" />
+    <Compile Include="ProtoBuf\Serializers\TimeSpanSerializer.cs" />
+    <Compile Include="ProtoBuf\Serializers\TupleSerializer.cs" />
+    <Compile Include="ProtoBuf\Serializers\TypeSerializer.cs" />
+    <Compile Include="ProtoBuf\Serializers\UInt16Serializer.cs" />
+    <Compile Include="ProtoBuf\Serializers\UInt32Serializer.cs" />
+    <Compile Include="ProtoBuf\Serializers\UInt64Serializer.cs" />
+    <Compile Include="ProtoBuf\Serializers\UriDecorator.cs" />
+    <Compile Include="ProtoBuf\SubItemToken.cs" />
+    <Compile Include="ProtoBuf\TimeSpanScale.cs" />
+    <Compile Include="ProtoBuf\WireType.cs" />
+    <Compile Include="PullCommentJson.cs" />
+    <Compile Include="PulseNode.cs" />
+    <Compile Include="PulseType.cs" />
+    <Compile Include="PVEWaitWindow.cs" />
+    <Compile Include="PVPBattleController.cs" />
+    <Compile Include="PVPWaitWindow.cs" />
+    <Compile Include="QiXiSkill.cs" />
+    <Compile Include="RaceInfoWindow.cs" />
+    <Compile Include="RaceSkillInfoDialogWindow.cs" />
+    <Compile Include="RaceWindow.cs" />
+    <Compile Include="RankModel.cs" />
+    <Compile Include="RankWindow.cs" />
+    <Compile Include="RankWindowCell.cs" />
+    <Compile Include="RapidBlurEffect.cs" />
+    <Compile Include="RealTime.cs" />
+    <Compile Include="ReconnectHandler.cs" />
+    <Compile Include="ReconnectWindow.cs" />
+    <Compile Include="ReplayBattleWindow.cs" />
+    <Compile Include="ReplayCollectManager.cs" />
+    <Compile Include="ReplayFile.cs" />
+    <Compile Include="ReplayManager.cs" />
+    <Compile Include="ReplayWindow.cs" />
+    <Compile Include="ReplayWindowCell.cs" />
+    <Compile Include="ResLoadPathType.cs" />
+    <Compile Include="ResourceObject.cs" />
+    <Compile Include="ResourcesUtil.cs" />
+    <Compile Include="ResultPlayerInfo.cs" />
+    <Compile Include="ResultWindow.cs" />
+    <Compile Include="ResumingWindow.cs" />
+    <Compile Include="RevolutionType.cs" />
+    <Compile Include="RewardTipsModel.cs" />
+    <Compile Include="RewardTipsWindow.cs" />
+    <Compile Include="RewardType.cs" />
+    <Compile Include="RoomWaitWindow.cs" />
+    <Compile Include="RotateSkill.cs" />
+    <Compile Include="SacrificeBuff.cs" />
+    <Compile Include="SacrificeSkill.cs" />
+    <Compile Include="SceneManager.cs" />
+    <Compile Include="ScoreDetailJson.cs" />
+    <Compile Include="ScriptFrame.cs" />
+    <Compile Include="SDKProductInfo.cs" />
+    <Compile Include="SDKProductInfoList.cs" />
+    <Compile Include="SeasonRewardModel.cs" />
+    <Compile Include="SeasonRewardTemplate.cs" />
+    <Compile Include="SeasonRewardView.cs" />
+    <Compile Include="SelectIconWindow.cs" />
+    <Compile Include="SelectMapWindow.cs" />
+    <Compile Include="SelectRaceWindow.cs" />
+    <Compile Include="SelectRaceWindow_new.cs" />
+    <Compile Include="SelectServerCell.cs" />
+    <Compile Include="SequenceFrame.cs" />
+    <Compile Include="SetColorPickerColor.cs" />
+    <Compile Include="SettingWindow.cs" />
+    <Compile Include="SettlementWindow.cs" />
+    <Compile Include="Ship.cs" />
+    <Compile Include="ShipFadeManager.cs" />
+    <Compile Include="ShipFlag.cs" />
+    <Compile Include="ShipManager.cs" />
+    <Compile Include="ShipProduce.cs" />
+    <Compile Include="ShipState.cs" />
+    <Compile Include="SimplePlayerData.cs" />
+    <Compile Include="SingleBattleController.cs" />
+    <Compile Include="SingleClearWindow.cs" />
+    <Compile Include="Singleton.cs" />
+    <Compile Include="SiShiSkill.cs" />
+    <Compile Include="Skill.cs" />
+    <Compile Include="SkillBuffLogicId.cs" />
+    <Compile Include="SkillCoolDown.cs" />
+    <Compile Include="SkillEffect.cs" />
+    <Compile Include="SkillEffectPool.cs" />
+    <Compile Include="SkillLogicId.cs" />
+    <Compile Include="SkillPacket.cs" />
+    <Compile Include="SKILL_TARGET.cs" />
+    <Compile Include="SKILL_TYPE.cs" />
+    <Compile Include="Solarmax\AchievementConfig.cs" />
+    <Compile Include="Solarmax\AchievementConfigProvider.cs" />
+    <Compile Include="Solarmax\AchievementListConfig.cs" />
+    <Compile Include="Solarmax\AchievementListProvider.cs" />
+    <Compile Include="Solarmax\AiConfig.cs" />
+    <Compile Include="Solarmax\AIStrategyConfig.cs" />
+    <Compile Include="Solarmax\AIStrategyConfigProvider.cs" />
+    <Compile Include="Solarmax\AnimatorEvent.cs" />
+    <Compile Include="Solarmax\AnimatorEventListener.cs" />
+    <Compile Include="Solarmax\AsyncThread.cs" />
+    <Compile Include="Solarmax\BitOperator.cs" />
+    <Compile Include="Solarmax\BtnMoveType.cs" />
+    <Compile Include="Solarmax\Callback.2.cs" />
+    <Compile Include="Solarmax\Callback.3.cs" />
+    <Compile Include="Solarmax\Callback.4.cs" />
+    <Compile Include="Solarmax\Callback.5.cs" />
+    <Compile Include="Solarmax\Callback.6.cs" />
+    <Compile Include="Solarmax\Callback.7.cs" />
+    <Compile Include="Solarmax\Callback.8.cs" />
+    <Compile Include="Solarmax\Callback.9.cs" />
+    <Compile Include="Solarmax\Callback.cs" />
+    <Compile Include="Solarmax\CampConfig.cs" />
+    <Compile Include="Solarmax\CampConfigConfigProvider.cs" />
+    <Compile Include="Solarmax\ChannelConfig.cs" />
+    <Compile Include="Solarmax\ChapterAssistConfig.cs" />
+    <Compile Include="Solarmax\ChapterAssistConfigProvider.cs" />
+    <Compile Include="Solarmax\ChapterConfig.cs" />
+    <Compile Include="Solarmax\ChapterConfigProvider.cs" />
+    <Compile Include="Solarmax\ChestConfig.cs" />
+    <Compile Include="Solarmax\ChestConfigProvider.cs" />
+    <Compile Include="Solarmax\CollectionBuyModel.cs" />
+    <Compile Include="Solarmax\CollectionModel.cs" />
+    <Compile Include="Solarmax\ConfigItem.cs" />
+    <Compile Include="Solarmax\ConfigSystem.cs" />
+    <Compile Include="Solarmax\ConfigSystemProvider.cs" />
+    <Compile Include="Solarmax\ConnectionStatus.cs" />
+    <Compile Include="Solarmax\ConnectionType.cs" />
+    <Compile Include="Solarmax\Converter.cs" />
+    <Compile Include="Solarmax\Coordinates.cs" />
+    <Compile Include="Solarmax\CreateAccountRequest.cs" />
+    <Compile Include="Solarmax\CTagGuideConfig.cs" />
+    <Compile Include="Solarmax\DataHandlerSystem.cs" />
+    <Compile Include="Solarmax\DataProviderSystem.cs" />
+    <Compile Include="Solarmax\DayRewardConfig.cs" />
+    <Compile Include="Solarmax\DownTable.cs" />
+    <Compile Include="Solarmax\EncryptTools.cs" />
+    <Compile Include="Solarmax\EngineSystem.cs" />
+    <Compile Include="Solarmax\EUpdateType.cs" />
+    <Compile Include="Solarmax\Event2.cs" />
+    <Compile Include="Solarmax\EventHandler2.cs" />
+    <Compile Include="Solarmax\EventSystem.cs" />
+    <Compile Include="Solarmax\EVersionStatus.cs" />
+    <Compile Include="Solarmax\FileLogger.cs" />
+    <Compile Include="Solarmax\FileReader.cs" />
+    <Compile Include="Solarmax\FileSaver.cs" />
+    <Compile Include="Solarmax\FinishConntion.cs" />
+    <Compile Include="Solarmax\Framework.cs" />
+    <Compile Include="Solarmax\Function.2.cs" />
+    <Compile Include="Solarmax\Function.3.cs" />
+    <Compile Include="Solarmax\Function.4.cs" />
+    <Compile Include="Solarmax\Function.5.cs" />
+    <Compile Include="Solarmax\Function.6.cs" />
+    <Compile Include="Solarmax\Function.7.cs" />
+    <Compile Include="Solarmax\Function.8.cs" />
+    <Compile Include="Solarmax\Function.9.cs" />
+    <Compile Include="Solarmax\Function.cs" />
+    <Compile Include="Solarmax\FunctionOpenConditionType.cs" />
+    <Compile Include="Solarmax\FunctionOpenConfig.cs" />
+    <Compile Include="Solarmax\FunctionOpenConfigProvider.cs" />
+    <Compile Include="Solarmax\FunctionType.cs" />
+    <Compile Include="Solarmax\GameConfig.cs" />
+    <Compile Include="Solarmax\GameHostList.cs" />
+    <Compile Include="Solarmax\GameVariableConfig.cs" />
+    <Compile Include="Solarmax\GameVariableConfigProvider.cs" />
+    <Compile Include="Solarmax\GatewayRequest.cs" />
+    <Compile Include="Solarmax\GatewayResponse.cs" />
+    <Compile Include="Solarmax\GuideDataProvider.cs" />
+    <Compile Include="Solarmax\GuideType.cs" />
+    <Compile Include="Solarmax\GuildCondition.cs" />
+    <Compile Include="Solarmax\GuildEndEvent.cs" />
+    <Compile Include="Solarmax\IBuffer.cs" />
+    <Compile Include="Solarmax\IDataHandler.cs" />
+    <Compile Include="Solarmax\IDataProvider.cs" />
+    <Compile Include="Solarmax\ILocalStorage.cs" />
+    <Compile Include="Solarmax\INetConnector.cs" />
+    <Compile Include="Solarmax\InnateSkillConfig.cs" />
+    <Compile Include="Solarmax\InnateSkillConfigProvider.cs" />
+    <Compile Include="Solarmax\IObject.cs" />
+    <Compile Include="Solarmax\IPacket.cs" />
+    <Compile Include="Solarmax\IPacketFormat.cs" />
+    <Compile Include="Solarmax\IPacketHandler.cs" />
+    <Compile Include="Solarmax\IPacketHandlerManager.cs" />
+    <Compile Include="Solarmax\IPoolObject.cs" />
+    <Compile Include="Solarmax\ItemConfig.cs" />
+    <Compile Include="Solarmax\ItemConfigProvider.cs" />
+    <Compile Include="Solarmax\ITEMFUNCTION.cs" />
+    <Compile Include="Solarmax\IWebResponse.cs" />
+    <Compile Include="Solarmax\JRandom.cs" />
+    <Compile Include="Solarmax\LadderConfig.cs" />
+    <Compile Include="Solarmax\LadderConfigProvider.cs" />
+    <Compile Include="Solarmax\LanguageConfig.cs" />
+    <Compile Include="Solarmax\LanguageDataProvider.cs" />
+    <Compile Include="Solarmax\LevelConfig.cs" />
+    <Compile Include="Solarmax\LevelConfigConfigProvider.cs" />
+    <Compile Include="Solarmax\Lifecycle.cs" />
+    <Compile Include="Solarmax\Lifecycle2.cs" />
+    <Compile Include="Solarmax\LocalStorageSystem.cs" />
+    <Compile Include="Solarmax\Logger.cs" />
+    <Compile Include="Solarmax\LoggerSystem.cs" />
+    <Compile Include="Solarmax\LotteryAddConfig.cs" />
+    <Compile Include="Solarmax\LotteryAddProvider.cs" />
+    <Compile Include="Solarmax\LotteryConfig.cs" />
+    <Compile Include="Solarmax\LotteryConfigProvider.cs" />
+    <Compile Include="Solarmax\LotteryRotateConfig.cs" />
+    <Compile Include="Solarmax\LotteryRotateProvider.cs" />
+    <Compile Include="Solarmax\MapBarrierPoingConfig.cs" />
+    <Compile Include="Solarmax\MapBuildingConfig.cs" />
+    <Compile Include="Solarmax\MapConfig.cs" />
+    <Compile Include="Solarmax\MapConfigProvider.cs" />
+    <Compile Include="Solarmax\MapLineConfig.cs" />
+    <Compile Include="Solarmax\MapListConfig.cs" />
+    <Compile Include="Solarmax\MapNodeConfig.cs" />
+    <Compile Include="Solarmax\MapNodeConfigProvider.cs" />
+    <Compile Include="Solarmax\MapPlayerConfig.cs" />
+    <Compile Include="Solarmax\MessageHandler.cs" />
+    <Compile Include="Solarmax\MonthCheckConfgiProvider.cs" />
+    <Compile Include="Solarmax\MonthCheckConfig.cs" />
+    <Compile Include="Solarmax\NameConfig.cs" />
+    <Compile Include="Solarmax\NameConfigProvider.cs" />
+    <Compile Include="Solarmax\NameFilterConfig.cs" />
+    <Compile Include="Solarmax\NameFilterConfigProvider.cs" />
+    <Compile Include="Solarmax\NetCtr.cs" />
+    <Compile Include="Solarmax\NetPacket.cs" />
+    <Compile Include="Solarmax\NetStream.cs" />
+    <Compile Include="Solarmax\NetSystem.cs" />
+    <Compile Include="Solarmax\NewSkillBuffConfig.cs" />
+    <Compile Include="Solarmax\NewSkillBuffConfigProvider.cs" />
+    <Compile Include="Solarmax\NewSkillConfig.cs" />
+    <Compile Include="Solarmax\NewSkillConfigProvider.cs" />
+    <Compile Include="Solarmax\NewSkillEffectConfig.cs" />
+    <Compile Include="Solarmax\NewSkillEffectConfigProvider.cs" />
+    <Compile Include="Solarmax\NoticeConfig.cs" />
+    <Compile Include="Solarmax\NoticeRequest.cs" />
+    <Compile Include="Solarmax\NoticeResponse.cs" />
+    <Compile Include="Solarmax\Object2Text.cs" />
+    <Compile Include="Solarmax\OldILocalStorage.cs" />
+    <Compile Include="Solarmax\OldLocalStorageSystem.cs" />
+    <Compile Include="Solarmax\OneChapterLevelConfig.cs" />
+    <Compile Include="Solarmax\OneChapterLineConfig.cs" />
+    <Compile Include="Solarmax\OneChapterPointConfig.cs" />
+    <Compile Include="Solarmax\OrderManager.cs" />
+    <Compile Include="Solarmax\Packet.cs" />
+    <Compile Include="Solarmax\PacketEvent.cs" />
+    <Compile Include="Solarmax\PacketFormat.cs" />
+    <Compile Include="Solarmax\PacketHandler.cs" />
+    <Compile Include="Solarmax\PacketHandlerManager.cs" />
+    <Compile Include="Solarmax\PingHelper.cs" />
+    <Compile Include="Solarmax\PortraitTemplate.cs" />
+    <Compile Include="Solarmax\ProductType.cs" />
+    <Compile Include="Solarmax\RaceConfig.cs" />
+    <Compile Include="Solarmax\RaceConfigProvider.cs" />
+    <Compile Include="Solarmax\RaceSkillConfig.cs" />
+    <Compile Include="Solarmax\RaceSkillConfigProvider.cs" />
+    <Compile Include="Solarmax\RemoteHost.cs" />
+    <Compile Include="Solarmax\RewardType.cs" />
+    <Compile Include="Solarmax\SafeQueue.cs" />
+    <Compile Include="Solarmax\SeasonRewardConfig.cs" />
+    <Compile Include="Solarmax\SeasonRewardProvider.cs" />
+    <Compile Include="Solarmax\ServerListItemConfig.cs" />
+    <Compile Include="Solarmax\ServerListRequest.cs" />
+    <Compile Include="Solarmax\ServerListRequestParam.cs" />
+    <Compile Include="Solarmax\ServerListResponse.cs" />
+    <Compile Include="Solarmax\ShowWindowParams.cs" />
+    <Compile Include="Solarmax\SimplePool.cs" />
+    <Compile Include="Solarmax\Singleton.cs" />
+    <Compile Include="Solarmax\SkillConfig.cs" />
+    <Compile Include="Solarmax\SkillConfigProvider.cs" />
+    <Compile Include="Solarmax\SkinConfig.cs" />
+    <Compile Include="Solarmax\SkinConfigProvider.cs" />
+    <Compile Include="Solarmax\SkinType.cs" />
+    <Compile Include="Solarmax\StoreConfig.cs" />
+    <Compile Include="Solarmax\storeConfigProvider.cs" />
+    <Compile Include="Solarmax\TableAsset.cs" />
+    <Compile Include="Solarmax\TaskConfig.cs" />
+    <Compile Include="Solarmax\TaskConfigProvider.cs" />
+    <Compile Include="Solarmax\TaskStatus.cs" />
+    <Compile Include="Solarmax\TaskType.cs" />
+    <Compile Include="Solarmax\TBuffer.cs" />
+    <Compile Include="Solarmax\TCPConnector.cs" />
+    <Compile Include="Solarmax\ThirdPartySystem.cs" />
+    <Compile Include="Solarmax\TimeSystem.cs" />
+    <Compile Include="Solarmax\UIWindowConfig.cs" />
+    <Compile Include="Solarmax\UIWindowConfigProvider.cs" />
+    <Compile Include="Solarmax\UnionDataCollection.cs" />
+    <Compile Include="Solarmax\UnityTools.cs" />
+    <Compile Include="Solarmax\UpdateSystem.cs" />
+    <Compile Include="Solarmax\UpgradeRequest.cs" />
+    <Compile Include="Solarmax\UpgradeRequestParam.cs" />
+    <Compile Include="Solarmax\UpgradeResponse.cs" />
+    <Compile Include="Solarmax\UpgradeUtil.cs" />
+    <Compile Include="Solarmax\UtilTools.cs" />
+    <Compile Include="Solarmax\VersionConfig.cs" />
+    <Compile Include="Solarmax\WebRequestor.cs" />
+    <Compile Include="Spin.cs" />
+    <Compile Include="SpinWithMouse.cs" />
+    <Compile Include="SplashWindow.cs" />
+    <Compile Include="SpringPanel.cs" />
+    <Compile Include="SpringPosition.cs" />
+    <Compile Include="SpriteData.cs" />
+    <Compile Include="StageDetailsWindowView.cs" />
+    <Compile Include="StageDetailsWindowViewGoodsItemBehavior.cs" />
+    <Compile Include="StartWindow.cs" />
+    <Compile Include="StartWindowChampionshipCell.cs" />
+    <Compile Include="StartWindowPVP.cs" />
+    <Compile Include="StartWindow_New.cs" />
+    <Compile Include="StartWindow_New2.cs" />
+    <Compile Include="StaticAILogic.cs" />
+    <Compile Include="StatusWindow.cs" />
+    <Compile Include="storeTemplate.cs" />
+    <Compile Include="storeView.cs" />
+    <Compile Include="StoreWindow.cs" />
+    <Compile Include="SyncMessageStruct.cs" />
+    <Compile Include="TaskModel.cs" />
+    <Compile Include="TaskWindow.cs" />
+    <Compile Include="TEAM.2.cs" />
+    <Compile Include="Team.cs" />
+    <Compile Include="TeamAttr.cs" />
+    <Compile Include="TeamBeCapturedSpeedBuff.cs" />
+    <Compile Include="TeamHideBuff.cs" />
+    <Compile Include="TeamHideStatrBuff.cs" />
+    <Compile Include="TeamInitiativeSkill.cs" />
+    <Compile Include="TeamInviteData.cs" />
+    <Compile Include="TeamManager.cs" />
+    <Compile Include="TeamNotifyWindow.cs" />
+    <Compile Include="TeamOccupiedSpeedBuff.cs" />
+    <Compile Include="TeamPopulationMaxBuff.cs" />
+    <Compile Include="TeamPopulationMaxFakeBuff.cs" />
+    <Compile Include="TeamProduceSpeedBuff.cs" />
+    <Compile Include="TeamQuickMoveBuff.cs" />
+    <Compile Include="TeamShipAttakBuff.cs" />
+    <Compile Include="TeamShipHPBuff.cs" />
+    <Compile Include="TeamShipSpeedBuff.cs" />
+    <Compile Include="TeamStopBeCaptureBuff.cs" />
+    <Compile Include="TeamWindow.cs" />
+    <Compile Include="TeamWindowCell.cs" />
+    <Compile Include="TencentMobileGaming\ITMGAudioCtrl.cs" />
+    <Compile Include="TencentMobileGaming\ITMGAudioEffectCtrl.cs" />
+    <Compile Include="TencentMobileGaming\ITMGContext.cs" />
+    <Compile Include="TencentMobileGaming\ITMGPTT.cs" />
+    <Compile Include="TencentMobileGaming\ITMGRangeAudioMode.cs" />
+    <Compile Include="TencentMobileGaming\ITMGRoom.cs" />
+    <Compile Include="TencentMobileGaming\ITMGRoomType.cs" />
+    <Compile Include="TencentMobileGaming\ITMG_MAIN_EVENT_TYPE.cs" />
+    <Compile Include="TencentMobileGaming\ITMG_RECORD_PERMISSION.cs" />
+    <Compile Include="TencentMobileGaming\QAVAccompanyFileCompleteHandler.cs" />
+    <Compile Include="TencentMobileGaming\QAVAudioCallback.cs" />
+    <Compile Include="TencentMobileGaming\QAVAudioCtrl.cs" />
+    <Compile Include="TencentMobileGaming\QAVAudioEffectCtrl.cs" />
+    <Compile Include="TencentMobileGaming\QAVAudioReadyCallback.cs" />
+    <Compile Include="TencentMobileGaming\QAVAudioRecordCallback.cs" />
+    <Compile Include="TencentMobileGaming\QAVAudioRecordMixCallback.cs" />
+    <Compile Include="TencentMobileGaming\QAVAudioRecordPreviewCallback.cs" />
+    <Compile Include="TencentMobileGaming\QAVAudioRouteChangeCallback.cs" />
+    <Compile Include="TencentMobileGaming\QAVAuthBuffer.cs" />
+    <Compile Include="TencentMobileGaming\QAVCallback.cs" />
+    <Compile Include="TencentMobileGaming\QAVCommonEventCallback.cs" />
+    <Compile Include="TencentMobileGaming\QAVContext.cs" />
+    <Compile Include="TencentMobileGaming\QAVDownloadFileCompleteCallback.cs" />
+    <Compile Include="TencentMobileGaming\QAVEndpointsUpdateInfo.cs" />
+    <Compile Include="TencentMobileGaming\QAVEnterRoomComplete.cs" />
+    <Compile Include="TencentMobileGaming\QAVError.cs" />
+    <Compile Include="TencentMobileGaming\QAVExitRoomComplete.cs" />
+    <Compile Include="TencentMobileGaming\QAVNative.cs" />
+    <Compile Include="TencentMobileGaming\QAVOnDeviceStateChangedEvent.cs" />
+    <Compile Include="TencentMobileGaming\QAVOnEventCallBack.cs" />
+    <Compile Include="TencentMobileGaming\QAVOnRoomTypeChangedEvent.cs" />
+    <Compile Include="TencentMobileGaming\QAVPlayFileCompleteCallback.cs" />
+    <Compile Include="TencentMobileGaming\QAVPTT.cs" />
+    <Compile Include="TencentMobileGaming\QAVRecordFileCompleteCallback.cs" />
+    <Compile Include="TencentMobileGaming\QAVRoom.cs" />
+    <Compile Include="TencentMobileGaming\QAVRoomChangeQualityCallback.cs" />
+    <Compile Include="TencentMobileGaming\QAVRoomDisconnect.cs" />
+    <Compile Include="TencentMobileGaming\QAVSDKInit.cs" />
+    <Compile Include="TencentMobileGaming\QAVSpeechToTextCallback.cs" />
+    <Compile Include="TencentMobileGaming\QAVStreamingRecognitionCallback.cs" />
+    <Compile Include="TencentMobileGaming\QAVUploadFileCompleteCallback.cs" />
+    <Compile Include="test_uv.cs" />
+    <Compile Include="TianShangSkill.cs" />
+    <Compile Include="Timer.cs" />
+    <Compile Include="TimerType.cs" />
+    <Compile Include="Tips.cs" />
+    <Compile Include="TipsData.cs" />
+    <Compile Include="TipsItem.cs" />
+    <Compile Include="TouchHandler.cs" />
+    <Compile Include="TowerNode.cs" />
+    <Compile Include="TreasureBuff.cs" />
+    <Compile Include="TreasureSkill.cs" />
+    <Compile Include="Tutorial5.cs" />
+    <Compile Include="TweenAlpha.cs" />
+    <Compile Include="TweenColor.cs" />
+    <Compile Include="TweenFill.cs" />
+    <Compile Include="TweenFOV.cs" />
+    <Compile Include="TweenHeight.cs" />
+    <Compile Include="TweenLineRenderer.cs" />
+    <Compile Include="TweenOrthoSize.cs" />
+    <Compile Include="TweenPosition.cs" />
+    <Compile Include="TweenRotation.cs" />
+    <Compile Include="TweenScale.cs" />
+    <Compile Include="TweenTransform.cs" />
+    <Compile Include="TweenVolume.cs" />
+    <Compile Include="TweenWidth.cs" />
+    <Compile Include="TwistAttack.cs" />
+    <Compile Include="TwistEffect.cs" />
+    <Compile Include="TwistNode.cs" />
+    <Compile Include="TypewriterEffect.cs" />
+    <Compile Include="UI2DSprite.cs" />
+    <Compile Include="UI2DSpriteAnimation.cs" />
+    <Compile Include="UIAnchor.cs" />
+    <Compile Include="UIAtlas.cs" />
+    <Compile Include="UIBasicSprite.cs" />
+    <Compile Include="UIButton.cs" />
+    <Compile Include="UIButtonActivate.cs" />
+    <Compile Include="UIButtonColor.cs" />
+    <Compile Include="UIButtonKeys.cs" />
+    <Compile Include="UIButtonMessage.cs" />
+    <Compile Include="UIButtonOffset.cs" />
+    <Compile Include="UIButtonRotation.cs" />
+    <Compile Include="UIButtonScale.cs" />
+    <Compile Include="UICamera.cs" />
+    <Compile Include="UICenterOnChild.cs" />
+    <Compile Include="UICenterOnClick.cs" />
+    <Compile Include="UIColorPicker.cs" />
+    <Compile Include="UICursor.cs" />
+    <Compile Include="UICustomWrapContent.cs" />
+    <Compile Include="UIDragCamera.cs" />
+    <Compile Include="UIDragDropContainer.cs" />
+    <Compile Include="UIDragDropItem.cs" />
+    <Compile Include="UIDragDropRoot.cs" />
+    <Compile Include="UIDraggableCamera.cs" />
+    <Compile Include="UIDragObject.cs" />
+    <Compile Include="UIDragResize.cs" />
+    <Compile Include="UIDragScrollView.cs" />
+    <Compile Include="UIDrawCall.cs" />
+    <Compile Include="UIEquipmentSlot.cs" />
+    <Compile Include="UIEventListener.cs" />
+    <Compile Include="UIEventTrigger.cs" />
+    <Compile Include="UIFont.cs" />
+    <Compile Include="UIForwardEvents.cs" />
+    <Compile Include="UIGeometry.cs" />
+    <Compile Include="UIGrid.cs" />
+    <Compile Include="UIImageButton.cs" />
+    <Compile Include="UIInput.cs" />
+    <Compile Include="UIInputOnGUI.cs" />
+    <Compile Include="UIItemSlot.cs" />
+    <Compile Include="UIItemStorage.cs" />
+    <Compile Include="UIKeyBinding.cs" />
+    <Compile Include="UIKeyNavigation.cs" />
+    <Compile Include="UILabel.cs" />
+    <Compile Include="UILocalize.cs" />
+    <Compile Include="UIOrthoCamera.cs" />
+    <Compile Include="UIPanel.cs" />
+    <Compile Include="UIPlayAnimation.cs" />
+    <Compile Include="UIPlaySound.cs" />
+    <Compile Include="UIPlayTween.cs" />
+    <Compile Include="UIPopupList.cs" />
+    <Compile Include="UIProgressBar.cs" />
+    <Compile Include="UIRect.cs" />
+    <Compile Include="UIRoot.cs" />
+    <Compile Include="UISavedOption.cs" />
+    <Compile Include="UIScrollBar.cs" />
+    <Compile Include="UIScrollView.cs" />
+    <Compile Include="UIShowControlScheme.cs" />
+    <Compile Include="UISlider.cs" />
+    <Compile Include="UISliderColors.cs" />
+    <Compile Include="UISnapshotPoint.cs" />
+    <Compile Include="UISoundVolume.cs" />
+    <Compile Include="UISprite.cs" />
+    <Compile Include="UISpriteAnimation.cs" />
+    <Compile Include="UISpriteData.cs" />
+    <Compile Include="UIStorageSlot.cs" />
+    <Compile Include="UIStretch.cs" />
+    <Compile Include="UISystem.cs" />
+    <Compile Include="UITable.cs" />
+    <Compile Include="UITextList.cs" />
+    <Compile Include="UITexture.cs" />
+    <Compile Include="UIToggle.cs" />
+    <Compile Include="UIToggledComponents.cs" />
+    <Compile Include="UIToggledObjects.cs" />
+    <Compile Include="UITooltip.cs" />
+    <Compile Include="UITweener.cs" />
+    <Compile Include="UIViewport.cs" />
+    <Compile Include="UIWidget.cs" />
+    <Compile Include="UIWidgetContainer.cs" />
+    <Compile Include="UIWrapContent.cs" />
+    <Compile Include="ui_event.cs" />
+    <Compile Include="UnknownSkillPacket.cs" />
+    <Compile Include="UnknownStarBehivor.cs" />
+    <Compile Include="UnknownStarEffect.cs" />
+    <Compile Include="UnknownStarSkill.cs" />
+    <Compile Include="UnlockView.cs" />
+    <Compile Include="UnTouchWindow.cs" />
+    <Compile Include="UserSyncSysteam.cs" />
+    <Compile Include="VectorMath.cs" />
+    <Compile Include="VerityFrame.cs" />
+    <Compile Include="VerityReplayManager.cs" />
+    <Compile Include="VictoryWindowView.cs" />
+    <Compile Include="VictoryWindowViewNew.cs" />
+    <Compile Include="VoiceEngine.cs" />
+    <Compile Include="VoicePluginGME.cs" />
+    <Compile Include="WaitWindow.cs" />
+    <Compile Include="WaitWindow2.cs" />
+    <Compile Include="WarpDoorNode.cs" />
+    <Compile Include="WarpItem.cs" />
+    <Compile Include="WarpManager.cs" />
+    <Compile Include="WarpType.cs" />
+    <Compile Include="WeakenTeamAttrSkill.cs" />
+    <Compile Include="WenYiSkill.cs" />
+    <Compile Include="WindowAutoYaw.cs" />
+    <Compile Include="WindowDragTilt.cs" />
+    <Compile Include="YiHuaSkill.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\DllDepend\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="Debuger">
+      <HintPath>..\DllDepend\Debuger.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>..\DllDepend\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Data.Tds">
+      <HintPath>..\DllDepend\Mono.Data.Tds.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Posix">
+      <HintPath>..\DllDepend\Mono.Posix.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Security">
+      <HintPath>..\DllDepend\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\DllDepend\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\DllDepend\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>..\DllDepend\UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>..\DllDepend\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>..\DllDepend\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>..\DllDepend\UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>..\DllDepend\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\DllDepend\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>..\DllDepend\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\DllDepend\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>..\DllDepend\UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>..\DllDepend\UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>..\DllDepend\UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>..\DllDepend\UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>..\DllDepend\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\DllDepend\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>..\DllDepend\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>..\DllDepend\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>..\DllDepend\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticlesLegacyModule">
+      <HintPath>..\DllDepend\UnityEngine.ParticlesLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>..\DllDepend\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>..\DllDepend\UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>..\DllDepend\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>..\DllDepend\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>..\DllDepend\UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>..\DllDepend\UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>..\DllDepend\UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>..\DllDepend\UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>..\DllDepend\UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StandardEvents">
+      <HintPath>..\DllDepend\UnityEngine.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StyleSheetsModule">
+      <HintPath>..\DllDepend\UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>..\DllDepend\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>..\DllDepend\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\DllDepend\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>..\DllDepend\UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>..\DllDepend\UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\DllDepend\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>..\DllDepend\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>..\DllDepend\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>..\DllDepend\UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>..\DllDepend\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>..\DllDepend\UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>..\DllDepend\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>..\DllDepend\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>..\DllDepend\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>..\DllDepend\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>..\DllDepend\UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>..\DllDepend\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>..\DllDepend\UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WebModule">
+      <HintPath>..\DllDepend\UnityEngine.WebModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>..\DllDepend\UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

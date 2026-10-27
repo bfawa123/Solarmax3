@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map id="302704" player_count="3" vertical="False" defaultAIStrategy="-1" teamAITypes="" teamFriend="">
+  <maplines>
+    <mapline point1="e" point2="d" />
+    <mapline point1="f" point2="g" />
+  </maplines>
+  <mapbuildings>
+    <mapbuilding type="star" size="1" tag="B" x="1" y="1.5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="C" x="-1" y="1.5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="D" x="1" y="-1.5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="E" x="-1" y="-1.5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="Z" x="-4" y="2.5" camption="0" fAngle="0" orbit="0" orbitParam1="-4,0" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="[" x="-4" y="-2.5" camption="0" fAngle="0" orbit="0" orbitParam1="-4,0" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="\" x="-4" y="1.5" camption="3" fAngle="0" orbit="0" orbitParam1="-4,0" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="]" x="-4" y="-1.5" camption="3" fAngle="0" orbit="0" orbitParam1="-4,0" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="_" x="4" y="2.5" camption="0" fAngle="0" orbit="0" orbitParam1="4,0" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="`" x="4" y="1.5" camption="2" fAngle="0" orbit="0" orbitParam1="4,0" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="a" x="4" y="-1.5" camption="2" fAngle="0" orbit="0" orbitParam1="4,0" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="b" x="4" y="-2.5" camption="0" fAngle="0" orbit="0" orbitParam1="4,0" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="d" x="-7" y="1" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="e" x="7" y="1" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="f" x="7" y="-1" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="g" x="-7" y="-1" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="teleport" size="1" tag="G" x="0" y="0" camption="1" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="AddTower" size="1" tag="H" x="0" y="-2.5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Lasercannon" size="1" tag="I" x="0" y="2.5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+  </mapbuildings>
+  <mapplayers>
+    <mapplayer tag="B" ship="0" camption="0" />
+    <mapplayer tag="C" ship="0" camption="0" />
+    <mapplayer tag="D" ship="0" camption="0" />
+    <mapplayer tag="E" ship="0" camption="0" />
+    <mapplayer tag="\" ship="30" camption="3" />
+    <mapplayer tag="_" ship="0" camption="0" />
+    <mapplayer tag="`" ship="30" camption="2" />
+    <mapplayer tag="a" ship="30" camption="2" />
+    <mapplayer tag="b" ship="0" camption="0" />
+    <mapplayer tag="]" ship="30" camption="3" />
+    <mapplayer tag="G" ship="60" camption="1" />
+  </mapplayers>
+  <candidates>
+    <candidate transformBulidingID="" />
+    <candidate lasergunAngle="" lasergunRotateSkip="" lasergunRange="" />
+    <candidate orbitRevoSpeed="12" />
+    <candidate curseDelay="" />
+    <candidate aistrategy="" />
+    <candidate shipProduceOverride="1" />
+  </candidates>
+</map>

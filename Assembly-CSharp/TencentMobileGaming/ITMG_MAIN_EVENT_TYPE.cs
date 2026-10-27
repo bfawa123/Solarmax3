@@ -1,0 +1,10 @@
+﻿using System;
+
+namespace TencentMobileGaming
+{
+	public enum ITMG_MAIN_EVENT_TYPE
+	{
+		ITMG_MAIN_EVENT_TYPE_NUMBER_OF_USERS_UPDATE = 7,
+		ITMG_MAIN_EVENT_TYPE_NUMBER_OF_AUDIOSTREAMS_UPDATE
+	}
+}

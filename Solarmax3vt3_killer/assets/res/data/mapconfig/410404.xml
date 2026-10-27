@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map id="100602" player_count="2" vertical="True">
+  <mapbuildings>
+    <mapbuilding id="0" type="star" size="2" x="0" y="0" camption="0" tag="A" orbit="0" orbitParam1="0,0" orbitParam2="0" orbitClockWise="True" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="1" type="tower" size="1" x="0" y="3" camption="0" tag="C" orbit="1" orbitParam1="0,0" orbitParam2="0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="2" type="star" size="1" x="7.5" y="0" camption="1" tag="D" orbit="0" orbitParam1="0,0" orbitParam2="0" orbitClockWise="True" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="3" type="star" size="1" x="-7" y="3" camption="0" tag="E" orbit="0" orbitParam1="0,0" orbitParam2="0" orbitClockWise="True" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="4" type="star" size="1" x="-7.5" y="0" camption="2" tag="F" orbit="0" orbitParam1="0,0" orbitParam2="0" orbitClockWise="True" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="5" type="tower" size="1" x="0" y="-3" camption="0" tag="G" orbit="1" orbitParam1="0,0" orbitParam2="0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="6" type="star" size="1" x="-7" y="-3" camption="0" tag="H" orbit="0" orbitParam1="0,0" orbitParam2="0" orbitClockWise="True" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="7" type="star" size="1" x="7" y="3" camption="0" tag="I" orbit="0" orbitParam1="0,0" orbitParam2="0" orbitClockWise="True" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="8" type="star" size="1" x="7" y="-3" camption="0" tag="J" orbit="0" orbitParam1="0,0" orbitParam2="0" orbitClockWise="True" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="9" type="star" size="3" x="4" y="-2.5" camption="0" tag="K" orbit="0" orbitParam1="0,0" orbitParam2="0" orbitClockWise="True" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="10" type="star" size="3" x="-4" y="-2.5" camption="0" tag="L" orbit="0" orbitParam1="0,0" orbitParam2="0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="11" type="star" size="3" x="-4" y="2.5" camption="0" tag="M" orbit="0" orbitParam1="0,0" orbitParam2="0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="12" type="star" size="3" x="4" y="2.5" camption="0" tag="N" orbit="0" orbitParam1="0,0" orbitParam2="0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="13" type="AddTower" size="1" x="5" y="0" camption="0" tag="O" orbit="0" orbitParam1="0,0" orbitParam2="0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="14" type="AddTower" size="1" x="-5" y="0" camption="0" tag="P" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+  </mapbuildings>
+  <mapplayers>
+    <mapplayer id="0" tag="D" ship="30" camption="1" />
+    <mapplayer id="2" tag="F" ship="30" camption="2" />
+  </mapplayers>
+</map>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<skins>
+	<skin id="101" SkinImageName="BG1.png" BGimage="bg01.png,bg02.png,bg03.png" SkinName="5001" type="0" GoldValue="0" RenminbiValue="0￥" USValue="0$" IndianValue="0₹" URL="GameRes/Texture_4/" />
+	<skin id="102" SkinImageName="BG2.png" BGimage="bg2_1.png,bg2_2.png,bg2_3.png" SkinName="5002" type="0" GoldValue="0" RenminbiValue="5￥" USValue="2$" IndianValue="2₹" URL="GameRes/Texture_4/" />
+	<skin id="103" SkinImageName="BG3.png" BGimage="bg3_1.png,bg3_2.png,bg3_3.png" SkinName="5003" type="0" GoldValue="0" RenminbiValue="5￥" USValue="2$" IndianValue="2₹" URL="GameRes/Texture_4/" />
+	<skin id="104" SkinImageName="BG4.png" BGimage="bg4_1.png,bg4_2.png,bg4_3.png" SkinName="5004" type="0" GoldValue="1800" RenminbiValue="5￥" USValue="2$" IndianValue="2₹" URL="GameRes/Texture_4/" />
+	<skin id="105" SkinImageName="BG6.png" BGimage="bg6_1.png,bg6_2.png,bg6_3.png" SkinName="5005" type="0" GoldValue="2400" RenminbiValue="5￥" USValue="2$" IndianValue="2₹" URL="GameRes/Texture_4/" />
+	<skin id="106" SkinImageName="BG5.png" BGimage="bg5_1.png,bg5_2.png,bg5_3.png" SkinName="5006" type="0" GoldValue="3000" RenminbiValue="5￥" USValue="2$" IndianValue="2₹" URL="GameRes/Texture_4/" />
+	<skin id="107" SkinImageName="BG7.png" BGimage="bg7_1.png,bg7_2.png,bg7_3.png" SkinName="5007" type="0" GoldValue="3000" RenminbiValue="5￥" USValue="2$" IndianValue="2₹" URL="GameRes/Texture_4/" />
+	<skin id="108" SkinImageName="BG8.png" BGimage="bg8_1.png,bg8_2.png,bg8_3.png" SkinName="5008" type="0" GoldValue="3000" RenminbiValue="5￥" USValue="2$" IndianValue="2₹" URL="GameRes/Texture_4/" />
+	<skin id="109" SkinImageName="BG9.png" BGimage="bg9_1.png,bg9_2.png,bg9_3.png" SkinName="5009" type="0" GoldValue="3000" RenminbiValue="5￥" USValue="2$" IndianValue="2₹" URL="GameRes/Texture_4/" />
+	<skin id="1001" SkinImageName="select_head_1.png" type="0" GoldValue="0" RenminbiValue="0￥" USValue="0$" IndianValue="0₹" URL="Atlas/skin" />
+	<skin id="1002" SkinImageName="select_head_2.png" type="0" GoldValue="0" RenminbiValue="0￥" USValue="0$" IndianValue="0₹" URL="Atlas/skin" />
+	<skin id="1003" SkinImageName="select_head_3.png" type="0" GoldValue="0" RenminbiValue="0￥" USValue="0$" IndianValue="0₹" URL="Atlas/skin" />
+	<skin id="1004" SkinImageName="select_head_4.png" type="0" GoldValue="0" RenminbiValue="0￥" USValue="0$" IndianValue="0₹" URL="Atlas/skin" />
+	<skin id="1005" SkinImageName="select_head_5.png" type="0" GoldValue="0" RenminbiValue="0￥" USValue="0$" IndianValue="0₹" URL="Atlas/skin" />
+	<skin id="1006" SkinImageName="select_head_6.png" type="0" GoldValue="0" RenminbiValue="0￥" USValue="0$" IndianValue="0₹" URL="Atlas/skin" />
+	<skin id="1007" SkinImageName="select_head_7.png" type="0" GoldValue="0" RenminbiValue="0￥" USValue="0$" IndianValue="0₹" URL="Atlas/skin" />
+	<skin id="1008" SkinImageName="select_head_8.png" type="0" GoldValue="0" RenminbiValue="0￥" USValue="0$" IndianValue="0₹" URL="Atlas/skin" />
+	<skin id="1009" SkinImageName="select_head_9.png" type="0" GoldValue="0" RenminbiValue="0￥" USValue="0$" IndianValue="0₹" URL="Atlas/skin" />
+	<skin id="1010" SkinImageName="select_head_10.png" type="0" GoldValue="200" RenminbiValue="1￥" USValue="0.2$" IndianValue="0.2₹" URL="Atlas/skin" />
+	<skin id="1011" SkinImageName="select_head_11.png" type="0" GoldValue="200" RenminbiValue="1￥" USValue="0.2$" IndianValue="0.2₹" URL="Atlas/skin" />
+	<skin id="1012" SkinImageName="select_head_12.png" type="0" GoldValue="200" RenminbiValue="1￥" USValue="0.2$" IndianValue="0.2₹" URL="Atlas/skin" />
+	<skin id="1013" SkinImageName="select_head_13.png" type="0" GoldValue="200" RenminbiValue="1￥" USValue="0.2$" IndianValue="0.2₹" URL="Atlas/skin" />
+	<skin id="1014" SkinImageName="select_head_14.png" type="0" GoldValue="200" RenminbiValue="1￥" USValue="0.2$" IndianValue="0.2₹" URL="Atlas/skin" />
+	<skin id="2001" SkinImageName="select_head_101.png" BGimage="EFF_select_head_101" type="1" GoldValue="999999" RenminbiValue="0￥" USValue="0$" IndianValue="0₹" URL="Atlas/skin" />
+	<skin id="2003" SkinImageName="select_head_103.png" BGimage="EFF_select_head_103" type="1" GoldValue="999999" RenminbiValue="0￥" USValue="0$" IndianValue="0₹" URL="Atlas/skin" />
+	<skin id="2004" SkinImageName="select_head_104.png" BGimage="EFF_select_head_103" type="1" GoldValue="999999" RenminbiValue="0￥" USValue="0$" IndianValue="0₹" URL="Atlas/skin" />
+	<skin id="2005" SkinImageName="select_head_105.png" BGimage="EFF_select_head_103" type="1" GoldValue="999999" RenminbiValue="0￥" USValue="0$" IndianValue="0₹" URL="Atlas/skin" />
+	<skin id="2006" SkinImageName="select_head_106.png" BGimage="EFF_select_head_103" type="1" GoldValue="999999" RenminbiValue="0￥" USValue="0$" IndianValue="0₹" URL="Atlas/skin" />
+	<skin id="2007" SkinImageName="select_head_107.png" BGimage="EFF_select_head_103" type="1" GoldValue="999999" RenminbiValue="0￥" USValue="0$" IndianValue="0₹" URL="Atlas/skin" />
+	<skin id="2008" SkinImageName="select_head_108.png" BGimage="EFF_select_head_103" type="1" GoldValue="999999" RenminbiValue="0￥" USValue="0$" IndianValue="0₹" URL="Atlas/skin" />
+	<skin id="2009" SkinImageName="select_head_109.png" BGimage="EFF_select_head_103" type="1" GoldValue="999999" RenminbiValue="0￥" USValue="0$" IndianValue="0₹" URL="Atlas/skin" />
+	<skin id="2010" SkinImageName="select_head_110.png" BGimage="EFF_select_head_103" type="1" GoldValue="999999" RenminbiValue="0￥" USValue="0$" IndianValue="0₹" URL="Atlas/skin" />
+	<skin id="2011" SkinImageName="select_head_111.png" BGimage="EFF_select_head_103" type="1" GoldValue="999999" RenminbiValue="0￥" USValue="0$" IndianValue="0₹" URL="Atlas/skin" />
+	<skin id="2012" SkinImageName="select_head_112.png" BGimage="EFF_select_head_103" type="1" GoldValue="999999" RenminbiValue="0￥" USValue="0$" IndianValue="0₹" URL="Atlas/skin" />
+	<skin id="2013" SkinImageName="select_head_113.png" BGimage="EFF_select_head_103" type="1" GoldValue="999999" RenminbiValue="0￥" USValue="0$" IndianValue="0₹" URL="Atlas/skin" />
+	<skin id="2014" SkinImageName="select_head_114.png" BGimage="EFF_select_head_103" type="1" GoldValue="999999" RenminbiValue="0￥" USValue="0$" IndianValue="0₹" URL="Atlas/skin" />
+</skins>

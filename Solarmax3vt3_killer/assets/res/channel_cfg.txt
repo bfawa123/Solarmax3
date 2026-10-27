@@ -1,0 +1,10 @@
+{
+	"ChannelId":"taptap",
+	"FlurryApiKey":"62PW8WPH9836DPPJ96VP",
+	"AdAppId":"5024051",
+	"AdCodeId":"924051543",
+	"AppsFlyerKey":"",
+	"AppsFlyerAppId":"",
+	"MiAnalyticsAppID":"2882303761517966524",
+	"MiAnalyticsAppKey":"5851796645524"
+}

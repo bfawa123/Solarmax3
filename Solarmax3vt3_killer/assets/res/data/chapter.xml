@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<chapters>
+	<chapter id="1001" needstar="0" costGold="0" salePrice="-1" name="11001" describe="31001" starchart="Btn_CopyUI_11.png" type="0" posX="0" posY="0" comment="-1" commentMultiple="-1">
+		<line id="1" point1="1" point2="2" />
+		<line id="2" point1="2" point2="3" />
+		<line id="3" point1="3" point2="4" />
+		<line id="4" point1="4" point2="5" />
+		<line id="5" point1="5" point2="6" />
+		<line id="6" point1="6" point2="7" />
+		<line id="7" point1="7" point2="8" />
+		<line id="8" point1="8" point2="9" />
+		<line id="9" point1="9" point2="10" />
+		<point id="1" x="145.5" y="303" z="0" level="1001010" size="1.25" starName="21001" starNamePosX="-105.2" starNamePosY="-3.7" />
+		<point id="2" x="-45" y="124.8" z="0" level="1001020" size="1" starName="21002" starNamePosX="0" starNamePosY="-3.1" />
+		<point id="3" x="-189.9" y="89" z="0" level="1001030" size="1.5" starName="21003" starNamePosX="0" starNamePosY="-19" />
+		<point id="4" x="-245.8" y="-55" z="0" level="1001040" size="1.5" starName="21004" starNamePosX="3.2" starNamePosY="-2.5" />
+		<point id="5" x="-219.1" y="-204.5" z="0" level="1001050" size="1.25" starName="21005" starNamePosX="-37.4" starNamePosY="-39.3" />
+		<point id="6" x="-103" y="-128.1" z="0" level="1001060" size="0.8" starName="21006" starNamePosX="-24.7" starNamePosY="26" />
+		<point id="7" x="40" y="-136.1" z="0" level="1001070" size="1" starName="21007" starNamePosX="0" starNamePosY="0" />
+		<point id="8" x="96" y="57" z="0" size="0.9" starName="21008" starNamePosX="-18.4" starNamePosY="27.9" />
+		<point id="9" x="353.7" y="90" z="0" size="0.8" starNamePosX="-14.4" starNamePosY="26.9" />
+		<point id="10" x="408.8" y="-12.3" z="0" size="1" />
+	</chapter>
+	<chapter id="1002" needstar="7" dependchapter="1001" costGold="0" salePrice="-1" name="11002" describe="31002" starchart="Btn_CopyUI_9.png" type="0" posX="0" posY="0" comment="-1" commentMultiple="-1">
+		<line id="1" point1="1" point2="2" />
+		<line id="2" point1="2" point2="3" />
+		<line id="3" point1="3" point2="4" />
+		<line id="4" point1="3" point2="9" />
+		<line id="5" point1="4" point2="5" />
+		<line id="6" point1="5" point2="6" />
+		<line id="7" point1="5" point2="7" />
+		<line id="8" point1="7" point2="8" />
+		<line id="9" point1="8" point2="9" />
+		<line id="10" point1="8" point2="10" />
+		<line id="11" point1="8" point2="12" />
+		<line id="12" point1="10" point2="11" />
+		<line id="13" point1="12" point2="13" />
+		<point id="1" x="168" y="393" z="0" level="1002010" size="0.8" />
+		<point id="2" x="143" y="270" z="0" size="0.5" linkPointList="1,3" />
+		<point id="3" x="47" y="147" z="0" level="1002020" size="1" greekLetter="γ" greekPosX="27.6" greekPosY="-9.9" starName="21009" starNamePosX="50" starNamePosY="-15" />
+		<point id="4" x="-46" y="236" z="0" level="1002030" size="0.8" greekLetter="β" greekPosX="5.9" greekPosY="36.8" starName="21010" starNamePosX="27" starNamePosY="34" />
+		<point id="5" x="-126" y="136" z="0" level="1002040" size="1" greekLetter="δ" greekPosX="-14.2" greekPosY="-36" starName="21011" starNamePosX="7" starNamePosY="-32" />
+		<point id="6" x="-152" y="219" z="0" level="1002050" size="0.8" />
+		<point id="7" x="-68" y="-9" z="0" level="1002060" size="1.25" greekLetter="ε" greekPosX="-40.5" greekPosY="-18.1" starName="21012" starNamePosX="-66" starNamePosY="-20" />
+		<point id="8" x="-9" y="-180" z="0" level="1002070" size="2" greekLetter="α" greekPosX="41.4" greekPosY="0" starName="21013" starNamePosX="64" starNamePosY="-1" />
+		<point id="9" x="-8" y="33" z="0" level="1002080" size="0.8" />
+		<point id="10" x="-110" y="-192" z="0" size="0.3" linkPointList="8,11" />
+		<point id="11" x="-144" y="-241" z="0" level="1002090" size="0.8" />
+		<point id="12" x="74" y="-231" z="0" level="1002100" size="1" />
+		<point id="13" x="92" y="-289" z="0" level="1002110" size="0.5" linkPointList="12" />
+	</chapter>
+	<chapter id="1003" needstar="10" dependchapter="1002" costGold="50" salePrice="-1" name="11003" describe="31003" starchart="Btn_CopyUI_4.png" type="0" posX="0" posY="0" comment="-1" commentMultiple="-1">
+		<line id="1" point1="1" point2="2" />
+		<line id="2" point1="2" point2="3" />
+		<line id="3" point1="3" point2="4" />
+		<line id="4" point1="4" point2="5" />
+		<line id="5" point1="5" point2="6" />
+		<line id="6" point1="6" point2="7" />
+		<line id="7" point1="7" point2="8" />
+		<line id="8" point1="8" point2="9" />
+		<line id="9" point1="9" point2="10" />
+		<line id="10" point1="10" point2="11" />
+		<line id="11" point1="11" point2="12" />
+		<line id="12" point1="12" point2="13" />
+		<line id="13" point1="13" point2="14" />
+		<line id="14" point1="14" point2="15" />
+		<line id="15" point1="14" point2="17" />
+		<line id="16" point1="15" point2="16" />
+		<line id="17" point1="17" point2="18" />
+		<point id="1" x="-263" y="-402" z="0" level="1003010" size="0.8" />
+		<point id="2" x="-224" y="-326" z="0" level="1003020" size="1" />
+		<point id="3" x="-176" y="-223" z="0" level="1003030" size="1" greekLetter="γ" greekPosX="-29.7" greekPosY="26.7" />
+		<point id="4" x="24.6" y="-188" z="0" size="0.8" linkPointList="3,5" />
+		<point id="5" x="51" y="-155" z="0" level="1003040" size="0.8" greekLetter="ε" greekPosX="25.9" greekPosY="0" starName="21014" starNamePosX="48.1" starNamePosY="-3.1" />
+		<point id="6" x="93" y="-62" z="0" level="1003050" size="0.5" />
+		<point id="7" x="51" y="35" z="0" level="1003060" size="1" greekLetter="δ" greekPosX="-30.5" greekPosY="0" starName="21015" starNamePosX="-59" starNamePosY="1" />
+		<point id="8" x="111" y="60" z="0" level="1003070" size="0.8" linkPointList="7,9" />
+		<point id="9" x="128" y="119" z="0" level="1003080" size="0.8" />
+		<point id="10" x="183" y="114" z="0" level="1003090" size="0.8" linkPointList="9,11" />
+		<point id="11" x="208" y="190" z="0" level="1003100" size="1.5" greekLetter="α" greekPosX="37.8" greekPosY="0" starName="21016" starNamePosX="63.7" starNamePosY="-3.1" />
+		<point id="12" x="144" y="239" z="0" level="1003110" size="0.8" />
+		<point id="13" x="187" y="296" z="0" size="0.8" linkPointList="12,14" />
+		<point id="14" x="204.8" y="354" z="0" level="1003120" size="1" />
+		<point id="15" x="238.5" y="382.6" z="0" size="1" linkPointList="14" />
+		<point id="16" x="271" y="387.7" z="0" size="0.5" linkPointList="14" />
+		<point id="17" x="249.7" y="353" z="0" size="0.5" linkPointList="14" />
+		<point id="18" x="279.1" y="360.9" z="0" size="0.5" linkPointList="14" />
+	</chapter>
+	<chapter id="1004" needstar="10" dependchapter="1003" costGold="100" salePrice="-1" name="11004" describe="31004" starchart="Btn_CopyUI_1.png" type="0" posX="0" posY="0" comment="-1" commentMultiple="-1">
+		<line id="1" point1="1" point2="2" />
+		<line id="2" point1="2" point2="3" />
+		<line id="3" point1="3" point2="4" />
+		<line id="4" point1="4" point2="5" />
+		<line id="5" point1="4" point2="7" />
+		<line id="6" point1="5" point2="6" />
+		<line id="7" point1="5" point2="16" />
+		<line id="8" point1="6" point2="7" />
+		<line id="9" point1="7" point2="8" />
+		<line id="10" point1="8" point2="9" />
+		<line id="11" point1="8" point2="10" />
+		<line id="12" point1="9" point2="10" />
+		<line id="13" point1="8" point2="11" />
+		<line id="14" point1="11" point2="12" />
+		<line id="15" point1="12" point2="13" />
+		<line id="16" point1="13" point2="14" />
+		<line id="17" point1="14" point2="15" />
+		<line id="18" point1="12" point2="16" />
+		<line id="19" point1="16" point2="17" />
+		<line id="20" point1="17" point2="18" />
+		<line id="21" point1="18" point2="19" />
+		<line id="22" point1="16" point2="20" />
+		<point id="1" x="-326.8" y="-289" z="0" level="1004010" size="1.5" greekLetter="η" greekPosX="0" greekPosY="-29.1" starName="21017" starNamePosX="30.9" starNamePosY="-37.1" />
+		<point id="2" x="-290.8" y="-188" z="0" level="1004020" size="1.5" greekLetter="ζ" greekPosX="39.2" greekPosY="0" starName="21018" starNamePosX="66.2" starNamePosY="-3.6" />
+		<point id="3" x="-226.9" y="-120" z="0" level="1004030" size="1.5" greekLetter="ε" greekPosX="0" greekPosY="38" starName="21019" starNamePosX="-28" starNamePosY="35" />
+		<point id="4" x="-150.9" y="-79" z="0" level="1004040" size="1" greekLetter="δ" greekPosX="-2.4" greekPosY="29.7" starName="21020" starNamePosX="-28" starNamePosY="30" />
+		<point id="5" x="-67.9" y="-111" z="0" level="1004050" size="1.5" greekLetter="γ" greekPosX="-1.2" greekPosY="-30.3" starName="21021" starNamePosX="-29" starNamePosY="-37" />
+		<point id="6" x="-10" y="-12.2" z="0" level="1004060" size="1.5" greekLetter="β" greekPosX="38.3" greekPosY="0" starName="21022" starNamePosX="61.9" starNamePosY="-4.4" />
+		<point id="7" x="-74.1" y="44.8" z="0" level="1004070" size="1.5" greekLetter="α" greekPosX="-33.4" greekPosY="0" starName="21023" starNamePosX="-60" starNamePosY="-4" />
+		<point id="8" x="9.1" y="190.4" z="0" level="1004080" size="0.8" />
+		<point id="9" x="-52" y="273" z="0" level="1004090" size="0.5" />
+		<point id="10" x="84" y="307" z="0" level="1004100" size="1" />
+		<point id="11" x="46" y="130" z="0" level="0" size="0.5" linkPointList="10,12" />
+		<point id="12" x="100" y="70" z="0" level="1004110" size="0.5" />
+		<point id="13" x="202" y="109" z="0" level="1004120" size="1" />
+		<point id="14" x="268" y="155" z="0" level="0" size="0.8" linkPointList="13,15" />
+		<point id="15" x="242" y="196" z="0" level="1004150" size="1" />
+		<point id="16" x="-10" y="-185" z="0" level="0" size="0.8" linkPointList="17" />
+		<point id="17" x="88" y="-167" z="0" level="1004130" size="1" />
+		<point id="18" x="221" y="-94" z="0" level="0" size="1" linkPointList="17,19" />
+		<point id="19" x="196" y="-50" z="0" level="1004140" size="1" />
+		<point id="20" x="187" y="-322" z="0" level="1004160" size="1" />
+	</chapter>
+	<chapter id="1005" needstar="14" dependchapter="1004" costGold="150" salePrice="-1" name="11005" describe="31005" starchart="Btn_CopyUI_10.png" type="0" posX="0" posY="0" comment="-1" commentMultiple="-1">
+		<line id="1" point1="1" point2="2" />
+		<line id="2" point1="2" point2="3" />
+		<line id="3" point1="3" point2="4" />
+		<line id="4" point1="4" point2="5" />
+		<line id="5" point1="5" point2="6" />
+		<line id="6" point1="4" point2="7" />
+		<line id="7" point1="4" point2="8" />
+		<line id="8" point1="8" point2="9" />
+		<line id="9" point1="9" point2="10" />
+		<line id="10" point1="8" point2="11" />
+		<line id="11" point1="11" point2="12" />
+		<line id="12" point1="11" point2="13" />
+		<line id="13" point1="13" point2="14" />
+		<line id="14" point1="11" point2="15" />
+		<point id="1" x="-7" y="342" z="0" level="1005010" size="0.8" />
+		<point id="2" x="-60" y="241" z="0" level="1005020" size="0.8" />
+		<point id="3" x="-126" y="18" z="0" level="1005030" size="1" greekLetter="ε" greekPosX="0" greekPosY="-27.2" starName="21024" starNamePosX="21.8" starNamePosY="-31.5" />
+		<point id="4" x="8" y="25" z="0" level="1005040" size="1" greekLetter="δ" greekPosX="0" greekPosY="30.3" starName="21025" starNamePosX="-25" starNamePosY="31" />
+		<point id="5" x="-9" y="-193" z="0" size="0.8" linkPointList="4,6" />
+		<point id="6" x="-73" y="-368" z="0" level="1005050" size="0.8" />
+		<point id="7" x="51" y="-130" level="1005060" size="1" greekLetter="ζ" greekPosX="-27.9" greekPosY="-0.6" starName="21026" starNamePosX="-50" starNamePosY="-5" />
+		<point id="8" x="84" y="103" z="0" level="1005070" size="1" greekLetter="γ" greekPosX="29.1" greekPosY="5.5" starName="21027" starNamePosX="51.9" starNamePosY="-2.8" />
+		<point id="9" x="84" y="203" z="0" level="1005110" size="0.8" linkPointList="8,10" />
+		<point id="10" x="68" y="323" z="0" level="1005080" size="0.8" greekLetter="β" greekPosX="31.8" greekPosY="0" starName="21028" starNamePosX="54.6" starNamePosY="-2.8" />
+		<point id="11" x="126" y="-43" z="0" level="1005090" size="0.8" linkPointList="8,12" />
+		<point id="12" x="213" y="-115" z="0" level="1005100" size="1.75" greekLetter="α" greekPosX="44.5" greekPosY="0" starName="21029" starNamePosX="71" starNamePosY="-2.5" />
+		<point id="13" x="91" y="-292" z="0" level="1005120" size="0.8" linkPointList="8,14" />
+		<point id="14" x="71" y="-401" z="0" level="1005130" size="0.8" />
+		<point id="15" x="163" y="-348" z="0" level="1005140" size="0.8" linkPointList="15" />
+	</chapter>
+	<chapter id="1006" needstar="11" dependchapter="1005" costGold="200" salePrice="-1" name="11006" describe="31006" starchart="Btn_CopyUI_8.png" type="0" posX="0" posY="0" comment="-1" commentMultiple="-1">
+		<line id="1" point1="1" point2="2" />
+		<line id="2" point1="2" point2="3" />
+		<line id="3" point1="3" point2="4" />
+		<line id="4" point1="3" point2="5" />
+		<line id="5" point1="5" point2="6" />
+		<line id="6" point1="2" point2="6" />
+		<line id="7" point1="6" point2="7" />
+		<point id="1" x="-357.2" y="-31.6" z="0" level="1006010" size="1" greekLetter="α" greekPosX="0" greekPosY="31" starName="21030" starNamePosX="-26" starNamePosY="28" />
+		<point id="2" x="-127" y="72" z="0" level="1006020" size="1" greekLetter="δ" greekPosX="0" greekPosY="31.6" starName="21031" starNamePosX="-30" starNamePosY="32" />
+		<point id="3" x="-27" y="173.9" z="0" level="1006030" size="0.5" greekLetter="γ" greekPosX="28.1" greekPosY="6.9" starName="21032" starNamePosX="55.5" starNamePosY="-0.7" />
+		<point id="4" x="62.5" y="358.8" z="0" level="1006040" size="1" greekLetter="ι" greekPosX="12.3" greekPosY="28.8" />
+		<point id="5" x="29.1" y="98" z="0" level="1006050" size="0.5" />
+		<point id="6" x="-40.9" y="8.8" z="0" level="1006060" size="0.5" />
+		<point id="7" x="-110" y="-282" z="0" level="1006070" size="1" greekLetter="β" greekPosX="33" greekPosY="0" starName="21033" starNamePosX="54" starNamePosY="1" />
+		<point id="8" x="-52" y="120" z="0" level="1006080" size="0.5" starName="21034" starNamePosX="0" starNamePosY="-82" />
+		<point id="9" x="-68" y="104" z="0" level="1006090" size="0.5" />
+		<point id="10" x="-68" y="84" z="0" level="1006100" size="0.5" />
+		<point id="11" x="-52" y="68" z="0" level="1006110" size="0.5" />
+		<point id="12" x="-32" y="68" z="0" level="1006120" size="0.5" />
+		<point id="13" x="-16" y="84" z="0" level="1006130" size="0.5" />
+		<point id="14" x="-16" y="104" z="0" level="1006140" size="0.5" />
+		<point id="15" x="-32" y="120" z="0" level="1006150" size="0.5" />
+	</chapter>
+	<chapter id="1007" needstar="12" dependchapter="1006" costGold="300" salePrice="-1" name="11007" describe="31007" starchart="Btn_CopyUI_7.png" type="0" posX="0" posY="0" comment="-1" commentMultiple="-1">
+		<line id="1" point1="1" point2="2" />
+		<line id="2" point1="2" point2="3" />
+		<point id="1" x="84" y="-288" z="0" level="1007010" size="1" greekLetter="α" greekPosX="32.1" greekPosY="0" starName="21035" starNamePosX="55" starNamePosY="-2.3" />
+		<point id="2" x="-217" y="-6" z="0" level="1007020" size="1" greekLetter="β" greekPosX="41.2" greekPosY="0" starName="21036" starNamePosX="65.7" starNamePosY="-3.1" />
+		<point id="3" x="22" y="296" z="0" level="1007030" size="1" greekLetter="γ" greekPosX="0" greekPosY="35.1" starName="21037" starNamePosX="27.4" starNamePosY="28.2" />
+		<point id="4" x="43.5" y="274.2" z="0" level="1007040" size="0.5" />
+		<point id="5" x="73.1" y="277.6" z="0" level="1007050" size="0.5" />
+		<point id="6" x="94.8" y="292.3" z="0" level="1007060" size="0.5" />
+		<point id="7" x="65.4" y="252.5" z="0" level="1007070" size="0.5" />
+		<point id="8" x="97.8" y="235" z="0" level="1007080" size="0.5" />
+		<point id="9" x="144.3" y="225.5" z="0" level="1007090" size="0.5" />
+		<point id="10" x="166.4" y="242.3" z="0" level="1007100" size="0.5" />
+		<point id="11" x="234.6" y="206.7" z="0" level="1007110" size="0.5" />
+		<point id="12" x="187.2" y="377.7" z="0" level="1007120" size="0.5" />
+	</chapter>
+	<chapter id="1008" needstar="10" dependchapter="1007" costGold="300" salePrice="-1" name="11008" describe="31008" starchart="Btn_CopyUI_5.png" type="0" posX="0" posY="0" comment="-1" commentMultiple="-1">
+		<line id="1" point1="1" point2="2" />
+		<line id="2" point1="2" point2="3" />
+		<line id="3" point1="3" point2="4" />
+		<line id="4" point1="4" point2="5" />
+		<line id="5" point1="2" point2="5" />
+		<point id="1" x="356.7" y="75.5" z="0" level="1008010" size="1" greekLetter="α" greekPosX="-29.5" greekPosY="-18.2" />
+		<point id="2" x="222.4" y="111.4" z="0" level="1008020" size="1.2" greekLetter="ε" greekPosX="0" greekPosY="30" starName="21038" starNamePosX="20.9" starNamePosY="27.3" />
+		<point id="3" x="-9.4" y="148.3" z="0" level="1008030" size="1.2" greekLetter="γ" greekPosX="-37.8" greekPosY="3.7" starName="21039" starNamePosX="-62" starNamePosY="0" />
+		<point id="4" x="-145.4" y="6.7" z="0" level="1008040" size="1.2" greekLetter="δ" greekPosX="35.7" greekPosY="0" starName="21040" starNamePosX="58.1" starNamePosY="0" />
+		<point id="5" x="169.8" y="-157.5" z="0" level="1008050" size="1.2" greekLetter="β" greekPosX="30.5" greekPosY="-25.6" starName="21041" starNamePosX="54.8" starNamePosY="-29.2" />
+		<point id="6" x="157.9" y="30.9" z="0" level="1008060" size="0.5" />
+		<point id="7" x="112.3" y="98.4" z="0" level="1008070" size="0.5" />
+		<point id="8" x="-170.6" y="-9.4" z="0" level="1008080" size="0.5" />
+		<point id="9" x="119" y="253" z="0" level="1008090" size="0.5" />
+		<point id="10" x="-77" y="-98" z="0" level="1008100" size="0.5" />
+	</chapter>
+	<chapter id="1009" needstar="8" dependchapter="1008" costGold="300" salePrice="-1" name="11009" describe="31009" starchart="Btn_CopyUI_3.png" type="0" posX="0" posY="0" comment="-1" commentMultiple="-1">
+		<line id="1" point1="1" point2="2" />
+		<line id="2" point1="2" point2="3" />
+		<line id="3" point1="3" point2="4" />
+		<line id="4" point1="4" point2="5" />
+		<line id="5" point1="5" point2="6" />
+		<line id="6" point1="6" point2="7" />
+		<point id="1" x="-270" y="340" z="0" level="1009010" size="1.5" greekLetter="α" greekPosX="37.2" greekPosY="0" starName="21042" starNamePosX="63.9" starNamePosY="-3.2" />
+		<point id="2" x="-272" y="238" z="0" level="1009020" size="1" greekLetter="δ" greekPosX="29.1" greekPosY="0" starName="21043" starNamePosX="49.3" starNamePosY="0" />
+		<point id="3" x="-231" y="74" z="0" level="1009030" size="1" greekLetter="ε" greekPosX="32.3" greekPosY="0" starName="21044" starNamePosX="55" starNamePosY="-3.2" />
+		<point id="4" x="-88" y="-58" z="0" level="1009040" size="1" greekLetter="ζ" greekPosX="25.9" greekPosY="0" starName="21045" starNamePosX="44.5" starNamePosY="-4" />
+		<point id="5" x="-126" y="-164" z="0" level="1009050" size="1" greekLetter="η" greekPosX="-31.5" greekPosY="0" starName="21046" starNamePosX="-55" starNamePosY="-7.3" />
+		<point id="6" x="34" y="-213" z="0" level="1009060" size="1.2" greekLetter="γ" greekPosX="34" greekPosY="5.7" starName="21047" starNamePosX="61.4" starNamePosY="-2.4" />
+		<point id="7" x="75" y="-93" z="0" level="1009070" size="1.5" greekLetter="β" greekPosX="40.4" greekPosY="0" starName="21048" starNamePosX="63.9" starNamePosY="-3.2" />
+		<point id="8" x="269" y="-173" z="0" level="1009080" size="1" />
+		<point id="9" x="82" y="-5" z="0" level="1009090" size="1" />
+		<point id="10" x="132" y="-352" z="0" level="1009100" size="1" />
+	</chapter>
+	<chapter id="1010" needstar="8" dependchapter="1009" costGold="300" salePrice="-1" name="11010" describe="31010" starchart="Btn_CopyUI_2.png" type="0" posX="0" posY="0" comment="-1" commentMultiple="-1">
+		<line id="1" point1="1" point2="2" />
+		<line id="2" point1="2" point2="3" />
+		<line id="3" point1="3" point2="4" />
+		<line id="4" point1="4" point2="5" />
+		<line id="5" point1="2" point2="6" />
+		<point id="1" x="171" y="261" z="0" level="1010010" size="0.8" />
+		<point id="2" x="48" y="157" z="0" level="1010020" size="1" />
+		<point id="3" x="-120" y="137" z="0" level="1010030" size="1" greekLetter="β" greekPosX="12.1" greekPosY="-38.8" />
+		<point id="4" x="-304" y="-27" z="0" level="1010040" size="1" />
+		<point id="5" x="-68" y="28" z="0" level="1010050" size="0.5" />
+		<point id="6" x="-42" y="39" z="0" level="1010060" size="0.5" />
+		<point id="7" x="-161" y="44" z="0" level="1010070" size="0.5" />
+		<point id="8" x="-131" y="-53" z="0" level="1010080" size="0.5" />
+		<point id="9" x="-178" y="-126" z="0" level="1010090" size="0.5" />
+		<point id="10" x="149" y="67" z="0" level="1010100" size="0.5" />
+	</chapter>
+	<chapter id="1011" needstar="8" dependchapter="1010" costGold="300" salePrice="-1" name="11011" describe="31011" starchart="Btn_CopyUI_6.png" type="0" posX="0" posY="0" comment="-1" commentMultiple="-1">
+		<line id="1" point1="1" point2="2" />
+		<line id="2" point1="2" point2="3" />
+		<line id="3" point1="3" point2="4" />
+		<line id="4" point1="4" point2="5" />
+		<line id="5" point1="5" point2="6" />
+		<line id="6" point1="6" point2="7" />
+		<line id="7" point1="7" point2="8" />
+		<line id="8" point1="1" point2="8" />
+		<point id="1" x="174" y="-279" z="0" level="1011010" size="1" greekLetter="α" greekPosX="30.6" greekPosY="0" starName="21049" starNamePosX="56.2" starNamePosY="-2.9" />
+		<point id="2" x="-103" y="-285" z="0" level="1011020" size="1" greekLetter="β" greekPosX="-27.7" greekPosY="-19" starName="21050" starNamePosX="-53" starNamePosY="-19" />
+		<point id="3" x="10" y="-16" z="0" level="1011030" size="1" greekLetter="γ" greekPosX="-38.7" greekPosY="0" starName="21051" starNamePosX="-66" starNamePosY="-5" />
+		<point id="4" x="-134" y="147" z="0" level="1011040" size="0.5" greekLetter="ζ" greekPosX="28.4" greekPosY="0" starName="21052" starNamePosX="54" starNamePosY="-2.9" />
+		<point id="5" x="-165" y="283" z="0" level="1011050" size="0.5" greekLetter="η" greekPosX="-28.5" greekPosY="3.8" starName="21053" starNamePosX="-58" starNamePosY="-1" />
+		<point id="6" x="245" y="330" z="0" level="1011060" size="0.5" greekLetter="θ" greekPosX="29.2" greekPosY="-6.4" starName="21054" starNamePosX="50" starNamePosY="-3" />
+		<point id="7" x="296" y="169" z="0" level="1011070" size="0.5" greekLetter="ε" greekPosX="24.8" greekPosY="0" starName="21055" starNamePosX="47" starNamePosY="-3.2" />
+		<point id="8" x="164" y="16" z="0" level="1011080" size="1" greekLetter="δ" greekPosX="33.7" greekPosY="-1.9" starName="21056" starNamePosX="61" starNamePosY="-1.3" />
+		<point id="9" x="116" y="239" z="0" level="1011090" size="0.5" />
+		<point id="10" x="361" y="362" z="0" level="1011100" size="0.5" />
+	</chapter>
+	<chapter id="1012" needstar="8" dependchapter="1011" costGold="300" salePrice="-1" name="11012" describe="31012" starchart="Btn_CopyUI_13.png" type="0" posX="0" posY="0" comment="-1" commentMultiple="-1">
+		<line id="1" point1="1" point2="2" />
+		<line id="2" point1="2" point2="3" />
+		<line id="3" point1="3" point2="4" />
+		<line id="4" point1="4" point2="5" />
+		<line id="5" point1="5" point2="6" />
+		<line id="6" point1="6" point2="7" />
+		<line id="7" point1="6" point2="10" />
+		<line id="8" point1="7" point2="8" />
+		<line id="9" point1="8" point2="9" />
+		<line id="10" point1="9" point2="10" />
+		<line id="11" point1="9" point2="11" />
+		<line id="12" point1="11" point2="12" />
+		<line id="13" point1="12" point2="13" />
+		<line id="14" point1="10" point2="14" />
+		<line id="15" point1="14" point2="15" />
+		<line id="16" point1="15" point2="16" />
+		<point id="1" x="336" y="281" z="0" level="1012010" size="0.8" />
+		<point id="2" x="244" y="254" z="0" level="1012020" size="1.2" />
+		<point id="3" x="176" y="290" z="0" level="1012030" size="0.8" />
+		<point id="4" x="85" y="195" z="0" level="1012040" size="1" />
+		<point id="5" x="88" y="114" z="0" level="1012050" size="1.5" greekLetter="γ" greekPosX="-38.5" greekPosY="38.1" starName="21057" starNamePosX="-64" starNamePosY="34" />
+		<point id="6" x="164" y="77" z="0" level="1012060" size="0.8" />
+		<point id="7" x="-148" y="77" z="0" level="1012070" size="1" greekLetter="δ" greekPosX="15.3" greekPosY="-36.4" starName="21058" starNamePosX="40.1" starNamePosY="-37" />
+		<point id="8" x="-308" y="-77" z="0" level="1012080" size="1.5" greekLetter="β" greekPosX="-42.3" greekPosY="0" starName="21059" starNamePosX="-61" starNamePosY="0" />
+		<point id="9" x="-138" y="-12" z="0" level="1012090" size="1" />
+		<point id="10" x="216" y="-12" z="0" level="1012100" size="2" greekLetter="α" greekPosX="-43.4" greekPosY="23.3" starName="21060" starNamePosX="-73" starNamePosY="21" />
+		<point id="11" x="-172" y="-124" z="0" level="1012110" size="0.8" linkPointList="9" />
+		<point id="12" x="-143" y="-227" z="0" level="1012120" size="0.8" linkPointList="9" />
+		<point id="13" x="-202" y="-401" z="0" level="1012130" size="0.8" linkPointList="9" />
+		<point id="14" x="100" y="-110" z="0" level="1012140" size="0.8" linkPointList="10" />
+		<point id="15" x="235" y="-50" z="0" level="1012150" size="0.8" linkPointList="10" />
+		<point id="16" x="373" y="-24" z="0" level="1012160" size="0.8" linkPointList="10" />
+	</chapter>
+	<chapter id="1013" needstar="14" dependchapter="1012" costGold="300" salePrice="-1" name="11013" describe="31013" starchart="Btn_CopyUI_15.png" type="0" posX="0" posY="0" comment="-1" commentMultiple="-1">
+		<line id="1" point1="1" point2="2" />
+		<line id="2" point1="2" point2="3" />
+		<line id="3" point1="3" point2="4" />
+		<point id="1" x="-167" y="284" z="0" level="1013010" size="0.5" greekLetter="ι" greekPosX="36.2" greekPosY="8.3" />
+		<point id="2" x="127" y="96" z="0" level="1013020" size="1" greekLetter="α" greekPosX="-45.3" greekPosY="-14.2" />
+		<point id="3" x="-25" y="-171" z="0" level="1013030" size="0.8" greekLetter="η" greekPosX="-41" greekPosY="0" />
+		<point id="4" x="-16" y="-406" z="0" level="1013040" size="0.5" greekLetter="ε" greekPosX="40" greekPosY="25" />
+		<point id="5" x="147" y="124" z="0" level="1013050" size="0.8" greekLetter="δ" greekPosX="34.8" greekPosY="-2.3" />
+		<point id="6" x="-148" y="9" z="0" level="1013060" size="0.8" />
+		<point id="7" x="77" y="-181" z="0" level="1013070" size="0.8" />
+		<point id="8" x="315" y="-265" z="0" level="1013080" size="0.8" greekLetter="θ" greekPosX="42" greekPosY="0" />
+		<point id="9" x="141" y="-343" z="0" level="1013090" size="0.8" greekLetter="ζ2" greekPosX="36" greekPosY="6" />
+		<point id="10" x="155" y="-389" z="0" level="1013100" size="0.8" greekLetter="ζ1" greekPosX="40" greekPosY="-8" />
+	</chapter>
+	<chapter id="1014" needstar="8" dependchapter="1013" costGold="300" salePrice="-1" name="11014" describe="31014" starchart="Btn_CopyUI_14.png" type="0" posX="0" posY="0" comment="-1" commentMultiple="-1">
+		<line id="1" point1="1" point2="2" />
+		<point id="1" x="70" y="-258" z="0" level="1014010" size="1.5" greekLetter="α" greekPosX="-24" greekPosY="-41" />
+		<point id="2" x="262" y="-260" z="0" level="1014020" size="0.8" greekLetter="β" greekPosX="28" greekPosY="-42" />
+		<point id="3" x="56" y="-67" z="0" level="1014030" size="1.2" starName="21061" starNamePosX="-8" starNamePosY="-30" />
+		<point id="4" x="110" y="139" z="0" level="1014040" size="1.5" starName="21062" starNamePosX="13" starNamePosY="14" />
+		<point id="5" x="466" y="-132" z="0" level="1014050" size="1.2" starName="21063" starNamePosX="24" starNamePosY="13" />
+		<point id="6" x="-437" y="-296" z="0" level="1014060" size="1.5" starName="21064" starNamePosX="0" starNamePosY="16" />
+		<point id="7" x="20" y="-398" z="0" level="1014070" size="1.2" starName="21065" starNamePosX="0" starNamePosY="21" />
+		<point id="8" x="166" y="-204" z="0" level="1014080" size="1.2" starName="21066" starNamePosX="0" starNamePosY="14" />
+		<point id="9" x="-208" y="-110" z="0" level="1014090" size="0.5" />
+		<point id="10" x="525" y="10" z="0" level="1014100" size="0.5" />
+	</chapter>
+	<chapter id="1015" needstar="8" dependchapter="1014" costGold="300" salePrice="-1" name="11015" describe="31015" starchart="Btn_CopyUI_12.png" type="0" posX="0" posY="0" comment="-1" commentMultiple="-1">
+		<line id="1" point1="1" point2="2" />
+		<line id="2" point1="1" point2="3" />
+		<point id="1" x="-144" y="-95" z="0" level="1015010" size="1.2" greekLetter="α" greekPosX="-3" greekPosY="46" />
+		<point id="2" x="-279" y="-352" z="0" level="1015020" size="1" greekLetter="β" greekPosX="-43" greekPosY="-29" />
+		<point id="3" x="240" y="-86" z="0" level="1015030" size="1" greekLetter="γ" greekPosX="40" greekPosY="0" />
+		<point id="4" x="6" y="187" z="0" level="1015040" size="0.8" />
+		<point id="5" x="-140" y="178" z="0" level="1015050" size="0.8" />
+		<point id="6" x="-357" y="163" z="0" level="1015060" size="0.8" />
+		<point id="7" x="-376" y="-45" z="0" level="1015070" size="0.8" />
+		<point id="8" x="-67" y="-327" z="0" level="1015080" size="0.8" />
+		<point id="9" x="136" y="-353" z="0" level="1015090" size="0.8" />
+		<point id="10" x="196" y="-268" z="0" level="1015100" size="0.8" />
+	</chapter>
+	<chapter id="1016" needstar="8" dependchapter="1015" costGold="300" salePrice="-1" name="11016" describe="31016" starchart="Btn_CopyUI_16.png" type="0" posX="0" posY="0" comment="-1" commentMultiple="-1">
+		<line id="1" point1="1" point2="2" />
+		<line id="2" point1="2" point2="3" />
+		<line id="3" point1="3" point2="4" />
+		<line id="4" point1="4" point2="5" />
+		<line id="5" point1="5" point2="6" />
+		<line id="6" point1="6" point2="7" />
+		<line id="7" point1="7" point2="8" />
+		<line id="8" point1="8" point2="9" />
+		<point id="1" x="41" y="-262" z="0" level="1016010" size="1" />
+		<point id="2" x="19" y="-171" z="0" level="1016020" size="1" greekLetter="α" greekPosX="-10" greekPosY="-90" />
+		<point id="3" x="43" y="33" z="0" level="1016030" size="1" />
+		<point id="4" x="23" y="77" z="0" level="1016040" size="0.8" />
+		<point id="5" x="58" y="115" z="0" level="1016050" size="1.2" />
+		<point id="6" x="111" y="108" z="0" level="1016060" size="0.8" />
+		<point id="7" x="184" y="156" z="0" level="1016070" size="0.8" />
+		<point id="8" x="224" y="67" z="0" level="1016080" size="0.8" />
+		<point id="9" x="224" y="-37" z="0" level="1016090" size="1.2" greekLetter="ε" greekPosX="35" greekPosY="0" starName="21067" starNamePosX="60" starNamePosY="0" />
+		<point id="10" x="-15" y="191" z="0" level="1016100" size="0.8" />
+		<point id="11" x="-208" y="38" z="0" level="1016110" size="0.8" />
+		<point id="12" x="-226" y="-115" z="0" level="1016120" size="0.8" />
+		<point id="13" x="-175" y="-250" z="0" level="1016130" size="0.8" />
+	</chapter>
+	<chapter id="1017" needstar="8" dependchapter="1016" costGold="300" salePrice="-1" name="11017" describe="31017" starchart="Btn_CopyUI_17.png" type="0" posX="0" posY="0" comment="-1" commentMultiple="-1">
+		<line id="1" point1="1" point2="2" />
+		<line id="2" point1="2" point2="3" />
+		<line id="3" point1="3" point2="4" />
+		<line id="4" point1="4" point2="1" />
+		<line id="5" point1="5" point2="1" />
+		<point id="1" x="54" y="96" z="0" level="1017010" size="1.2" greekLetter="β" greekPosX="50" greekPosY="0" starNamePosX="75" starNamePosY="0" />
+		<point id="2" x="91" y="151" z="0" level="1017020" size="1" greekLetter="α" greekPosX="39" greekPosY="-1" />
+		<point id="3" x="26" y="231" z="0" level="1017030" size="1" greekLetter="γ" greekPosX="34" greekPosY="0" />
+		<point id="4" x="2" y="146" z="0" level="1017040" size="1" greekLetter="δ" greekPosX="-39" greekPosY="-4" />
+		<point id="5" x="-10" y="-56" z="0" level="1017050" size="1" greekLetter="ε" greekPosX="34" greekPosY="-17" />
+		<point id="6" x="-50" y="-29" z="0" level="1017060" size="0.8" />
+		<point id="7" x="-108" y="-78" z="0" level="1017070" size="0.8" />
+		<point id="8" x="-262" y="130" z="0" level="1017080" size="0.8" />
+		<point id="9" x="-191" y="167" z="0" level="1017090" size="0.8" />
+		<point id="10" x="-142" y="207" z="0" level="1017100" size="0.8" />
+	</chapter>
+	<chapter id="1018" needstar="8" dependchapter="1017" costGold="300" salePrice="-1" name="11018" describe="31018" starchart="Btn_CopyUI_18.png" type="0" posX="0" posY="0" comment="-1" commentMultiple="-1">
+		<line id="1" point1="1" point2="2" />
+		<line id="2" point1="2" point2="3" />
+		<line id="3" point1="3" point2="4" />
+		<line id="4" point1="4" point2="5" />
+		<line id="5" point1="5" point2="6" />
+		<line id="6" point1="6" point2="7" />
+		<point id="1" x="153" y="100" z="0" level="1018010" size="1" greekLetter="θ" greekPosX="39" greekPosY="26" />
+		<point id="2" x="212" y="-37" z="0" level="1018020" size="1" greekLetter="β" greekPosX="27" greekPosY="-16" />
+		<point id="3" x="125" y="-154" z="0" level="1018030" size="1.2" greekLetter="α" greekPosX="48" greekPosY="-40" />
+		<point id="4" x="24" y="-179" z="0" level="1018040" size="1" greekLetter="γ" greekPosX="26" greekPosY="-43" />
+		<point id="5" x="-69" y="-185" z="0" level="1018050" size="0.8" greekLetter="δ" greekPosX="-38" greekPosY="-48" />
+		<point id="6" x="-163" y="-138" z="0" level="1018060" size="1" greekLetter="ε" greekPosX="-60" greekPosY="0" />
+		<point id="7" x="-188" y="38" z="0" level="1018070" size="0.8" greekLetter="ι" greekPosX="-53" greekPosY="0" />
+		<point id="8" x="258" y="40" z="0" level="1018080" size="1" />
+		<point id="9" x="308" y="6" z="0" level="1018090" size="1" />
+		<point id="10" x="379" y="-21" z="0" level="1018100" size="1" />
+	</chapter>
+	<chapter id="1019" needstar="8" dependchapter="1018" costGold="300" salePrice="-1" name="11019" describe="31019" starchart="Btn_CopyUI_19.png" type="0" posX="0" posY="0" comment="-1" commentMultiple="-1">
+		<line id="1" point1="1" point2="2" />
+		<line id="2" point1="2" point2="3" />
+		<point id="1" x="149" y="246" z="0" level="1019010" size="1.2" greekLetter="α" greekPosX="-35" greekPosY="-15" />
+		<point id="2" x="92" y="133" z="0" level="1019020" size="0.8" />
+		<point id="3" x="-174" y="-89" z="0" level="1019030" size="1" />
+		<point id="4" x="-90" y="-91" z="0" level="1019040" size="1" />
+		<point id="5" x="-37" y="-191" z="0" level="1019050" size="1" />
+		<point id="6" x="12" y="-72" z="0" level="1019060" size="1" />
+		<point id="7" x="99" y="61" z="0" level="1019070" size="1.2" starName="21068" starNamePosX="-90" starNamePosY="-41" />
+		<point id="8" x="152" y="31" z="0" level="1019080" size="1" />
+		<point id="9" x="215" y="67" z="0" level="1019090" size="1" />
+		<point id="10" x="288" y="82" z="0" level="1019100" size="1" />
+	</chapter>
+	<chapter id="1020" needstar="8" dependchapter="1019" costGold="300" salePrice="-1" name="11020" describe="31020" starchart="Btn_CopyUI_20.png" type="0" posX="0" posY="0" comment="-1" commentMultiple="-1">
+		<line id="1" point1="1" point2="2" />
+		<line id="2" point1="1" point2="3" />
+		<line id="3" point1="3" point2="4" />
+		<line id="4" point1="3" point2="5" />
+		<line id="5" point1="4" point2="7" />
+		<line id="6" point1="5" point2="7" />
+		<point id="1" x="152" y="99" z="0" level="1020010" size="2" greekLetter="α" greekPosX="56" greekPosY="2" />
+		<point id="2" x="98" y="180" z="0" level="1020020" size="1" greekLetter="ε" greekPosX="25" greekPosY="20" />
+		<point id="3" x="76" y="61" z="0" level="1020030" size="1" greekLetter="ζ" greekPosX="11" greekPosY="-34" />
+		<point id="4" x="-59" y="67" z="0" level="1020040" size="1" greekLetter="δ" greekPosX="-40" greekPosY="13" />
+		<point id="5" x="-39" y="-70" z="0" level="1020050" size="1" greekLetter="β" greekPosX="32" greekPosY="-30" />
+		<point id="6" x="-75" y="-104" z="0" level="1020060" size="1" starName="21069" starNamePosX="-23" starNamePosY="-33" />
+		<point id="7" x="-121" y="-75" z="0" level="1020070" size="1" greekLetter="γ" greekPosX="-20" greekPosY="-39" />
+		<point id="8" x="-41" y="147" z="0" level="1020080" size="1" />
+		<point id="9" x="-167" y="76" z="0" level="1020090" size="1" />
+		<point id="10" x="-243" y="-170" z="0" level="1020100" size="1" />
+	</chapter>
+	<chapter id="1021" needstar="8" dependchapter="1020" costGold="350" salePrice="-1" name="11021" describe="31020" starchart="Btn_CopyUI_21.png" type="0" posX="0" posY="0" comment="-1" commentMultiple="-1">
+		<line id="1" point1="1" point2="2" />
+		<line id="2" point1="3" point2="1" />
+		<line id="3" point1="4" point2="3" />
+		<line id="4" point1="5" point2="1" />
+		<line id="5" point1="6" point2="5" />
+		<line id="6" point1="7" point2="6" />
+		<line id="7" point1="8" point2="7" />
+		<line id="8" point1="9" point2="8" />
+		<line id="9" point1="10" point2="9" />
+		<line id="10" point1="11" point2="10" />
+		<line id="11" point1="12" point2="11" />
+		<line id="12" point1="13" point2="12" />
+		<line id="13" point1="14" point2="13" />
+		<line id="14" point1="15" point2="14" />
+		<line id="15" point1="16" point2="15" />
+		<point id="1" x="76" y="214" z="0" level="1021010" size="1.5" greekLetter="δ" greekPosX="3" greekPosY="-49" />
+		<point id="2" x="26" y="229" z="0" level="1021020" size="1" greekLetter="β" greekPosX="-39" greekPosY="24" />
+		<point id="3" x="115" y="154" z="0" level="1021030" size="1" />
+		<point id="4" x="127" y="116" z="0" level="1021040" size="0.75" />
+		<point id="5" x="27" y="139" z="0" level="1021050" size="1" />
+		<point id="6" x="-9" y="105" z="0" level="1021060" size="1.5" greekLetter="α" greekPosX="-65" greekPosY="-18" />
+		<point id="7" x="-33" y="56" z="0" level="1021070" size="1" />
+		<point id="8" x="-59" y="-58" z="0" level="1021080" size="1.5" greekLetter="ε" greekPosX="21" greekPosY="-20" />
+		<point id="9" x="-22" y="-158" z="0" level="1021090" size="1" />
+		<point id="10" x="-24" y="-250" z="0" level="1021100" size="1" />
+		<point id="11" x="-71" y="-293" z="0" level="1021110" size="1" />
+		<point id="12" x="-149" y="-352" z="0" level="1021120" size="1.5" greekLetter="θ" greekPosX="23" greekPosY="-20" />
+		<point id="13" x="-233" y="-330" z="0" level="1021130" size="0.75" />
+		<point id="14" x="-227" y="-281" z="0" level="1021140" size="1.5" />
+		<point id="15" x="-200" y="-219" z="0" level="1021150" size="1.5" greekLetter="λ" greekPosX="-20" greekPosY="21" />
+		<point id="16" x="-313" y="-250" z="0" level="1021160" size="0.75" />
+	</chapter>
+	<chapter id="1022" needstar="0" dependchapter="1021" costGold="0" salePrice="-1" name="11022" describe="31022" starchart="data/image/Btn_CopyUI_22.png" type="0" posX="0" posY="0" comment="-1" commentMultiple="-1">
+		<line id="1" point1="6" point2="1" />
+		<line id="2" point1="1" point2="2" />
+		<line id="3" point1="2" point2="3" />
+		<line id="4" point1="3" point2="4" />
+		<line id="5" point1="4" point2="6" />
+		<point id="1" x="160" y="-320" z="0" level="1022010" size="1.3" greekLetter="γ" greekPosX="25" greekPosY="0" />
+		<point id="2" x="-132.8" y="0" z="0" level="1022020" size="0.8" greekLetter="δ" greekPosX="20" greekPosY="0" starName="21170" starNamePosX="39" starNamePosY="0" />
+		<point id="3" x="-160" y="80" z="0" level="1022030" size="1" greekLetter="ε" greekPosX="20" greekPosY="0" starName="21171" starNamePosX="39" starNamePosY="0" />
+		<point id="4" x="-176.8" y="376" z="0" level="1022040" size="1.4" greekLetter="β" greekPosX="20" greekPosY="0" starName="21172" starNamePosX="39" starNamePosY="0" />
+		<point id="5" x="-434.4" y="322.4" z="0" level="1022050" size="0.6" greekLetter="η" greekPosX="20" greekPosY="0" starName="21173" starNamePosX="40" starNamePosY="0" />
+		<point id="6" x="101.6" y="80.8" z="0" level="1022060" size="1.5" greekLetter="α" greekPosX="30" greekPosY="0" starName="21174" starNamePosX="50" starNamePosY="0" />
+		<point id="7" x="320" y="0" z="0" level="1022070" size="0.5" greekLetter="ζ" greekPosX="25" greekPosY="0" />
+		<point id="8" x="-202.4" y="-37.2" z="0" level="1022080" size="0.4" starName="21175" starNamePosX="0" starNamePosY="-30" />
+		<point id="9" x="-209.6" y="293.6" z="0" level="1022090" size="0.4" starName="21176" starNamePosX="10" starNamePosY="0" />
+		<point id="10" x="-320" y="240" z="0" level="1022100" size="0.4" starName="21177" starNamePosX="-20" starNamePosY="20" />
+	</chapter>
+	<chapter id="3001" needstar="0" costGold="1000" salePrice="-1" name="13001" describe="33001" starchart="Btn_CopyUI_101.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3002" needstar="0" costGold="1000" salePrice="-1" name="13002" describe="33002" starchart="Btn_CopyUI_102.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3003" needstar="0" costGold="1000" salePrice="-1" name="13003" describe="33003" starchart="Btn_CopyUI_103.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3004" needstar="0" costGold="1000" salePrice="-1" name="13004" describe="33004" starchart="Btn_CopyUI_104.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3005" needstar="0" costGold="1000" salePrice="-1" name="13005" describe="33005" starchart="Btn_CopyUI_102.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3006" needstar="0" costGold="1000" salePrice="-1" name="13006" describe="33006" starchart="Btn_CopyUI_103.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3007" needstar="0" costGold="1000" salePrice="-1" name="13007" describe="33007" starchart="Btn_CopyUI_105.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3008" needstar="0" costGold="1000" salePrice="-1" name="13008" describe="33008" starchart="Btn_CopyUI_106.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3009" needstar="0" costGold="1000" salePrice="-1" name="13009" describe="33009" starchart="Btn_CopyUI_107.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3010" needstar="0" costGold="1000" salePrice="-1" name="13010" describe="33010" starchart="Btn_CopyUI_108.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3011" needstar="0" costGold="1000" salePrice="-1" name="13011" describe="33011" starchart="Btn_CopyUI_109.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3012" needstar="0" costGold="1000" salePrice="-1" name="13012" describe="33012" starchart="Btn_CopyUI_103.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3013" needstar="0" costGold="1000" salePrice="-1" name="13013" describe="33013" starchart="Btn_CopyUI_110.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3014" needstar="0" costGold="1000" salePrice="-1" name="13014" describe="33014" starchart="Btn_CopyUI_111.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3015" needstar="0" costGold="1000" salePrice="-1" name="13015" describe="33015" starchart="Btn_CopyUI_112.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3016" needstar="0" costGold="1000" salePrice="-1" name="13016" describe="33016" starchart="Btn_CopyUI_113.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3017" needstar="0" costGold="1000" salePrice="-1" name="13017" describe="33017" starchart="Btn_CopyUI_114.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3018" needstar="0" costGold="1000" salePrice="-1" name="13018" describe="33018" starchart="Btn_CopyUI_115.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3019" needstar="0" costGold="1000" salePrice="-1" name="13019" describe="33019" starchart="Btn_CopyUI_106.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3020" needstar="0" costGold="1000" salePrice="-1" name="13020" describe="33020" starchart="Btn_CopyUI_116.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3021" needstar="0" costGold="1000" salePrice="-1" name="13021" describe="33021" starchart="Btn_CopyUI_117.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3022" needstar="0" costGold="1000" salePrice="-1" name="13022" describe="33022" starchart="Btn_CopyUI_118.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3023" needstar="0" costGold="1000" salePrice="-1" name="13023" describe="33023" starchart="Btn_CopyUI_119.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3024" needstar="0" costGold="1000" salePrice="-1" name="13024" describe="33024" starchart="Btn_CopyUI_120.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3025" needstar="0" costGold="1000" salePrice="-1" name="13025" describe="33025" starchart="Btn_CopyUI_121.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3026" needstar="0" costGold="1000" salePrice="-1" name="13026" describe="33026" starchart="Btn_CopyUI_122.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3027" needstar="0" costGold="1000" salePrice="-1" name="13027" describe="33027" starchart="Btn_CopyUI_123.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3028" needstar="0" costGold="1000" salePrice="-1" name="13028" describe="33028" starchart="Btn_CopyUI_111.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3029" needstar="0" costGold="1000" salePrice="-1" name="13029" describe="33029" starchart="Btn_CopyUI_124.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3030" needstar="0" costGold="1000" salePrice="-1" name="13030" describe="33030" starchart="Btn_CopyUI_125.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3031" needstar="0" costGold="1000" salePrice="-1" name="13031" describe="33031" starchart="Btn_CopyUI_126.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3032" needstar="0" costGold="1000" salePrice="-1" name="13032" describe="33032" starchart="Btn_CopyUI_127.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3033" needstar="0" costGold="1000" salePrice="-1" name="13033" describe="33033" starchart="Btn_CopyUI_128.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3034" needstar="0" costGold="1000" salePrice="900" name="13034" describe="33034" starchart="Btn_CopyUI_103.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3035" needstar="0" costGold="1000" salePrice="900" name="13035" describe="33035" starchart="Btn_CopyUI_102.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3036" needstar="0" costGold="1000" salePrice="900" name="13036" describe="33036" starchart="Btn_CopyUI_129.jpg" type="1" comment="3" commentMultiple="10" />
+	<chapter id="3037" needstar="0" costGold="2222" salePrice="2222" name="13037" describe="33037" starchart="Btn_CopyUI_pvp2.jpg" type="1" comment="5" commentMultiple="10" />
+	<chapter id="3038" needstar="0" costGold="3333" salePrice="3333" name="13038" describe="33038" starchart="Btn_CopyUI_pvp3.jpg" type="1" comment="5" commentMultiple="10" />
+	<chapter id="3039" needstar="0" costGold="4444" salePrice="4444" name="13039" describe="33039" starchart="Btn_CopyUI_pvp4.jpg" type="1" comment="5" commentMultiple="10" />
+	<chapter id="5001" needstar="0" costGold="4444" salePrice="4444" name="13040" describe="33040" starchart="Btn_CopyUI_11.png" type="1" comment="5" commentMultiple="10" />
+	<chapter id="3040" needstar="0" costGold="1234" salePrice="4445" name="13041" describe="33041" starchart="Btn_CopyUI_114.jpg" type="1" comment="5" commentMultiple="10" />
+    <chapter id="3041" needstar="0" costGold="1" salePrice="1" name="13042" describe="33042" starchart="data/image/ror_img.png" type="1" comment="5" commentMultiple="10" />
+    <chapter id="3042" needstar="0" costGold="1" salePrice="1" name="13043" describe="33043" starchart="data/image/pick.png" type="1" comment="5" commentMultiple="10" />
+    <chapter id="3043" needstar="0" costGold="1" salePrice="1" name="13044" describe="33044" starchart="data/image/white.png" type="1" comment="5" commentMultiple="10" />
+    <chapter id="3044" needstar="0" costGold="1" salePrice="1" name="13045" describe="33045" starchart="data/image/white.png" type="1" comment="5" commentMultiple="10" />
+    <chapter id="3045" needstar="0" costGold="1" salePrice="1" name="13046" describe="33046" starchart="data/image/war.png" type="1" comment="5" commentMultiple="10" />
+    <chapter id="3046" needstar="0" costGold="1" salePrice="1" name="13047" describe="33047" starchart="data/image/red.png" type="1" comment="5" commentMultiple="10" />
+    <chapter id="3047" needstar="0" costGold="1" salePrice="1" name="13048" describe="33048" starchart="Btn_CopyUI_102.jpg" type="1" comment="5" commentMultiple="10" />
+    <chapter id="3048" needstar="0" costGold="1" salePrice="1" name="13049" describe="33049" starchart="data/image/cyan.png" type="1" comment="5" commentMultiple="10" />
+    <chapter id="3049" needstar="0" costGold="1" salePrice="1" name="13050" describe="33050" starchart="data/image/white.png" type="1" comment="5" commentMultiple="10" />
+
+	<chapter id="4000" needstar="0" costGold="1" salePrice="-1" name="14000" describe="34000" starchart="Btn_CopyUI_54.jpg" chapterBg="bg54.jpg" type="2" comment="-1" commentMultiple="-1" />
+	<chapter id="4001" needstar="0" costGold="1500" salePrice="-1" name="14001" describe="34001" starchart="Btn_CopyUI_51.jpg" chapterBg="bg51.jpg" type="2" comment="-1" commentMultiple="-1" />
+	<chapter id="4002" needstar="0" costGold="1500" salePrice="-1" name="14002" describe="34002" starchart="Btn_CopyUI_52.jpg" chapterBg="bg52.jpg" type="2" comment="-1" commentMultiple="-1" />
+	<chapter id="4003" needstar="0" costGold="1500" salePrice="-1" name="14003" describe="34003" starchart="Btn_CopyUI_53.jpg" chapterBg="bg53.jpg" type="2" comment="-1" commentMultiple="-1" />
+	<chapter id="4004" needstar="0" costGold="1500" salePrice="-1" name="14004" describe="34004" starchart="Btn_CopyUI_55.jpg" chapterBg="bg55.jpg" type="2" comment="-1" commentMultiple="-1" />
+	<chapter id="4005" needstar="0" costGold="1500" salePrice="-1" name="14005" describe="34005" starchart="Btn_CopyUI_56.jpg" chapterBg="bg56.jpg" type="2" comment="-1" commentMultiple="-1" />
+	<chapter id="4006" needstar="0" costGold="1500" salePrice="-1" name="14006" describe="34006" starchart="Btn_CopyUI_54.jpg" chapterBg="bg54.jpg" type="2" comment="-1" commentMultiple="-1" />
+	<chapter id="4007" needstar="0" costGold="1500" salePrice="-1" name="14007" describe="34007" starchart="Btn_CopyUI_51.jpg" chapterBg="bg51.jpg" type="2" comment="-1" commentMultiple="-1" />
+	<chapter id="4008" needstar="0" costGold="1500" salePrice="-1" name="14008" describe="34008" starchart="Btn_CopyUI_52.jpg" chapterBg="bg52.jpg" type="2" comment="-1" commentMultiple="-1" />
+	<chapter id="4009" needstar="0" costGold="1500" salePrice="-1" name="14009" describe="34009" starchart="Btn_CopyUI_53.jpg" chapterBg="bg53.jpg" type="2" comment="-1" commentMultiple="-1" />
+	<chapter id="4010" needstar="0" costGold="1500" salePrice="-1" name="14010" describe="34010" starchart="Btn_CopyUI_55.jpg" chapterBg="bg55.jpg" type="2" comment="-1" commentMultiple="-1" />
+	<chapter id="4011" needstar="0" costGold="1500" salePrice="-1" name="14011" describe="34011" starchart="data/image/Btn_CopyUI_68.jpg" chapterBg="data/image/bg68.jpg" type="2" comment="-1" commentMultiple="-1" />
+	<chapter id="4012" needstar="0" costGold="1500" salePrice="-1" name="14012" describe="34012" starchart="Btn_CopyUI_54.jpg" chapterBg="bg54.jpg" type="2" comment="-1" commentMultiple="-1" />
+	<chapter id="4013" needstar="0" costGold="1500" salePrice="-1" name="14013" describe="34013" starchart="Btn_CopyUI_51.jpg" chapterBg="bg51.jpg" type="2" comment="-1" commentMultiple="-1" />
+	<chapter id="4014" needstar="0" costGold="1500" salePrice="-1" name="14014" describe="34014" starchart="Btn_CopyUI_52.jpg" chapterBg="bg52.jpg" type="2" comment="-1" commentMultiple="-1" />
+	<chapter id="4015" needstar="0" costGold="1500" salePrice="-1" name="14015" describe="34015" starchart="Btn_CopyUI_53.jpg" chapterBg="bg53.jpg" type="2" comment="-1" commentMultiple="-1" />
+	<chapter id="4016" needstar="0" costGold="1500" salePrice="-1" name="14016" describe="34016" starchart="Btn_CopyUI_55.jpg" chapterBg="bg55.jpg" type="2" comment="-1" commentMultiple="-1" />
+	<chapter id="4017" needstar="0" costGold="1500" salePrice="-1" name="14017" describe="34017" starchart="data/image/Btn_CopyUI_62.jpg" chapterBg="data/image/bg62.jpg" type="2" comment="-1" commentMultiple="-1" />
+	<chapter id="4018" needstar="0" costGold="1500" salePrice="-1" name="14018" describe="34018" starchart="data/image/Btn_CopyUI_64.jpg" chapterBg="data/image/bg64.jpg" type="2" comment="-1" commentMultiple="-1" />
+	<chapter id="4019" needstar="0" costGold="1500" salePrice="-1" name="14019" describe="34019" starchart="Btn_CopyUI_51.jpg" chapterBg="bg51.jpg" type="2" comment="-1" commentMultiple="-1" />
+	<chapter id="4020" needstar="0" costGold="1500" salePrice="-1" name="14020" describe="34020" starchart="Btn_CopyUI_52.jpg" chapterBg="bg52.jpg" type="2" comment="-1" commentMultiple="-1" />
+	<chapter id="4021" needstar="0" costGold="1500" salePrice="-1" name="14021" describe="34021" starchart="Btn_CopyUI_60.jpg" chapterBg="bg60.jpg" type="2" comment="-1" commentMultiple="-1" />
+
+	<chapter id="5501" needstar="0" costGold="1500" salePrice="-1" name="15001" describe="35001" starchart="data/image/Btn_CopyUI_65.jpg" chapterBg="data/image/bg65.jpg" type="2" comment="-1" commentMultiple="-1" />
+	<chapter id="5601" needstar="0" costGold="1500" salePrice="-1" name="16001" describe="36001" starchart="Btn_CopyUI_51.jpg" chapterBg="data/image/bg51.jpg" type="2" comment="-1" commentMultiple="-1" />
+
+	<chapter id="6001" needstar="0" costGold="1500" salePrice="-1" name="50001" describe="40000" starchart="data/image/Btn_CopyUI_57.jpg" chapterBg="data/image/bg57.jpg" type="2" comment="-1" commentMultiple="-1" />
+	<chapter id="6002" needstar="0" costGold="1500" salePrice="-1" name="50002" describe="40001" starchart="data/image/Btn_CopyUI_58.jpg" chapterBg="data/image/bg58.jpg" type="2" comment="-1" commentMultiple="-1" />
+	<chapter id="6003" needstar="0" costGold="1500" salePrice="-1" name="50003" describe="40002" starchart="data/image/Btn_CopyUI_57.jpg" chapterBg="data/image/bg58.jpg" type="2" comment="-1" commentMultiple="-1" />
+	<chapter id="6004" needstar="0" costGold="1500" salePrice="-1" name="50004" describe="40003" starchart="data/image/Btn_CopyUI_67.jpg" chapterBg="data/image/bg67.jpg" type="2" comment="-1" commentMultiple="-1" />
+	<chapter id="6005" needstar="0" costGold="1500" salePrice="-1" name="50005" describe="40004" starchart="data/image/Btn_CopyUI_68.jpg" chapterBg="data/image/bg68.jpg" type="2" comment="-1" commentMultiple="-1" />
+<!--二人-->
+	<chapter id="7000" needstar="0" costGold="1500" salePrice="-1" name="60001" describe="600001" starchart="data/image/Btn_CopyUI_59.jpg" chapterBg="data/image/bg59.jpg" type="2" comment="-1" commentMultiple="-1" />
+	<chapter id="7001" needstar="0" costGold="1500" salePrice="-1" name="60002" describe="600002" starchart="data/image/Btn_CopyUI_63.jpg" chapterBg="data/image/bg63.jpg" type="2" comment="-1" commentMultiple="-1" />
+	<chapter id="7002" needstar="0" costGold="1500" salePrice="-1" name="60003" describe="600003" starchart="data/image/Btn_CopyUI_57.jpg" chapterBg="data/image/bg57.jpg" type="2" comment="-1" commentMultiple="-1" />
+
+	<chapter id="10000" needstar="0" costGold="1500" salePrice="-1" name="100001" describe="1000001" starchart="Btn_CopyUI_54.jpg" chapterBg="bg54.jpg" type="2" comment="-1" commentMultiple="-1" />
+	<chapter id="10001" needstar="0" costGold="1500" salePrice="-1" name="100002" describe="1000002" starchart="Btn_CopyUI_51.jpg" chapterBg="bg51.jpg" type="2" comment="-1" commentMultiple="-1" />
+<!--三人-->
+	<chapter id="8000" needstar="0" costGold="1500" salePrice="-1" name="70001" describe="700001" starchart="data/image/Btn_CopyUI_60.jpg" chapterBg="data/image/bg60.jpg" type="2" comment="-1" commentMultiple="-1" />
+	<chapter id="8001" needstar="0" costGold="1500" salePrice="-1" name="70002" describe="700002" starchart="data/image/Btn_CopyUI_61.jpg" chapterBg="data/image/bg61.jpg" type="2" comment="-1" commentMultiple="-1" />
+	<chapter id="8002" needstar="0" costGold="1500" salePrice="-1" name="70003" describe="700003" starchart="data/image/Btn_CopyUI_66.jpg" chapterBg="data/image/bg66.jpg" type="2" comment="-1" commentMultiple="-1" />
+	<chapter id="11000" needstar="0" costGold="1500" salePrice="-1" name="110001" describe="1100001" starchart="Btn_CopyUI_54.jpg" chapterBg="bg54.jpg" type="2" comment="-1" commentMultiple="-1" />
+
+	<chapter id="9001" needstar="0" costGold="1500" salePrice="-1" name="90001" describe="900001" starchart="data/image/Btn_CopyUI_64.jpg" chapterBg="data/image/bg64.jpg" type="2" comment="-1" commentMultiple="-1" />
+</chapters>

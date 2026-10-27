@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<map id="4322041" player_count="5" vertical="False" defaultAIStrategy="-1" teamAITypes="5,5,5,5,5,5,5,5,5,5,5" teamFriend="" CoopTimeLimitMin="8" CoopAccelerateTimeMin="4">
+  <maplines>
+  </maplines>
+  <mapbuildings>
+    <mapbuilding type="star" size="1" tag="0" x="2" y="-4" camption="0" fAngle="0" orbit="3" orbitParam1="-2,4" orbitParam2="2,4" orbitParam3="-2,-4" orbitParam4="2,-4" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="1" x="2" y="4" camption="0" fAngle="0" orbit="3" orbitParam1="-2,4" orbitParam2="2,4" orbitParam3="-2,-4" orbitParam4="2,-4" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="2" x="-2" y="-4" camption="0" fAngle="0" orbit="3" orbitParam1="-2,4" orbitParam2="2,4" orbitParam3="-2,-4" orbitParam4="2,-4" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="3" x="-2" y="4" camption="0" fAngle="0" orbit="3" orbitParam1="-2,4" orbitParam2="2,4" orbitParam3="-2,-4" orbitParam4="2,-4" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="4" x="0" y="0" camption="0" fAngle="0" orbit="3" orbitParam1="-2,4" orbitParam2="2,4" orbitParam3="-2,-4" orbitParam4="2,-4" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="5" x="-3" y="0" camption="0" fAngle="0" orbit="1" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="6" x="3" y="0" camption="0" fAngle="0" orbit="1" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="7" x="0" y="3" camption="7" fAngle="0" orbit="1" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="8" x="0" y="-3" camption="7" fAngle="0" orbit="1" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="tower" size="1" tag="9" x="-5" y="0" camption="7" fAngle="0" orbit="3" orbitParam1="-4,4" orbitParam2="-5,0" orbitParam3="-4,-4" orbitParam4="-8,0" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="10" x="-8" y="0" camption="0" fAngle="0" orbit="3" orbitParam1="-4,4" orbitParam2="-5,0" orbitParam3="-4,-4" orbitParam4="-8,0" orbitClockWise="False" />
+    <mapbuilding type="Lasercannon" size="1" tag="11" x="-7" y="3" camption="0" fAngle="0" orbit="3" orbitParam1="-7,3" orbitParam2="7,3" orbitParam3="7,-3" orbitParam4="-7,-3" orbitClockWise="False" />
+    <mapbuilding type="Lasercannon" size="1" tag="12" x="-7" y="-3" camption="0" fAngle="0" orbit="3" orbitParam1="-7,3" orbitParam2="7,3" orbitParam3="7,-3" orbitParam4="-7,-3" orbitClockWise="False" />
+    <mapbuilding type="Lasercannon" size="1" tag="13" x="7" y="3" camption="0" fAngle="0" orbit="3" orbitParam1="-7,3" orbitParam2="7,3" orbitParam3="7,-3" orbitParam4="-7,-3" orbitClockWise="False" />
+    <mapbuilding type="Lasercannon" size="1" tag="14" x="7" y="-3" camption="0" fAngle="0" orbit="3" orbitParam1="-7,3" orbitParam2="7,3" orbitParam3="7,-3" orbitParam4="-7,-3" orbitClockWise="False" />
+    <mapbuilding type="tower" size="1" tag="15" x="5" y="0" camption="7" fAngle="0" orbit="3" orbitParam1="4,-4" orbitParam2="5,0" orbitParam3="4,4" orbitParam4="8,0" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="16" x="8" y="0" camption="0" fAngle="0" orbit="3" orbitParam1="4,4" orbitParam2="5,0" orbitParam3="4,-4" orbitParam4="8,0" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="17" x="-3.6667" y="2" camption="1" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="18" x="3.6667" y="2" camption="2" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="19" x="-3.6667" y="-2" camption="3" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="20" x="3.6667" y="-2" camption="4" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+  </mapbuildings>
+  <mapplayers>
+    <mapplayer tag="7" ship="10" camption="7" />
+    <mapplayer tag="8" ship="10" camption="7" />
+    <mapplayer tag="17" ship="30" camption="1" />
+    <mapplayer tag="18" ship="30" camption="2" />
+    <mapplayer tag="19" ship="30" camption="3" />
+    <mapplayer tag="20" ship="30" camption="4" />
+  </mapplayers>
+  <SetParty>
+  <CampNum camp="1,2,3,4" />
+  <SpeedUp speed="1.65" />
+  <ProduceUp produce="1.65" />
+  <CaptureUp capture="1.65" />
+  <OccupyUp occupy="1.65" />
+  <TimeSet Interval="30" Continue="210"/>
+  <ShipAdd ship="30" />
+  </SetParty>
+</map>

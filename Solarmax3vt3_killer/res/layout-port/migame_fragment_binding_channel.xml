@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="80.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="right" android:id="@id/item_binding_indicator" android:layout_width="24.0dip" android:layout_height="15.0dip" android:src="@drawable/migame_binding_indicator" />
+    <ImageView android:id="@id/item_binding_image" android:layout_width="53.0dip" android:layout_height="53.0dip" android:src="@drawable/migame_login_google" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/colorDesignHeavyGray" android:id="@id/item_binding_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="@string/mi_placeholder" />
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<camps>
+	<!-- 在这里设置势力属性。势力的数量是固定的，不可以增加或删除势力。 -->
+	<camp id="0" campcolor="CCCCCC" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="1" campcolor="5FB6FF" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="2" campcolor="FF5D93" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="3" campcolor="FE8B59" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="4" campcolor="C6FA6C" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="5" campcolor="CCCCCC" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="6" campcolor="DA70D6" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="7" campcolor="000000" speed="2" attack="10" maxhp="100" capturedspeed="2" occupiedspeed="2" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="8" campcolor="ffffff" speed="1" attack="10" maxhp="100" capturedspeed="2" occupiedspeed="2" producespeed="2" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="9" campcolor="80FFFF" speed="1.5" attack="10" maxhp="100" capturedspeed="1.5" occupiedspeed="1.5" producespeed="1.5" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+<!--废物势力-->
+	<camp id="10" campcolor="8FB8CC" speed="1" attack="10" maxhp="100" capturedspeed="0.125" occupiedspeed="0.125" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="11" campcolor="f00056" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="0.125" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="12" campcolor="E6C7B8" speed="0.25" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="13" campcolor="DAE6CF" speed="1" attack="0.01" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+<!--截停-->
+	<camp id="14" campcolor="FF0000" speed="1" attack="12" maxhp="125" capturedspeed="2" occupiedspeed="2" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="15" campcolor="FFFF00" speed="1" attack="10" maxhp="100" capturedspeed="3" occupiedspeed="3" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+<!-- 所有属性的含义说明 -->
+<!--
+	id="" 势力的编号，0到8为原版势力，其余的势力为新增势力。
+		0号势力为中立阵营，不能生产飞船，天体不会攻击，飞船不会战斗，不需要消灭。
+		1号 蓝色势力
+		2号 红色势力
+		3号 橙色势力
+		4号 绿色势力
+		7号 黑色势力
+		5号势力不能用常规方式生产飞船，即不能使用星球、堡垒生产飞船，但可以使用航母和捕获生产飞船。
+	campcolor="" 势力的颜色。
+	speed="" 飞船飞行速度。单位是格/s（如果你不知道“格”是什么，建议去要一份坐标图）
+	attack="" maxhp="" 攻击力和生命值。
+	capturedspeed="" 破坏速度。飞船消除敌方占领度的速度。
+	occupiedspeed="" 建设速度。飞船增加己方占领度的速度。
+	请注意，不建议让破坏速度与建设速度不同的势力结盟，因为这会导致占领速度的计算出现bug。
+	producespeed="" 产兵速度。影响星球、堡垒等的产兵速度，不影响航母等天体的产兵速度。
+	speedaddition="",attactaddition="",maxhpaddition="" 无效参数。
+-->
+
+
+
+
+	<camp id="16" campcolor="808080" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="17" campcolor="FF0000" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="18" campcolor="00FF00" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="19" campcolor="0000FF" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="20" campcolor="FFFF00" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="21" campcolor="FF00FF" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="22" campcolor="00FFFF" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="23" campcolor="FFFFFF" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="24" campcolor="FF8000" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="25" campcolor="FF0080" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="26" campcolor="FF8080" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="27" campcolor="80FF00" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="28" campcolor="00FF80" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="29" campcolor="80FF80" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="30" campcolor="0080FF" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="31" campcolor="8000FF" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="32" campcolor="8080FF" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="33" campcolor="FFFF80" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="34" campcolor="FF80FF" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="35" campcolor="80FFFF" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="36" campcolor="400000" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="37" campcolor="004000" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="38" campcolor="000040" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="39" campcolor="404000" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="40" campcolor="400040" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="41" campcolor="004040" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="42" campcolor="404040" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="43" campcolor="804000" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="44" campcolor="800040" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="45" campcolor="804000" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="46" campcolor="804040" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="47" campcolor="008040" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="48" campcolor="FF80FF" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="49" campcolor="80FFFF" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="50" campcolor="FF4000" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="51" campcolor="FF0040" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="52" campcolor="FF4040" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="53" campcolor="40FF00" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="54" campcolor="00FF40" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="55" campcolor="40FF40" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="56" campcolor="4000FF" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="57" campcolor="0040FF" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="58" campcolor="4040FF" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="59" campcolor="8040FF" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="60" campcolor="FF8040" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="61" campcolor="FF40FF" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="62" campcolor="40FFFF" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+	<camp id="63" campcolor="FFFF40" speed="1" attack="10" maxhp="100" capturedspeed="1" occupiedspeed="1" producespeed="1" speedaddition="1" attackaddition="1" maxhpaddition="1" />
+</camps>

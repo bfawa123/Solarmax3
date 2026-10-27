@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map id="304001" player_count="4" vertical="False" defaultAIStrategy="-1" teamAITypes="" teamFriend="">
+  <maplines>
+    <mapline point1="R" point2="Q" />
+    <mapline point1="V" point2="W" />
+  </maplines>
+  <mapbuildings>
+    <mapbuilding type="star" size="1" tag="A" x="0" y="3.5" camption="1" fAngle="0" orbit="1" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="B" x="1.41" y="3.2" camption="1" fAngle="0" orbit="1" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="C" x="2.418" y="2.529" camption="1" fAngle="0" orbit="1" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="D" x="3.184" y="1.421" camption="3" fAngle="0" orbit="1" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="E" x="3.5" y="0" camption="3" fAngle="0" orbit="1" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="F" x="3.18" y="-1.42" camption="3" fAngle="0" orbit="1" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="G" x="2.42" y="-2.53" camption="3" fAngle="0" orbit="1" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="H" x="1.41" y="-3.2" camption="4" fAngle="0" orbit="1" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="I" x="-1.41" y="3.2" camption="1" fAngle="0" orbit="1" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="J" x="0" y="-3.5" camption="4" fAngle="0" orbit="1" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="K" x="-1.41" y="-3.2" camption="4" fAngle="0" orbit="1" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="L" x="-2.42" y="-2.53" camption="4" fAngle="0" orbit="1" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="M" x="-3.18" y="-1.42" camption="2" fAngle="0" orbit="1" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="N" x="-2.42" y="2.53" camption="2" fAngle="0" orbit="1" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="O" x="-3.5" y="0" camption="2" fAngle="0" orbit="1" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="P" x="-3.18" y="1.42" camption="2" fAngle="0" orbit="1" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="Q" x="-4" y="-0.7" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="R" x="4" y="-0.7" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="tower" size="1" tag="S" x="0" y="-1.5" camption="0" fAngle="0" orbit="1" orbitParam1="" orbitParam2="" orbitClockWise="True" />
+    <mapbuilding type="tower" size="1" tag="T" x="-1.26" y="0.82" camption="0" fAngle="0" orbit="1" orbitParam1="" orbitParam2="" orbitClockWise="True" />
+    <mapbuilding type="tower" size="1" tag="U" x="1.26" y="0.82" camption="0" fAngle="0" orbit="1" orbitParam1="" orbitParam2="" orbitClockWise="True" />
+    <mapbuilding type="barrier" size="1" tag="V" x="4" y="2" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="barrier" size="1" tag="W" x="-4" y="2" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+  </mapbuildings>
+  <mapplayers>
+    <mapplayer tag="A" ship="10" camption="1" />
+    <mapplayer tag="B" ship="10" camption="1" />
+    <mapplayer tag="C" ship="10" camption="1" />
+    <mapplayer tag="D" ship="10" camption="3" />
+    <mapplayer tag="E" ship="10" camption="3" />
+    <mapplayer tag="F" ship="10" camption="3" />
+    <mapplayer tag="G" ship="10" camption="3" />
+    <mapplayer tag="H" ship="10" camption="4" />
+    <mapplayer tag="N" ship="10" camption="2" />
+    <mapplayer tag="J" ship="10" camption="4" />
+    <mapplayer tag="I" ship="10" camption="1" />
+    <mapplayer tag="P" ship="10" camption="2" />
+    <mapplayer tag="O" ship="10" camption="2" />
+    <mapplayer tag="M" ship="10" camption="2" />
+    <mapplayer tag="L" ship="10" camption="4" />
+    <mapplayer tag="K" ship="10" camption="4" />
+  </mapplayers>
+  <candidates>
+    <candidate transformBulidingID="" />
+    <candidate lasergunAngle="" lasergunRotateSkip="" lasergunRange="" />
+    <candidate orbitRevoSpeed="12" />
+    <candidate curseDelay="" />
+    <candidate aistrategy="" />
+    <candidate shipProduceOverride="1" />
+  </candidates>
+</map>

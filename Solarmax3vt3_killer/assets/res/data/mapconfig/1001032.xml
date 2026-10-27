@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map id="1001032" player_count="2" vertical="False" defaultAIStrategy="" teamAITypes="" teamFriend="">
+  <mapbuildings>
+    <mapbuilding type="star" size="5" tag="A" x="-4" y="2" camption="1" fAngle="0" orbit="0" orbitParam1="0,0" orbitParam2="0" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="B" x="4" y="-2" camption="2" fAngle="0" orbit="0" orbitParam1="0,0" orbitParam2="0" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="C" x="1.4" y="1.766" camption="0" fAngle="0" orbit="0" orbitParam1="0,0" orbitParam2="0" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="D" x="-1.06" y="-1.81" camption="0" fAngle="0" orbit="0" orbitParam1="0,0" orbitParam2="0" orbitClockWise="False" />
+  </mapbuildings>
+  <mapplayers>
+    <mapplayer tag="A" ship="90" camption="1" />
+    <mapplayer tag="B" ship="30" camption="2" />
+  </mapplayers>
+  <candidates>
+    <candidate transformBulidingID="" />
+    <candidate lasergunAngle="" lasergunRotateSkip="" lasergunRange="" />
+    <candidate orbitRevoSpeed="12" />
+    <candidate curseDelay="" />
+    <candidate aistrategy="" />
+    <candidate shipProduceOverride="1" />
+  </candidates>
+</map>
+<!--
+  <maplines>
+    <mapline point1="1" point2="2" />
+  </maplines>
+-->

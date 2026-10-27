@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map id="433902" player_count="5" vertical="False" defaultAIStrategy="-1" teamAITypes="5,5,5,5,5,5,5,4,5,5" teamFriend="1,2,1,3,1,4,2,3,2,4,3,4">
+	<mapbuildings>
+		<mapbuilding type="tower" size="1" tag="0" x="0" y="0.0" camption="7" fAngle = "0.0" orbit="0"/>
+		<mapbuilding type="star" size="1" tag="1" x="-1.0" y="1.0" camption="7" fAngle = "0.0" orbit="0"/>
+		<mapbuilding type="star" size="1" tag="2" x="-1.0" y="-1.0" camption="7" fAngle = "0.0" orbit="0"/>
+		<mapbuilding type="star" size="1" tag="3" x="1.0" y="1.0" camption="7" fAngle = "0.0" orbit="0"/>
+		<mapbuilding type="star" size="1" tag="4" x="1.0" y="-1.0" camption="7" fAngle = "0.0" orbit="0"/>
+		<mapbuilding type="star" size="1" tag="5" x="-5.0" y="-3.0" camption="1" fAngle = "0.0" orbit="0"/>
+		<mapbuilding type="star" size="1" tag="6" x="-5.0" y="3.0" camption="2" fAngle = "0.0" orbit="0"/>
+		<mapbuilding type="star" size="1" tag="7" x="5.0" y="-3.0" camption="3" fAngle = "0.0" orbit="0"/>
+		<mapbuilding type="star" size="1" tag="8" x="5.0" y="3.0" camption="4" fAngle = "0.0" orbit="0"/>
+		<mapbuilding type="dirtstar" size="1" tag="9" x="5.0" y="-1.0" camption="3" fAngle = "180.0" orbit="0"/>
+		<mapbuilding type="dirtstar" size="1" tag="10" x="5.0" y="1.0" camption="4" fAngle = "180.0" orbit="0"/>
+		<mapbuilding type="dirtstar" size="1" tag="11" x="-5.0" y="1.0" camption="2" fAngle = "180.0" orbit="0"/>
+		<mapbuilding type="dirtstar" size="1" tag="12" x="-5.0" y="-1.0" camption="1" fAngle = "180.0" orbit="0"/>
+		<mapbuilding type="dirtstar" size="1" tag="13" x="-3.0" y="-3.0" camption="0" fAngle = "180.0" orbit="0"/>
+		<mapbuilding type="dirtstar" size="1" tag="14" x="-3.0" y="3.0" camption="0" fAngle = "180.0" orbit="0"/>
+		<mapbuilding type="dirtstar" size="1" tag="15" x="3.0" y="3.0" camption="0" fAngle = "180.0" orbit="0"/>
+		<mapbuilding type="dirtstar" size="1" tag="16" x="3.0" y="-3.0" camption="0" fAngle = "180.0" orbit="0"/>
+		<mapbuilding type="dirtstar" size="1" tag="17" x="-3.0" y="-1.0" camption="0" fAngle = "180.0" orbit="0"/>
+		<mapbuilding type="dirtstar" size="1" tag="18" x="-3.0" y="1.0" camption="0" fAngle = "180.0" orbit="0"/>
+		<mapbuilding type="dirtstar" size="1" tag="19" x="3.0" y="1.0" camption="0" fAngle = "180.0" orbit="0"/>
+		<mapbuilding type="dirtstar" size="1" tag="20" x="3.0" y="-1.0" camption="0" fAngle = "180.0" orbit="0"/>
+		<mapbuilding type="dirtstar" size="1" tag="21" x="-1.0" y="-3.0" camption="7" fAngle = "180.0" orbit="0"/>
+		<mapbuilding type="dirtstar" size="1" tag="22" x="-1.0" y="3.0" camption="7" fAngle = "180.0" orbit="0"/>
+		<mapbuilding type="dirtstar" size="1" tag="23" x="1.0" y="3.0" camption="7" fAngle = "180.0" orbit="0"/>
+		<mapbuilding type="dirtstar" size="1" tag="24" x="1.0" y="-3.0" camption="7" fAngle = "180.0" orbit="0"/>
+		<mapbuilding type="tower" size="1" tag="25" x="6" y="2.0" camption="0" fAngle = "0.0" orbit="0"/>
+		<mapbuilding type="tower" size="1" tag="26" x="6" y="-2.0" camption="0" fAngle = "0.0" orbit="0"/>
+		<mapbuilding type="tower" size="1" tag="27" x="-6" y="2.0" camption="0" fAngle = "0.0" orbit="0"/>
+		<mapbuilding type="tower" size="1" tag="28" x="-6" y="-2.0" camption="0" fAngle = "0.0" orbit="0"/>
+	</mapbuildings>
+	<mapplayers>
+		<mapplayer tag="5" ship="20" camption="1" />
+		<mapplayer tag="6" ship="20" camption="2" />
+		<mapplayer tag="7" ship="20" camption="3" />
+		<mapplayer tag="8" ship="20" camption="4" />
+		<mapplayer tag="1" ship="0" camption="7" />
+		<mapplayer tag="2" ship="0" camption="7" />
+		<mapplayer tag="3" ship="0" camption="7" />
+		<mapplayer tag="4" ship="0" camption="7" />
+		<mapplayer tag="0" ship="30" camption="7" />
+	</mapplayers>
+</map>

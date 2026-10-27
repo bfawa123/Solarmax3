@@ -1,0 +1,10 @@
+﻿using System;
+
+public enum NODESTATE
+{
+	NODE_NORMAL,
+	NODE_PAUSE_PRO,
+	NODE_ICE,
+	NODE_PAUSE_BATTLE,
+	NODE_CANNOT_CAP
+}

@@ -1,0 +1,25 @@
+{
+  "payPlugin" : [
+    { "code": 11,
+      "name":"com.xiaomi.mgp.sdk.channels.pay.AliPay"
+    },
+    { "code": 4,
+      "name":"com.xiaomi.mgp.sdk.channels.pay.WechatPay"
+    }
+  ],
+  "loginPlugin": [
+    { "code": 4,
+      "name":"com.xiaomi.mgp.sdk.channels.login.WechatLogin"
+    },
+    { "code": 5,
+      "name":"com.xiaomi.mgp.sdk.channels.login.TencentQQLogin"
+    },
+    { "code": 10,
+      "name":"com.xiaomi.mgp.sdk.channels.login.MiPassportLogin"
+    },
+    {
+      "code": 100,
+      "name": "com.xiaomi.mgp.sdk.channels.login.VisitorLoginCallback"
+    }
+  ]
+}

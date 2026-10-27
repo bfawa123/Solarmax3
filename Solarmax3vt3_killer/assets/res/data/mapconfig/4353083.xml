@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<map id="" player_count="5" vertical="False" defaultAIStrategy="-1" teamAITypes="-1,5,5,5,5,-1,7" teamFriend="" SetMoveCamera="true">
+  <maplines>
+  </maplines>
+  <mapbuildings>
+    <mapbuilding type="castle" size="1" tag="0" x="0.000" y="0.000" camption="6" fAngle="0" orbit="custom" EquationX="x=12*cos(t)*sin(t)*sin(t)" EquationY="y=12*sin(t)*cos(t)*cos(t)" orbit_t_choose="0,6.28" rbitParam1="" orbitParam2="" orbitClockWise="False" orbitRevoSpeed="36"/>
+    <mapbuilding type="star" size="1" tag="1" x="0.261" y="1.739" camption="6" fAngle="0" orbit="custom" EquationX="x=12*cos(t)*sin(t)*sin(t)" EquationY="y=12*sin(t)*cos(t)*cos(t)" orbit_t_choose="0,6.28" orbitParam1="" orbitParam2="" orbitClockWise="False" orbitRevoSpeed="36"/>
+    <mapbuilding type="star" size="1" tag="2" x="1.115" y="3.385" camption="6" fAngle="0" orbit="custom" EquationX="x=12*cos(t)*sin(t)*sin(t)" EquationY="y=12*sin(t)*cos(t)*cos(t)" orbit_t_choose="0,6.28" orbitParam1="" orbitParam2="" orbitClockWise="False" orbitRevoSpeed="36"/>
+    <mapbuilding type="Twist" size="1" tag="3" x="2.526" y="4.474" camption="6" fAngle="0" orbit="custom" EquationX="x=12*cos(t)*sin(t)*sin(t)" EquationY="y=12*sin(t)*cos(t)*cos(t)" orbit_t_choose="0,6.28" orbitParam1="" orbitParam2="" orbitClockWise="False" orbitRevoSpeed="36"/>
+    <mapbuilding type="AddTower" size="1" tag="4" x="4.243" y="4.243" camption="6" fAngle="0" orbit="custom" EquationX="x=12*cos(t)*sin(t)*sin(t)" EquationY="y=12*sin(t)*cos(t)*cos(t)" orbit_t_choose="0,6.28" orbitParam1="" orbitParam2="" orbitClockWise="False" orbitRevoSpeed="36"/>
+    <mapbuilding type="Twist" size="1" tag="5" x="4.474" y="2.526" camption="6" fAngle="0" orbit="custom" EquationX="x=12*cos(t)*sin(t)*sin(t)" EquationY="y=12*sin(t)*cos(t)*cos(t)" orbit_t_choose="0,6.28" orbitParam1="" orbitParam2="" orbitClockWise="False" orbitRevoSpeed="36"/>
+    <mapbuilding type="star" size="1" tag="6" x="3.385" y="1.115" camption="6" fAngle="0" orbit="custom" EquationX="x=12*cos(t)*sin(t)*sin(t)" EquationY="y=12*sin(t)*cos(t)*cos(t)" orbit_t_choose="0,6.28" orbitParam1="" orbitParam2="" orbitClockWise="False" orbitRevoSpeed="36"/>
+    <mapbuilding type="Cannon" size="1" tag="7" x="1.739" y="0.261" camption="6" fAngle="0" orbit="custom" EquationX="x=12*cos(t)*sin(t)*sin(t)" EquationY="y=12*sin(t)*cos(t)*cos(t)" orbit_t_choose="0,6.28" orbitParam1="" orbitParam2="" orbitClockWise="False" orbitRevoSpeed="36"/>
+    <mapbuilding type="star" size="1" tag="8" x="9" y="4" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="9" x="7" y="2" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="10" x="5" y="0" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="11" x="7" y="-2" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="12" x="9" y="-4" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="13" x="-5" y="0" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="14" x="-7" y="2" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="15" x="-9" y="4" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="16" x="-7" y="-2" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="17" x="-9" y="-4" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="18" x="-7.5" y="3.5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="19" x="-7.5" y="-3.5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="20" x="-5.5" y="-1.5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="21" x="-5.5" y="1.5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="22" x="5.5" y="1.5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="23" x="5.5" y="-1.5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="24" x="7.5" y="-3.5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="25" x="7.5" y="3.5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Lasercannon" size="1" tag="26" x="-7" y="0" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Lasercannon" size="1" tag="27" x="7" y="0" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="tower" size="1" tag="28" x="-9" y="0" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="tower" size="1" tag="29" x="9" y="0" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="3" tag="30" x="-9" y="-2" camption="2" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="3" tag="31" x="-9" y="2" camption="1" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="3" tag="32" x="9" y="2" camption="3" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="3" tag="33" x="9" y="-2" camption="4" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="defense" size="1" tag="34" x="0" y="-5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="defense" size="1" tag="35" x="0" y="5" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+  </mapbuildings>
+  <mapplayers>
+    <mapplayer tag="30" ship="30" camption="2" />
+    <mapplayer tag="31" ship="30" camption="1" />
+    <mapplayer tag="32" ship="30" camption="3" />
+    <mapplayer tag="33" ship="30" camption="4" />
+  </mapplayers>
+</map>

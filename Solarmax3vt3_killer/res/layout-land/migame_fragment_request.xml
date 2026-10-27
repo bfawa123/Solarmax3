@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layout_dialog_request" android:background="@drawable/migame_shape_radius" android:layout_width="326.0dip" android:layout_height="wrap_content">
+        <TextView android:textSize="20.0sp" android:textColor="@color/colorDesignDark" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/mi_title_request" />
+        <View android:background="@color/colorDesignGray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="12.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="56.0dip">
+            <TextView android:textSize="13.0sp" android:textColor="@color/colorDesignHeavyGray" android:id="@id/text_pay_waiting_goods" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mi_placeholder" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" />
+            <TextView android:textSize="24.0sp" android:textColor="@color/colorDesignDark" android:id="@id/text_pay_waiting_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mi_placeholder" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <View android:background="@color/colorDesignGray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="56.0dip">
+            <ProgressBar android:layout_width="19.0dip" android:layout_height="19.0dip" android:indeterminateDrawable="@drawable/migame_ani_rotate" android:indeterminateBehavior="repeat" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/colorDesignHeavyGray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mi_text_request" android:layout_marginStart="8.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

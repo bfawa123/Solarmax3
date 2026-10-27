@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<aistrategys>
+	<aistrategy id="0" name="idle" desc="什么也不干" />
+	<aistrategy id="1" name="normal" actions="1,2,3" desc="分兵回防，低级AI的进攻和聚集" />
+	<aistrategy id="2" name="AI2.0" actions="4,5,3" desc="满半则防，低级AI的进攻和聚集" />
+	<aistrategy id="3" name="AI3.0" actions="6,7,8" desc="满半则防，低级AI的进攻和聚集，能计算炮塔伤害" />
+	<aistrategy id="4" name="AI4.0" actions="9,10,11" desc="满半则防，高级AI的聚集，高级AI的攻击" />
+	<aistrategy id="5" name="hard" actions="17,18,16" desc="目前最强AI，能看见飞行中的飞船以及主动分兵" />
+	<aistrategy id="6" name="AI5.0" actions="13,14,15" desc="满半则防，高级AI的聚集，高级AI的攻击。在控制飞船上比AI4.0更精细" />
+	<aistrategy id="7" name="AI7.0" actions="1,13,14,15" desc="会分兵回防的AI5.0，但是不会计算炮塔伤害" />
+	<aistrategy id="8" name="low" actions="12,3" desc="只会进攻和聚集的低级AI" />
+	<aistrategy id="9" name="AI9.0" actions="13,14,15,17" desc="会在不能进攻的时候分兵回防的AI5.0，会计算炮塔伤害" />
+	<aistrategy id="10" name="AI7.5" actions="17,14,15" desc="会分兵回防的AI5.0，会计算炮塔伤害" />
+	<aistrategy id="11" name="defencelowAI" actions="1,3" desc="只会回防的normalAI" />
+	<aistrategy id="12" name="defencehighAI" actions="17" desc="只会高级回防的AI" />
+	<aistrategy id="13" name="hard_beta" actions="20,18,16" desc="hardAI的Beta版防御，带扩散点保底驻军" />
+<!-- 所有属性的含义说明 -->
+<!-- 
+	id="" 设置AI的序号，用于关卡文件中的 defaultAIstrategy="" teamAITypes="" 和<mapbuildings>中的 aistrastgy=""
+	name="" 设置AI的名称，用于level.xml中的 aitype="" , 不同AI的name不能重复
+	actions="" 设置AI的行动方式基因，可参考下方的<genes>。需注意部分行动方式间存在冲突，实际行动方式需自行测试
+	desc="" 对AI的描述
+-->
+
+  <genes>
+	<gene id="0" name="Idle" desc="不动" />
+	<gene id="1" name="Defend" desc="normalAI的分兵回防" />
+	<gene id="2" name="Attack" desc="normalAI的攻击" />
+	<gene id="3" name="Gather" desc="normalAI和AI2.0的聚集" />
+	<gene id="4" name="Defend_V1" desc="AI2.0的满半则防" />
+	<gene id="5" name="Attack_V1" desc="AI2.0的进攻" />
+	<gene id="6" name="Defend_V2" desc="AI3.0的满半则防" />
+	<gene id="7" name="Attack_V2" desc="AI3.0的进攻" />
+	<gene id="8" name="Gather_V1" desc="AI3.0的聚集" />
+	<gene id="9" name="Defend_V3" desc="AI4.0的满半则防" />
+	<gene id="10" name="Attack_V3" desc="AI4.0的攻击" />
+	<gene id="11" name="Gather_V2" desc="AI4.0的聚集" />
+	<gene id="12" name="Attack_Low" desc="lowAI的攻击" />
+	<gene id="13" name="Defend_V4" desc="AI5.0的满半则防" />
+	<gene id="14" name="Attack_V4" desc="AI5.0的攻击" />
+	<gene id="15" name="Gather_V3" desc="AI5.0的聚集" />
+	<gene id="16" name="vt1_AttackV4" desc="hardAI的攻击" />
+	<gene id="17" name="vt1_DefendAdd" desc="hardAI的防御" />
+	<gene id="18" name="vt1_GatherV3" desc="hardAI的聚集" />
+	<gene id="19" name="Unknow" desc="无" />
+	<gene id="20" name="vt1_DefendAdd_Beta" desc="hardAI的Beta防御，扩散点会保底驻军" />
+  </genes>
+  
+</aistrategys>

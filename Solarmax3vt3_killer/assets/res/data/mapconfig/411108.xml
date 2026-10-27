@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map id="300804" player_count="2" vertical="True">
+  <maplines>
+    <mapline point1="a1" point2="a2" />    
+  </maplines>
+  <mapbuildings>
+    <mapbuilding id="" type="AddTower" size="1" x="-7" y="-2" camption="0" tag="1" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="" type="castle" size="1" x="-7" y="0" camption="0" tag="2" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="" type="AddTower" size="1" x="-7" y="2" camption="0" tag="3" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="" type="star" size="2" x="-5" y="-2" camption="0" tag="4" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="" type="supplyship" size="1" x="-5" y="0" camption="2" tag="5" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="" type="star" size="2" x="-5" y="2" camption="0" tag="6" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="" type="shipyard" size="1" x="-3" y="-1" camption="0" tag="7" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="" type="tower" size="1" x="-3" y="0" camption="0" tag="8" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="" type="tower" size="1" x="-1" y="-1.5" camption="0" tag="9" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="" type="teleport" size="1" x="-1" y="0" camption="0" tag="10" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="" type="tower" size="1" x="-1" y="1.5" camption="0" tag="11" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="" type="tower" size="1" x="1" y="-1.5" camption="0" tag="12" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="" type="teleport" size="1" x="1" y="0" camption="0" tag="13" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="" type="tower" size="1" x="1" y="1.5" camption="0" tag="14" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="" type="tower" size="1" x="3" y="0" camption="0" tag="15" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="" type="shipyard" size="1" x="3" y="1" camption="0" tag="16" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="" type="star" size="2" x="5" y="-2" camption="0" tag="17" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="" type="supplyship" size="1" x="5" y="0" camption="1" tag="18" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="" type="star" size="2" x="5" y="2" camption="0" tag="19" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="" type="AddTower" size="1" x="7" y="-2" camption="0" tag="20" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="" type="castle" size="1" x="7" y="0" camption="0" tag="21" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="" type="AddTower" size="1" x="7" y="2" camption="0" tag="22" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="" type="barrier" size="1" x="0" y="-4" camption="0" tag="a1" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding id="" type="barrier" size="1" x="0" y="4" camption="0" tag="a2" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+  </mapbuildings>
+  <mapplayers>
+    <mapplayer id="" tag="5" ship="50" camption="2" />
+    <mapplayer id="" tag="18" ship="50" camption="1" />
+  </mapplayers>
+</map>
+
+<!--
+  <maplines>
+    <mapline point1="1" point2="2" />
+  </maplines>
+-->
+
+<!-- �������Եĺ���˵�� -->
+<!--
+  <maplines>��
+    point1="" point2="" ���������ϰ�������ߡ�
+
+  <map>��
+    player_count="" Ϊ��ǰ��ͼ����Ч��������������player_count����������ڵ�ͼ�ڲ�����AI��Ҳ����Ҫ���������������Ľ����ǻṥ���ġ� ���ùؿ�Ĭ��AI���ͣ���Ӧ���aistrategy.xml��ı�ţ������-1�ͱ�ʾ��Ĭ��AI�����ȼ���Level.xml�ڵ� aitype="" ���ߡ� ���ø���������Ӧ��AI���͡�������9�����֣���Ӧ9��������0�ŵ�8�ţ�����Щ����Ҳ��aistrategy.xml��ı�ţ����ȼ���Level.xml�ڵ� aitype="" ���ߡ� ������������ӡ�ÿ������������Ϊһ���ʾһ�ӡ����磬��1,2,1,3����ʾ��ɫ�ͺ�ɫ��ӣ���ɫ�ͳ�ɫ��ӣ�����ɫ�ͳ�ɫû����ӡ�
+
+  <mapbuildings>��
+    type="" �����������͡���Ӧmapnode.xml��� type=""
+    size="" ���������С����Ӧmapnode.xml��� sizeType=""
+    tag="" ���������ǩ��ÿ�����嶼�����в�ͬ�ı�ǩ�������ǩ���������������������ַ��������1������A������,����������������������ADSSQasad34.���������ȵȡ�
+    x="" y="" ������������ꡣ
+    camption="" ��������������������
+    fAngle="" ����������ת�Ƕȡ������Կ������ڱ�ǽ�������Ŀ�����壬�Լ���ת���侵��׷���ڡ����ǣ������ø�������ת�����ں������ڡ�
+
+    orbit="" revospeed="" orbitParam1="" orbitParam2="" orbitClockWise="" ����һ���ʾ�����������ԣ��������£�
+    orbit="" ��0��ʾû�й������1��ʾԲ�ι������4��ʾ��Բ�����
+    orbitParam1="" orbitParam2="" ����������Բ�Ľ������ꡣ�����Բ�ι����ֻ��������һ������дԲ�����ꡣ
+    orbitClockWise="" ��True��˳ʱ�룬��False����ʱ�롣
+    revospeed="" ��ʾ�������е��ٶȣ�������ٶȳ����ȣ�Ĭ��ֵ��10���������������û��revospeed=""��һ���ô����ֵĬ����10�����������revospeed=""�������������в����κ���ֵ��
+
+    ���⻹�����¿�ѡ�
+    transformBulidingID="" ��д����װ�ÿ��Ա��ε������id����mapnode.xml�������id������ʽ�ǡ�1,2,3����ע�⣬����װ�ò��ܺ���������ͬһ����ͼ�й��档
+    lasergunAngle="" lasergunRange="" lasergunRotateSkip="" ��ʱ������������ڵ����ԡ�
+    lasergunAngle="" ��ʾ�����ڵĳ�ʼ��ת�Ƕȡ�
+    lasergunRotateSkip="" ��ʾ�����ڵĵ�����ת�Ƕȡ�
+    lasergunRange="" ��ʾ�����ڵ�����ת�Ƕȡ�
+    ע�⣬������������ڲ���ת������������������ͬʱ��0����Ϊ0���ܳ���0����ȷ�������lasergunRotateSkip=""����дһ����lasergunRange=""�д�����֡�
+
+  <mapplayers>��
+    tag="" ��ʾ��Ӧ����ı�ǩ
+    ship="" ��д������ӵ�еķɴ�����
+    camption="" ���÷ɴ�����������
+
+  <candidates>��
+    ������ļ������Զ��Ƕ�����������ĺ�ѡ������ڷ��������߽��е�ͼ�ı༭������Ϸû��ʵ�ʵ����ã�����ѡ��ɾ����
+-->

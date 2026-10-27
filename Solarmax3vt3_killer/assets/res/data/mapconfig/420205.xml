@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map id="" player_count="2" vertical="False">
+  <maplines>
+    <mapline point1="0" point2="1" />
+  </maplines>
+  <mapbuildings>
+    <mapbuilding tag="0" type="barrier" size="1" x="0" y="3" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="1" type="barrier" size="1" x="0" y="-3" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="2" type="AddTower" size="1" x="-1.5" y="1.5" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="3" type="AddTower" size="1" x="-1.5" y="-1.5" camption="2" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="4" type="AddTower" size="1" x="1.5" y="-1.5" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="5" type="AddTower" size="1" x="1.5" y="1.5" camption="1" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="6" type="Twist" size="1" x="-1.5" y="-0.0" camption="2" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="7" type="Twist" size="1" x="1.5" y="0.0" camption="1" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="8" type="star" size="1" x="-3.5" y="2.5" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="9" type="star" size="1" x="-3.5" y="-2.5" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="10" type="star" size="1" x="-5.5" y="-1.5" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="11" type="star" size="1" x="-5.5" y="1.5" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="12" type="star" size="1" x="-6.5" y="0.0" camption="1" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="13" type="star" size="1" x="6.5" y="-0.0" camption="2" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="14" type="star" size="1" x="5.5" y="1.5" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="15" type="star" size="1" x="5.5" y="-1.5" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="16" type="star" size="1" x="3.5" y="-2.5" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="17" type="star" size="1" x="3.5" y="2.5" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="20" type="teleport" size="1" x="4.0" y="-0.0" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="21" type="teleport" size="1" x="-4.0" y="-0.0" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="22" type="Lasercannon" size="1" x="-3.5" y="1.5" camption="2" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="23" type="Lasercannon" size="1" x="-3.5" y="-1.5" camption="2" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="24" type="Lasercannon" size="1" x="3.5" y="-1.5" camption="1" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="25" type="Lasercannon" size="1" x="3.5" y="1.5" camption="1" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="27" type="curse" size="1" x="19" y="20" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" curseDelay="20" />
+  </mapbuildings>
+  <mapplayers>
+    <mapplayer tag="12" ship="50" camption="1" />
+    <mapplayer tag="13" ship="50" camption="2" />
+  </mapplayers>
+</map>

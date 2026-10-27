@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map id="" player_count="2" vertical="False">
+  <maplines>
+    <mapline point1="25" point2="26" />
+    <mapline point1="28" point2="27" />
+    <mapline point1="34" point2="33" />
+    <mapline point1="35" point2="36" />
+    <mapline point1="30" point2="29" />
+    <mapline point1="31" point2="32" />
+  </maplines>
+  <mapbuildings>
+    <mapbuilding tag="0" type="star" size="2" x="0.0" y="-0.0" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="1" type="star" size="1" x="-3.0" y="0.0" camption="0" orbit="4" orbitParam1="-4.5,0" orbitParam2="-1,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="2" type="star" size="1" x="3.0" y="-0.0" camption="0" orbit="4" orbitParam1="4.5,0" orbitParam2="1,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="3" type="dirtstar" size="1" x="-1.5" y="1.5" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="4" type="dirtstar" size="1" x="1.5" y="1.5" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="5" type="dirtstar" size="1" x="-1.5" y="-1.5" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="6" type="dirtstar" size="1" x="1.5" y="-1.5" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="7" type="dirtstar" size="1" x="-4.0" y="3.0" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="8" type="dirtstar" size="1" x="4.0" y="3.0" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="9" type="dirtstar" size="1" x="-4.0" y="-3.0" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="10" type="dirtstar" size="1" x="4.0" y="-3.0" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="11" type="star" size="1" x="-7.0" y="1.0" camption="2" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="12" type="star" size="1" x="-7.0" y="-1.0" camption="2" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="13" type="star" size="1" x="7.0" y="-1.0" camption="1" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="14" type="star" size="1" x="7.0" y="1.0" camption="1" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="15" type="star" size="1" x="-6.0" y="-0.0" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="16" type="star" size="1" x="6.0" y="-0.0" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="18" type="dirtstar" size="2" x="5.0" y="-1.5" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="19" type="dirtstar" size="2" x="5.0" y="1.5" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="20" type="dirtstar" size="2" x="-5.0" y="-1.5" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="21" type="dirtstar" size="2" x="-5.0" y="1.5" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="23" type="Cannon" size="1" x="0.0" y="4.0" camption="0" orbit="4" orbitParam1="0,4" orbitParam2="0,1.5" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="24" type="Cannon" size="1" x="-0.0" y="-4.0" camption="0" orbit="4" orbitParam1="0,-4" orbitParam2="0,-1.5" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="25" type="barrier" size="1" x="-5.0" y="0.5" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="26" type="barrier" size="1" x="-5.0" y="-0.5" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="27" type="barrier" size="1" x="5.0" y="-0.5" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="28" type="barrier" size="1" x="5.0" y="0.5" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="29" type="barrier" size="1" x="-1.0" y="3.5" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="30" type="barrier" size="1" x="-1.0" y="2.5" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="31" type="barrier" size="1" x="1.0" y="3.5" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="32" type="barrier" size="1" x="1.0" y="2.5" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="33" type="barrier" size="1" x="-1.0" y="-3.5" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="34" type="barrier" size="1" x="-1.0" y="-2.5" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="35" type="barrier" size="1" x="1.0" y="-3.5" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="36" type="barrier" size="1" x="1.0" y="-2.5" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="38" type="curse" size="1" x="17" y="10" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" curseDelay="5" />
+  </mapbuildings>
+  <mapplayers>
+    <mapplayer tag="11" ship="30" camption="2" />
+    <mapplayer tag="12" ship="30" camption="2" />
+    <mapplayer tag="13" ship="30" camption="1" />
+    <mapplayer tag="14" ship="30" camption="1" />
+  </mapplayers>
+</map>

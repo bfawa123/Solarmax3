@@ -1,0 +1,99 @@
+<chapter>
+<line id="0" point1="0" point2="2" />
+<line id="1" point1="2" point2="18" />
+<line id="2" point1="19" point2="4" />
+<line id="3" point1="4" point2="2" />
+<line id="4" point1="2" point2="3" />
+<line id="5" point1="3" point2="1" />
+<line id="6" point1="3" point2="17" />
+<line id="7" point1="3" point2="5" />
+<line id="8" point1="5" point2="4" />
+<line id="9" point1="4" point2="6" />
+<line id="10" point1="6" point2="12" />
+<line id="11" point1="13" point2="8" />
+<line id="12" point1="9" point2="10" />
+<line id="13" point1="11" point2="8" />
+<line id="14" point1="8" point2="9" />
+<line id="15" point1="9" point2="14" />
+<line id="16" point1="5" point2="16" />
+<line id="17" point1="5" point2="7" />
+<line id="18" point1="6" point2="8" />
+<line id="19" point1="7" point2="15" />
+<line id="20" point1="7" point2="6" />
+<line id="21" point1="9" point2="7" />
+<point id="0" x="-850" y="100" z="0" level="0" size="0.41" />
+<point id="1" x="-850" y="-100" z="0" level="0" size="0.67" />
+<point id="2" x="-550" y="100" z="0" level="0" size="0.34" />
+<point id="3" x="-550" y="-100" z="0" level="0" size="0" />
+<point id="4" x="-200" y="100" z="0" level="0" size="0.69" />
+<point id="5" x="-200" y="-100" z="0" level="0" size="0.24" />
+<point id="6" x="200" y="100" z="0" level="0" size="0.78" />
+<point id="7" x="200" y="-100" z="0" level="0" size="0.58" />
+<point id="8" x="550" y="100" z="0" level="0" size="0.62" />
+<point id="9" x="550" y="-100" z="0" level="0" size="0.64" />
+<point id="10" x="850" y="-100" z="0" level="0" size="0.05" />
+<point id="11" x="850" y="100" z="0" level="0" size="0.45" />
+<point id="12" x="200" y="450" z="0" level="0" size="0.81" />
+<point id="13" x="550" y="450" z="0" level="0" size="0.27" />
+<point id="14" x="550" y="-450" z="0" level="0" size="0.61" />
+<point id="15" x="200" y="-450" z="0" level="0" size="0.91" />
+<point id="16" x="-200" y="-450" z="0" level="0" size="0.95" />
+<point id="17" x="-550" y="-450" z="0" level="0" size="0.42" />
+<point id="18" x="-550" y="450" z="0" level="0" size="0.27" />
+<point id="19" x="-200" y="450" z="0" level="0" size="0.36" />
+<point id="20" x="-300" y="200" z="0" level="0" size="0.91" />
+<point id="21" x="-650" y="200" z="0" level="0" size="0.04" />
+<point id="22" x="-650" y="-200" z="0" level="0" size="0.02" />
+<point id="23" x="-650" y="0" z="0" level="0" size="0.53" />
+<point id="24" x="-300" y="0" z="0" level="0" size="0.92" />
+<point id="25" x="-300" y="-200" z="0" level="0" size="0.82" />
+<point id="26" x="0" y="200" z="0" level="0" size="0.21" />
+<point id="27" x="0" y="0" z="0" level="0" size="0.16" />
+<point id="28" x="0" y="-200" z="0" level="0" size="0.18" />
+<point id="29" x="300" y="200" z="0" level="0" size="0.95" />
+<point id="30" x="300" y="0" z="0" level="0" size="0.47" />
+<point id="31" x="300" y="-200" z="0" level="0" size="0.26" />
+<point id="32" x="650" y="200" z="0" level="0" size="0.71" />
+<point id="33" x="650" y="0" z="0" level="0" size="0.38" />
+<point id="34" x="650" y="-200" z="0" level="0" size="0.69" />
+<point id="35" x="-800" y="400" z="0" level="0" size="0.12" />
+<point id="36" x="-800" y="-400" z="0" level="0" size="0.67" />
+<point id="37" x="-300" y="-400" z="0" level="0" size="0.99" />
+<point id="38" x="-450" y="-400" z="0" level="0" size="0.35" />
+<point id="39" x="-150" y="-400" z="0" level="0" size="0.94" />
+<point id="40" x="150" y="-400" z="0" level="0" size="0.03" />
+<point id="41" x="300" y="-400" z="0" level="0" size="0.11" />
+<point id="42" x="-300" y="400" z="0" level="0" size="0.22" />
+<point id="43" x="-450" y="400" z="0" level="0" size="0.33" />
+<point id="44" x="-150" y="400" z="0" level="0" size="0.73" />
+<point id="45" x="150" y="400" z="0" level="0" size="0.64" />
+<point id="46" x="800" y="-400" z="0" level="0" size="0.41" />
+<point id="47" x="800" y="400" z="0" level="0" size="0.11" />
+<point id="48" x="300" y="400" z="0" level="0" size="0.53" />
+<point id="49" x="450" y="400" z="0" level="0" size="0.68" />
+<point id="50" x="450" y="-400" z="0" level="0" size="0.47" />
+<point id="51" x="650" y="400" z="0" level="0" size="0.44" />
+<point id="52" x="-650" y="-400" z="0" level="0" size="0.62" />
+<point id="53" x="-650" y="400" z="0" level="0" size="0.57" />
+<point id="54" x="650" y="-400" z="0" level="0" size="0.37" />
+<point id="55" x="-450" y="200" z="0" level="0" size="0.59" />
+<point id="56" x="-450" y="-200" z="0" level="0" size="0.23" />
+<point id="57" x="450" y="-200" z="0" level="0" size="0.41" />
+<point id="58" x="450" y="200" z="0" level="0" size="0.29" />
+<point id="59" x="-150" y="200" z="0" level="0" size="0.78" />
+<point id="60" x="150" y="-200" z="0" level="0" size="0.16" />
+<point id="61" x="-150" y="0" z="0" level="0" size="0.35" />
+<point id="62" x="150" y="0" z="0" level="0" size="0.9" />
+<point id="63" x="-450" y="0" z="0" level="0" size="0.42" />
+<point id="64" x="450" y="0" z="0" level="0" size="0.88" />
+<point id="65" x="-800" y="200" z="0" level="0" size="0.06" />
+<point id="66" x="-800" y="-200" z="0" level="0" size="0.4" />
+<point id="67" x="800" y="-200" z="0" level="0" size="0.42" />
+<point id="68" x="800" y="200" z="0" level="0" size="0.64" />
+<point id="69" x="-800" y="0" z="0" level="0" size="0.48" />
+<point id="70" x="800" y="0" z="0" level="0" size="0.46" />
+<point id="71" x="0" y="400" z="0" level="0" size="0.05" />
+<point id="72" x="0" y="-400" z="0" level="0" size="0.9" />
+<point id="73" x="-150" y="-200" z="0" level="0" size="0.29" />
+<point id="74" x="150" y="200" z="0" level="0" size="0.7" />
+</chapter>

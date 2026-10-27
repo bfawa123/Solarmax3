@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map id="304007" player_count="2" vertical="False" defaultAIStrategy="-1" teamAITypes="" teamFriend="">
+  <mapbuildings>
+    <mapbuilding type="Mirror" size="1" tag="D" x="5" y="0" camption="1" fAngle="90" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Mirror" size="1" tag="E" x="-3" y="0" camption="2" fAngle="270" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Mirror" size="1" tag="F" x="3" y="0" camption="2" fAngle="90" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Mirror" size="1" tag="G" x="1.5" y="2.6" camption="2" fAngle="150" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Mirror" size="1" tag="H" x="-1.5" y="2.6" camption="2" fAngle="210" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Mirror" size="1" tag="I" x="-1.5" y="-2.6" camption="2" fAngle="330" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Mirror" size="1" tag="J" x="1.5" y="-2.6" camption="2" fAngle="30" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Lasergun" size="1" tag="K" x="0" y="0" camption="2" lasergunAngle="0" lasergunRotateSkip="60" lasergunRange="360" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Curse" size="1" tag="L" x="11.97" y="5.895" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" curseDelay="0" />
+    <mapbuilding type="Curse" size="1" tag="M" x="12.75" y="5.916" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" curseDelay="5" />
+    <mapbuilding type="Curse" size="1" tag="N" x="11.85" y="6.54" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" curseDelay="10" />
+    <mapbuilding type="Curse" size="1" tag="O" x="12.45" y="6.601" camption="0" fAngle="0" orbit="0" orbitParam1="" orbitParam2="" orbitClockWise="False" curseDelay="15" />
+  </mapbuildings>
+  <mapplayers>
+    <mapplayer tag="K" ship="0" camption="2" />
+    <mapplayer tag="F" ship="0" camption="2" />
+    <mapplayer tag="J" ship="0" camption="2" />
+    <mapplayer tag="I" ship="0" camption="2" />
+    <mapplayer tag="G" ship="0" camption="2" />
+    <mapplayer tag="H" ship="0" camption="2" />
+    <mapplayer tag="E" ship="0" camption="2" />
+    <mapplayer tag="D" ship="30" camption="1" />
+  </mapplayers>
+  <candidates>
+    <candidate transformBulidingID="" />
+    <candidate lasergunAngle="" lasergunRotateSkip="" lasergunRange="" />
+    <candidate orbitRevoSpeed="12" />
+    <candidate curseDelay="" />
+    <candidate aistrategy="" />
+    <candidate shipProduceOverride="1" />
+  </candidates>
+</map>
+<!--
+  <maplines>
+    <mapline point1="1" point2="2" />
+  </maplines>
+-->

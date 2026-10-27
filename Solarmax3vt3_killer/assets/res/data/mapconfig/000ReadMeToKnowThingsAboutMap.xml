@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map id="006" player_count="4" vertical="False" defaultAIStrategy="-1" teamAITypes="" teamFriend="">
+  <maplines>
+    <mapline point1="1" point2="2" />
+    <mapline point1="3" point2="4" />
+  </maplines>
+  <mapbuildings>
+    <mapbuilding type="star" size="1" tag="A" x="3" y="-2.7" camption="2" fAngle="0" orbit="1" orbitParam1="0,0" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="B" x="-3" y="2.7" camption="1" fAngle="0" orbit="1" orbitParam1="0,0" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="C" x="3" y="2.7" camption="4" fAngle="0" orbit="1" orbitParam1="0,0" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="D" x="-3" y="-2.7" camption="3" fAngle="0" orbit="1" orbitParam1="0,0" orbitParam2="" orbitClockWise="False" />
+  </mapbuildings>
+  <mapplayers>
+    <mapplayer tag="C" ship="30" camption="4" />
+    <mapplayer tag="B" ship="30" camption="1" />
+    <mapplayer tag="A" ship="30" camption="2" />
+    <mapplayer tag="D" ship="30" camption="3" />
+  </mapplayers>
+  <candidates>
+    <candidate transformBulidingID="" />
+    <candidate lasergunAngle="" lasergunRotateSkip="" lasergunRange="" />
+    <candidate orbitRevoSpeed="12" />
+    <candidate curseDelay="" />
+    <candidate aistrategy="" />
+    <candidate shipProduceOverride="1" />
+  </candidates>
+  <SetParty>
+    <CampNum camp="1,2,3,4" />
+    <SpeedUp speed="1" />
+    <ProduceUp produce="1" />
+    <CaptureUp capture="1" />
+    <OccupyUp occupy="1" />
+    <TimeSet Interval="100" Continue="30"/>
+    <ShipAdd ship="45" />
+  </SetParty>
+   
+</map>
+
+<!-- 所有属性的含义说明 -->
+<!--
+  <map>中
+    id="" 本地图文件的编号。不影响文件的功能, 可以选择删掉。
+    player_count="" 为当前地图内有效势力数量, 超出player_count范畴的势力在地图内不具有AI, 也不需要消灭它, 不过它的建筑是会攻击的。
+    defaultAIStrategy="" 设置关卡默认AI类型, 对应编号aistrategy.xml里的编号, 如果是-1就表示无默认AI, 优先级比Level.xml内的 aitype="" 更高。
+    teamAITypes="" 设置各个势力对应的AI类型。其内填9个数字, 对应9个势力（0号到8号）, 这些数字也是aistrategy.xml里的编号, 优先级比Level.xml内的 aitype="" 更高。
+    如果你要使用 teamAITypes="" , 请不要使用 defaultAIStrategy=""。
+    teamFriend="" 设置势力的组队。每两个相邻数字为一组表示一队。例如, “1,2,1,3”表示蓝色和红色组队, 蓝色和橙色组队, 但红色和橙色没有组队。
+    Surivial="" 设置生存时间，里面的参数为生存秒数，到达该参数后自动胜利。
+    Assimilation=""设置同化事件，比如Assimilation="enableFlag(0,1),x1,y1,camp,radius,triggerTime(触发时间),x2,y2,repeatCount(a>=1)"
+  <maplines>中
+    point1="" point2="" 设置两个障碍点的连线，填写两个障碍点的tag，请注意，非障碍点天体进行连线是无效的。
+  <SetParty>中 campNum为受增益势力；TimeSet 表示每次结束后间隔 Interval 秒再次开始，持续 Continue 秒；ShipAdd 会在每次开始时给对应势力已占领天体加船 
+  <mapbuildings>中
+    id="" 天体的编号，不影响文件的功能，目前在一些新自制中已经被简化，如果你在一些比较老的自制的地图文件中看到了id=""，无需理会这个参数，可以将其删除。
+    type="" 设置天体类型。对应mapnode.xml里的 type=""
+    size="" 设置天体大小。对应mapnode.xml里的 sizeType=""
+    tag="" 设置天体标签。每个天体都必须有不同的标签。这个标签可以填任意数量的任意字符, 例如填“1”, “A”, “,”, “α”, “啊”, “ADSSQasad34., 啊”, 等等。
+    x="" y="" 设置天体的坐标。
+    camption="" 设置天体所属的势力。另外注意，玩家所操控的势力在游戏开始时必须有一个天体，否则玩家会变为0号势力。
+    fAngle="" 设置天体旋转角度。该属性可以用于标记焦土星球、目标天体, 以及旋转反射镜、追踪炮。但是, 不能用该属性旋转射线炮。
+
+    orbit="" orbitRevoSpeed="" orbitParam1="" orbitParam2="" orbitClockWise="" 这是一组表示天体轨道的属性, 含义如下：
+    orbit="" 填0表示没有轨道, 填1表示圆形轨道, 填4表示椭圆轨道，2是三角轨道，3是方形轨道，custom是方程自定义轨道。
+- 参数方程： EquationX + EquationY (+ orbit_t_choose) x和y的方程可以用来设置天体的轨道, 其中的变量t是参数，对于custom轨道, orbit_t_choose=""可以用来选择方程中t的定义范围
+- 隐式方程： Equation + orbit_box xmin="" xmax="" ymin="" ymax="" 用于设置天体的轨道,只有x和y两个变量, 这时orbit_box中的四个参数就用来设置x和y的范围即可。
+- 显式函数： Equation + orbit_x_choose 用于设置天体的轨道, 只有x一个变量, 这时orbit_x_choose用来设置x的范围。
+    orbitParam1="" orbitParam2="" orbitParam3="" orbitParam4=""用于设置椭圆的焦点坐标。如果是圆形轨道则只需在其中一项中填写圆心坐标。
+    orbitClockWise="" 填True是顺时针, 填False是逆时针。
+    orbitRevoSpeed="" 表示天体运行的速度, 它与角速度成正比, 默认值是12, 必须填整数。如果天体属性中没有orbitRevoSpeed=""这一项, 那么它的值默认是12, 但如果存在orbitRevoSpeed="", 不可以在其中不填任何数值。
+
+    另外还有如下可选项：
+    transformBulidingID="" 填写变形装置可以变形的天体的id（即mapnode.xml中天体的id）, 格式是“1,2,3”。
+    lasergunAngle="" lasergunRange="" lasergunRotateSkip="" 这是三个针对射线炮的属性。
+    lasergunAngle="" 表示射线炮的初始旋转角度。
+    lasergunRotateSkip="" 表示射线炮的单次旋转角度。
+    lasergunRange="" 表示射线炮的总旋转角度。
+    注意, 如果想让射线炮不旋转, 不可以在两个属性同时填0, 因为0不能除以0。正确的填法是在lasergunRotateSkip=""中填写一个比lasergunRange=""中大的数字。例如 lasergunRotateSkip="20" lasergunRange="10"
+    curseDelay="" 填写伽马射线的攻击间隔。
+    aistrategy="" 控制该天体上的AI类型。填写aistrategy.xml里的AI编号。该选项的优先级大于Level.xml内的 aitype="" 与本xml内的 defaultAIStrategy="" 和 teamAITypes="" 。
+    shipProduceOverride="" 控制该天体的产兵是否可以超过自身飞船上限。1表示可以超过。
+
+  <mapplayers>中
+    id="" 舰队的编号，不影响文件的功能，目前在一些新自制中已经被简化，如果你在一些比较老的自制的地图文件中看到了id=""，无需理会这个参数，可以将其删除。
+    tag="" 表示对应天体的标签
+    ship="" 填写天体上拥有的飞船数量
+    camption="" 设置飞船所属的势力
+
+  <candidates>中
+    这里面的几个属性都是对于特殊天体的候选项, 仅用于方便自制者进行地图的编辑, 对游戏没有实际的作用, 可以选择删除。
+      <SetParty>中 campNum为受增益势力；TimeSet 表示每次结束后间隔 Interval 秒再次开始，持续 Continue 秒；ShipAdd 会在每次开始时给对应势力已占领天体加船 
+-->

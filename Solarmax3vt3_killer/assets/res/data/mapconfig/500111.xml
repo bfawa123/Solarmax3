@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<map id="" player_count="2" vertical="False" defaultAIStrategy="-1" teamAITypes="" teamFriend="">
+  <maplines>
+  </maplines>
+  <mapbuildings>
+    <mapbuilding type="star" size="3" tag="0" x="-2" y="0" camption="1" fAngle="0" orbit="0"  orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="tower" size="1" tag="1" x="0" y="2" camption="0" fAngle="0" orbit="custom" Equation="x^2+y^2+2x=2(x^2+y^2)^(1/2)" orbit_box="-4,2,-3,3" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="tower" size="1" tag="2" x="0" y="-2" camption="0" fAngle="0" orbit="custom" Equation="x^2+y^2+2x=2(x^2+y^2)^(1/2)" orbit_box="-4,2,-3,3" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="castle" size="1" tag="3" x="4" y="0" camption="7" fAngle="0" orbit="custom" EquationX="x=4+t^2" EquationY="y=2t" orbit_t_choose="-1,1" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="AddTower" size="1" tag="4" x="0" y="0" camption="0" fAngle="0" orbit="custom" Equation="x^2+y^2+2x=2(x^2+y^2)^(1/2)" orbit_box="-4,2,-3,3" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="3" tag="6" x="7" y="0" camption="7" fAngle="0" orbit="custom"  orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="8" x="-3" y="-2.0716" camption="0" fAngle="0" orbit="custom" Equation="x^2+y^2+2x=2(x^2+y^2)^(1/2)" orbit_box="-4,2,-3,3" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="star" size="1" tag="9" x="-3" y="2.0716" camption="0" fAngle="0" orbit="custom" Equation="x^2+y^2+2x=2(x^2+y^2)^(1/2)" orbit_box="-4,2,-3,3" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+    <mapbuilding type="Lasercannon" size="1" tag="10" x="-4" y="0" camption="0" fAngle="0" orbit="custom" Equation="x^2+y^2+2x=2(x^2+y^2)^(1/2)" orbit_box="-4,2,-3,3" orbitParam1="" orbitParam2="" orbitClockWise="False" />
+  </mapbuildings>
+  <mapplayers>
+    <mapplayer tag="0" ship="60" camption="1" />
+    <mapplayer tag="3" ship="30" camption="7" />
+  </mapplayers>
+</map>

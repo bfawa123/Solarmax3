@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mapNodes>
+	<!-- 星球，传送，炮塔 -->
+	<node id="1" type="star" typeEnum="1" aiWeight="100" aiUnitLost="0" sizeType="1" size="0.4" hp="100" food="30" createshipnum="1" createship="1.6" attackrange="0" isShowRange="0" attackspeed="0" attackpower="0" ImageName="planet01" nodesize="0.38" perfab="NULL" skills="NULL" />
+	<node id="2" type="star" typeEnum="1" aiWeight="120" aiUnitLost="0" sizeType="2" size="0.5" hp="100" food="40" createshipnum="1" createship="1.4" attackrange="0" isShowRange="0" attackspeed="0" attackpower="0" ImageName="planet02" nodesize="0.49" perfab="NULL" skills="NULL" />
+	<node id="3" type="star" typeEnum="1" aiWeight="140" aiUnitLost="0" sizeType="3" size="0.6" hp="100" food="50" createshipnum="1" createship="1.2" attackrange="0" isShowRange="0" attackspeed="0" attackpower="0" ImageName="planet03" nodesize="0.59" perfab="NULL" skills="NULL" />
+	<node id="4" type="star" typeEnum="1" aiWeight="160" aiUnitLost="0" sizeType="4" size="0.7" hp="100" food="60" createshipnum="1" createship="1" attackrange="0" isShowRange="0" attackspeed="0" attackpower="0" ImageName="planet04" nodesize="0.7" perfab="NULL" skills="NULL" />
+	<node id="5" type="star" typeEnum="1" aiWeight="180" aiUnitLost="0" sizeType="5" size="0.8" hp="100" food="70" createshipnum="1" createship="0.8" attackrange="0" isShowRange="0" attackspeed="0" attackpower="0" ImageName="planet05" nodesize="0.79" perfab="NULL" skills="NULL" />
+	<node id="6" type="star" typeEnum="1" aiWeight="200" aiUnitLost="0" sizeType="6" size="0.9" hp="100" food="80" createshipnum="1" createship="0.6" attackrange="0" isShowRange="0" attackspeed="0" attackpower="0" ImageName="planet06" nodesize="0.89" perfab="NULL" skills="NULL" />
+	<node id="7" type="star" typeEnum="1" aiWeight="220" aiUnitLost="0" sizeType="7" size="1" hp="100" food="90" createshipnum="1" createship="0.4" attackrange="0" isShowRange="0" attackspeed="0" attackpower="0" ImageName="planet07" nodesize="1.05" perfab="NULL" skills="NULL" />
+	<node id="8" type="teleport" typeEnum="3" aiWeight="120" aiUnitLost="0" sizeType="1" size="0.65" hp="100" food="0" createshipnum="0" createship="0" attackrange="0" isShowRange="0" attackspeed="0" attackpower="0" ImageName="warp" nodesize="0.65" perfab="NULL" skills="NULL" />
+	<node id="9" type="tower" typeEnum="4" aiWeight="200" aiUnitLost="20" sizeType="1" size="0.5" hp="100" food="0" createshipnum="0" createship="0" attackrange="12" isShowRange="1" attackspeed="0.2" attackpower="0" ImageName="tower" nodesize="0.5" perfab="NULL" skills="NULL" />
+	<node id="10" type="tower" typeEnum="4" aiWeight="250" aiUnitLost="30" sizeType="2" size="1" hp="100" food="0" createshipnum="0" createship="0" attackrange="15" isShowRange="1" attackspeed="0.1" attackpower="0" ImageName="NULL" nodesize="1.1" perfab="NULL" skills="NULL" />
+	<!-- 堡垒，障碍点 -->
+	<node id="11" type="castle" typeEnum="2" aiWeight="300" aiUnitLost="25" sizeType="1" size="1" hp="100" food="100" createshipnum="1" createship="0.5" attackrange="6" isShowRange="1" attackspeed="0.15" attackpower="0" ImageName="starbase" nodesize="1.08" perfab="NULL" skills="NULL" />
+	<node id="12" type="barrier" typeEnum="5" aiWeight="1" aiUnitLost="0" sizeType="1" size="0.25" hp="100" food="0" createshipnum="0" createship="0" attackrange="10" isShowRange="0" attackspeed="0.2" attackpower="0" ImageName="NULL" nodesize="0.25" perfab="NULL" skills="NULL" />
+	<node id="13" type="master" typeEnum="7" aiWeight="1" aiUnitLost="0" sizeType="1" size="0.7" hp="100" food="0" createshipnum="0" createship="0" attackrange="10" isShowRange="0" attackspeed="10" attackpower="0" ImageName="NULL" nodesize="0.7" perfab="NULL" skills="NULL" />
+	<!-- 黑洞武器 -->
+	<node id="14" type="defense" typeEnum="8" aiWeight="120" aiUnitLost="5" sizeType="1" size="0.5" hp="100" food="0" createshipnum="0" createship="0" attackrange="10" isShowRange="1" attackspeed="0.3" attackpower="10" ImageName="magicstar" nodesize="0.5" perfab="NULL" skills="NULL" />
+	<node id="15" type="power" typeEnum="9" aiWeight="1" aiUnitLost="0" sizeType="1" size="0.7" hp="100" food="0" createshipnum="0" createship="0" attackrange="0" isShowRange="0" attackspeed="0" attackpower="0" ImageName="NULL" nodesize="0.7" perfab="NULL" skills="NULL" />
+	<node id="16" type="blackhole" typeEnum="10" aiWeight="1" aiUnitLost="0" sizeType="1" size="0.7" hp="100" food="0" createshipnum="0" createship="0" attackrange="5" isShowRange="0" attackspeed="2" attackpower="10" ImageName="NULL" nodesize="0.5" perfab="Entity_BlackHole" skills="NULL" />
+	<node id="17" type="House" typeEnum="11" aiWeight="1" aiUnitLost="0" sizeType="1" size="1" hp="100" food="100" createshipnum="0" createship="0" attackrange="0" isShowRange="0" attackspeed="0" attackpower="0" ImageName="NULL" nodesize="1.08" perfab="Entity_House" skills="NULL" />
+	<node id="18" type="Arsenal" typeEnum="12" aiWeight="1" aiUnitLost="0" sizeType="1" size="1" hp="100" food="0" createshipnum="1" createship="0.5" attackrange="0" isShowRange="0" attackspeed="0" attackpower="0" ImageName="NULL" nodesize="0.5" perfab="Entity_Arsenal" skills="NULL" />
+	<node id="19" type="AircraftCarrier" typeEnum="13" aiWeight="1" aiUnitLost="0" sizeType="1" size="1" hp="100" food="0" createshipnum="10" createship="5" attackrange="0" isShowRange="0" attackspeed="0" attackpower="0" ImageName="NULL" nodesize="0.5" perfab="Entity_AircraftCarrier" skills="NULL" />
+	<!-- 脉冲炮 -->
+	<node id="20" type="Lasercannon" typeEnum="14" aiWeight="130" aiUnitLost="5" sizeType="1" size="0.5" hp="100" food="0" createshipnum="0" createship="0" attackrange="12" isShowRange="1" attackspeed="5" attackpower="0" ImageName="Lasercannon_new" nodesize="0.5" perfab="Entity_Lasercannon" skills="201011" />
+	<node id="21" type="Attackship" typeEnum="15" aiWeight="1" aiUnitLost="0" sizeType="1" size="1" hp="100" food="0" createshipnum="0" createship="0" attackrange="10" isShowRange="0" attackspeed="10" attackpower="0" ImageName="NULL" nodesize="0.5" perfab="Entity_Attackship" skills="201001" />
+	<node id="22" type="Lifeship" typeEnum="16" aiWeight="1" aiUnitLost="0" sizeType="1" size="1" hp="100" food="0" createshipnum="0" createship="0" attackrange="10" isShowRange="0" attackspeed="10" attackpower="10" ImageName="NULL" nodesize="0.5" perfab="Entity_Lifeship" skills="201002" />
+	<node id="23" type="Speedship" typeEnum="17" aiWeight="1" aiUnitLost="0" sizeType="1" size="1" hp="100" food="0" createshipnum="0" createship="0" attackrange="0" isShowRange="0" attackspeed="10" attackpower="0" ImageName="NULL" nodesize="0.5" perfab="Entity_Speedship" skills="201003" />
+	<node id="24" type="Captureship" typeEnum="18" aiWeight="1" aiUnitLost="0" sizeType="1" size="1" hp="100" food="0" createshipnum="0" createship="0" attackrange="5" isShowRange="0" attackspeed="2" attackpower="10" ImageName="NULL" nodesize="0.5" perfab="Entity_Captureship" skills="201004" />
+	<node id="25" type="AntiAttackship" typeEnum="19" aiWeight="1" aiUnitLost="0" sizeType="1" size="1" hp="100" food="100" createshipnum="0" createship="0" attackrange="10" isShowRange="0" attackspeed="10" attackpower="0" ImageName="NULL" nodesize="1.08" perfab="Entity_AntiAttackship" skills="201005" />
+	<node id="26" type="AntiLifeship" typeEnum="20" aiWeight="1" aiUnitLost="0" sizeType="1" size="1" hp="100" food="0" createshipnum="1" createship="0.5" attackrange="10" isShowRange="0" attackspeed="10" attackpower="0" ImageName="NULL" nodesize="0.5" perfab="Entity_AntiLifeship" skills="201006" />
+	<node id="27" type="AntiSpeedship" typeEnum="21" aiWeight="1" aiUnitLost="0" sizeType="1" size="1" hp="100" food="0" createshipnum="10" createship="3" attackrange="10" isShowRange="0" attackspeed="10" attackpower="0" ImageName="NULL" nodesize="0.5" perfab="Entity_AntiSpeedship" skills="201007" />
+	<node id="28" type="AntiCaptureship" typeEnum="22" aiWeight="1" aiUnitLost="0" sizeType="1" size="1" hp="100" food="0" createshipnum="10" createship="3" attackrange="10" isShowRange="0" attackspeed="10" attackpower="0" ImageName="NULL" nodesize="0.5" perfab="Entity_AntiCaptureship" skills="201008" />
+	<node id="29" type="Magicstar" typeEnum="23" aiWeight="1" aiUnitLost="0" sizeType="1" size="1" hp="100" food="0" createshipnum="10" createship="3" attackrange="0" isShowRange="0" attackspeed="10" attackpower="0" ImageName="NULL" nodesize="0.5" perfab="Entity_Magicstar" skills="201009" />
+	<node id="30" type="Hiddenstar" typeEnum="24" aiWeight="1" aiUnitLost="0" sizeType="1" size="1" hp="100" food="0" createshipnum="10" createship="3" attackrange="0" isShowRange="0" attackspeed="10" attackpower="0" ImageName="NULL" nodesize="0.5" perfab="Entity_Hiddenstar" skills="201010" />
+	<node id="31" type="FixedWarpDoor" typeEnum="25" aiWeight="1" aiUnitLost="0" sizeType="1" size="1" hp="100" food="0" createshipnum="10" createship="3" attackrange="0" isShowRange="0" attackspeed="10" attackpower="0" ImageName="NULL" nodesize="0.5" perfab="Entity_FixedWarpDoor" skills="NULL" />
+	<node id="32" type="Clouds" typeEnum="26" aiWeight="1" aiUnitLost="0" sizeType="1" size="1" hp="100" food="0" createshipnum="10" createship="3" attackrange="0" isShowRange="0" attackspeed="5" attackpower="0" ImageName="NULL" nodesize="1.08" perfab="Entity_Clouds" skills="NULL" />
+	<node id="33" type="Inhibit" typeEnum="27" aiWeight="1" aiUnitLost="0" sizeType="1" size="1" hp="100" food="0" createshipnum="0" createship="0" attackrange="5" isShowRange="1" attackspeed="1" attackpower="0" ImageName="NULL" nodesize="1" perfab="Entity_Master" skills="201012" />
+	<!-- 捕获，航母 -->
+	<node id="34" type="Twist" typeEnum="28" aiWeight="130" aiUnitLost="13" sizeType="1" size="0.5" hp="100" food="0" createshipnum="0" createship="0" attackrange="12" isShowRange="1" attackspeed="0.3" attackpower="0" ImageName="Captureship" nodesize="0.5" perfab="Entity_Captureship" skills="NULL" />
+	<node id="35" type="AddTower" typeEnum="29" aiWeight="140" aiUnitLost="0" sizeType="1" size="0.5" hp="100" food="50" createshipnum="0" createship="0" attackrange="12" isShowRange="1" attackspeed="0.3" attackpower="0" ImageName="AntiCaptureship" nodesize="0.5" perfab="Entity_AntiCaptureship" skills="NULL" />
+	<node id="36" type="Sacrifice" typeEnum="30" aiWeight="1" aiUnitLost="0" sizeType="1" size="1" hp="100" food="0" createshipnum="0" createship="0" attackrange="10" isShowRange="1" attackspeed="5" attackpower="0" ImageName="NULL" nodesize="1" perfab="Entity_Master" skills="201013" />
+	<node id="37" type="OverKill" typeEnum="31" aiWeight="1" aiUnitLost="0" sizeType="1" size="1" hp="100" food="0" createshipnum="0" createship="0" attackrange="10" isShowRange="1" attackspeed="5" attackpower="0" ImageName="NULL" nodesize="1" perfab="Entity_Master" skills="201014" />
+	<node id="38" type="CloneTo" typeEnum="32" aiWeight="1" aiUnitLost="0" sizeType="1" size="1" hp="100" food="0" createshipnum="0" createship="0" attackrange="10" isShowRange="0" attackspeed="5" attackpower="0" ImageName="NULL" nodesize="1" perfab="Entity_Master" skills="201015" />
+	<node id="39" type="Treasure" typeEnum="33" aiWeight="1" aiUnitLost="0" sizeType="1" size="1" hp="100" food="0" createshipnum="0" createship="0" attackrange="10" isShowRange="0" attackspeed="1" attackpower="0" ImageName="NULL" nodesize="1" perfab="Entity_Master" skills="201016" />
+	<!-- 变形装置，射线炮，反射镜 -->
+	<node id="40" type="UnknownStar" typeEnum="34" aiWeight="100" aiUnitLost="0" sizeType="1" size="0.5" hp="100" food="0" createshipnum="0" createship="0" attackrange="10" isShowRange="0" attackspeed="5" attackpower="0" ImageName="planetRandom" nodesize="0.7" perfab="Entity_Master" skills="201017" />
+	<node id="41" type="Lasergun" typeEnum="35" aiWeight="130" aiUnitLost="5" sizeType="1" size="0.5" hp="100" food="0" createshipnum="0" createship="0" attackrange="12" isShowRange="0" attackspeed="5" attackpower="0" ImageName="Speedship" nodesize="0.5" perfab="NULL" skills="201018" />
+	<node id="42" type="Mirror" typeEnum="36" aiWeight="80" aiUnitLost="0" sizeType="1" size="0.4" hp="100" food="0" createshipnum="0" createship="0" attackrange="0" isShowRange="0" attackspeed="0" attackpower="0" ImageName="NULL" nodesize="0.5" perfab="Entity_Master" skills="201019" />
+	<node id="43" type="BarrierPoint" typeEnum="37" aiWeight="1" aiUnitLost="0" sizeType="1" size="0.4" hp="10" food="30" createshipnum="0" createship="0" attackrange="0" isShowRange="0" attackspeed="0" attackpower="0" ImageName="NULL" nodesize="0.2" perfab="Entity_Planet" skills="NULL" />
+	<!-- 追踪炮，扩散，伽马射线，导弹平台 -->
+	<node id="44" type="Gunturret" typeEnum="38" aiWeight="200" aiUnitLost="20" sizeType="1" size="0.5" hp="100" food="0" createshipnum="0" createship="0" attackrange="12" isShowRange="0" attackspeed="1.2" attackpower="0" ImageName="Speedship" nodesize="0.5" perfab="NULL" skills="NULL" />
+	<node id="45" type="Diffusion" typeEnum="39" aiWeight="140" aiUnitLost="0" sizeType="1" size="0.5" hp="100" food="30" createshipnum="0" createship="0" attackrange="12" isShowRange="1" attackspeed="0.5" attackpower="0" ImageName="UnstablePortal" nodesize="0.5" perfab="Entity_AntiLifeship" skills="201020" />
+	<node id="46" type="Curse" typeEnum="40" aiWeight="140" aiUnitLost="0" sizeType="1" size="0.5" hp="100" food="0" createshipnum="0" createship="0" attackrange="12" isShowRange="0" attackspeed="30.5" attackpower="0" ImageName="NULL" nodesize="0.5" perfab="Entity_Curse" skills="201021" />
+	<node id="47" type="Cannon" typeEnum="41" aiWeight="200" aiUnitLost="0" sizeType="1" size="0.5" hp="100" food="0" createshipnum="0" createship="0" attackrange="1" isShowRange="1" attackspeed="10" attackpower="0" ImageName="NuclearBomb" nodesize="0.5" perfab="Entity_Nuclear" skills="NULL" />
+	<node id="48" type="boss" typeEnum="1" aiWeight="40" aiUnitLost="0" sizeType="1" size="1" hp="100" food="2800" createshipnum="2" createship="0.2" attackrange="0" isShowRange="0" attackspeed="0" attackpower="0" ImageName="planet07" nodesize="1.05" perfab="NULL" skills="NULL" />
+	<!-- 造船厂，补给舰 -->
+	<node id="49" type="shipyard" typeEnum="24" aiWeight="160" aiUnitLost="0" sizeType="1" size="0.5" hp="100" food="30" createshipnum="1" createship="0.2" attackrange="0" isShowRange="0" attackspeed="0" attackpower="0" ImageName="NULL" nodesize="0.59" perfab="Entity_Hiddenstar" skills="NULL" />
+	<node id="50" type="supplyship" typeEnum="16" aiWeight="180" aiUnitLost="0" sizeType="1" size="0.7" hp="100" food="120" createshipnum="1" createship="3" attackrange="10" isShowRange="0" attackspeed="0" attackpower="0" ImageName="NULL" nodesize="0.7" perfab="Entity_Lifeship" skills="NULL" />
+	<!-- 焦土星球 -->
+	<node id="51" type="dirtstar" typeEnum="1" aiWeight="80" aiUnitLost="0" sizeType="1" size="0.4" hp="100" food="40" createshipnum="0" createship="0" attackrange="0" isShowRange="0" attackspeed="0" attackpower="0" ImageName="planet01" nodesize="0.38" perfab="NULL" skills="NULL" />
+	<node id="52" type="dirtstar" typeEnum="1" aiWeight="100" aiUnitLost="0" sizeType="2" size="0.5" hp="100" food="50" createshipnum="0" createship="0" attackrange="0" isShowRange="0" attackspeed="0" attackpower="0" ImageName="planet02" nodesize="0.49" perfab="NULL" skills="NULL" />
+	<node id="53" type="dirtstar" typeEnum="1" aiWeight="120" aiUnitLost="0" sizeType="3" size="0.6" hp="100" food="60" createshipnum="0" createship="0" attackrange="0" isShowRange="0" attackspeed="0" attackpower="0" ImageName="planet03" nodesize="0.59" perfab="NULL" skills="NULL" />
+	<node id="54" type="dirtstar" typeEnum="1" aiWeight="140" aiUnitLost="0" sizeType="4" size="0.7" hp="100" food="70" createshipnum="0" createship="0" attackrange="0" isShowRange="0" attackspeed="0" attackpower="0" ImageName="planet04" nodesize="0.79" perfab="NULL" skills="NULL" />
+	<node id="55" type="dirtstar" typeEnum="1" aiWeight="160" aiUnitLost="0" sizeType="5" size="0.8" hp="100" food="80" createshipnum="0" createship="0" attackrange="0" isShowRange="0" attackspeed="0" attackpower="0" ImageName="planet05" nodesize="0.79" perfab="NULL" skills="NULL" />
+	<node id="56" type="dirtstar" typeEnum="1" aiWeight="180" aiUnitLost="0" sizeType="6" size="0.9" hp="100" food="90" createshipnum="0" createship="0" attackrange="0" isShowRange="0" attackspeed="0" attackpower="0" ImageName="planet06" nodesize="0.89" perfab="NULL" skills="NULL" />
+	<node id="57" type="dirtstar" typeEnum="1" aiWeight="220" aiUnitLost="0" sizeType="7" size="1" hp="100" food="120" createshipnum="0" createship="0" attackrange="0" isShowRange="0" attackspeed="0" attackpower="0" ImageName="planet07" nodesize="1.05" perfab="NULL" skills="NULL" />
+	<node id="58" type="background" typeEnum="8" aiWeight="20" aiUnitLost="0" sizeType="1" size="500" hp="100" food="0" createshipnum="0" createship="0" attackrange="0" isShowRange="0" attackspeed="0" attackpower="0" ImageName="planet07" nodesize="1.05" perfab="NULL" skills="NULL" />
+	<!-- 下面的所有天体都属于“定制天体”。顾名思义，它们不是正常的天体，而是和正常天体存在某些属性差异，以便在特定的地图中发挥特定作用。 -->
+	<node id="59" type="Nurturer" typeEnum="29" aiWeight="400" aiUnitLost="0" sizeType="1" size="1.5" hp="100" food="500" createshipnum="0" createship="0" attackrange="12" isShowRange="0" attackspeed="0.1" attackpower="0" ImageName="AntiCaptureship" nodesize="1" perfab="Entity_AntiCaptureship" skills="NULL" />	
+	<node id="60" type="Powershell" typeEnum="2" aiWeight="300" aiUnitLost="25" sizeType="1" size="1.5" hp="100" food="10000" createshipnum="2" createship="0.25" attackrange="12" isShowRange="0" attackspeed="0.1" attackpower="0" ImageName="starbase" nodesize="1" perfab="NULL" skills="NULL" />	
+	<node id="61" type="Devourer" typeEnum="8" aiWeight="120" aiUnitLost="5" sizeType="1" size="1.5" hp="100" food="0" createshipnum="0" createship="0" attackrange="20" isShowRange="1" attackspeed="0.2" attackpower="10" ImageName="magicstar" nodesize="0.5" perfab="NULL" skills="NULL" />
+	<node id="62" type="Radiation" typeEnum="39" aiWeight="120" aiUnitLost="5" sizeType="1" size="1.25" hp="200" food="60" createshipnum="1" createship="1" attackrange="20" isShowRange="1" attackspeed="0.2" attackpower="10" ImageName="UnstablePortal" nodesize="0.75" perfab="Entity_AntiLifeship" skills="201020" />
+	<node id="63" type="SpaceCore" typeEnum="20" aiWeight="300" aiUnitLost="0" sizeType="1" size="0.5" hp="500" food="400" createshipnum="1" createship="0.15" attackrange="10" isShowRange="0" attackspeed="10" attackpower="0" ImageName="NULL" nodesize="0.5" perfab="Entity_Dilator" skills="NULL" Reside="160" />
+	<node id="64" type="Parent_object" typeEnum="16" aiWeight="180" aiUnitLost="0" sizeType="1" size="1.7" hp="200" food="120000" createshipnum="200" createship="60" attackrange="10" isShowRange="0" attackspeed="0" attackpower="0" ImageName="NULL" nodesize="0.7" perfab="Entity_Lifeship" skills="NULL" />
+	<node id="65" type="Heart" typeEnum="34" aiWeight="100" aiUnitLost="0" sizeType="1" size="1.25" hp="400" food="500" createshipnum="2" createship="0.2" attackrange="12" isShowRange="0" attackspeed="5" attackpower="0" ImageName="NULL" nodesize="0.7" perfab="Entity_Master" skills="NULL" />
+	<!-- 你可以忽视下面的所有定制天体，甚至把它们全部删除。如果你想要创造一个定制天体，可以随时创造。 -->
+</mapNodes>
+
+
+<!-- 所有属性的含义说明 -->
+<!-- 
+	id="" 设置天体的序号。变形装置填写变形天体的时候要填写该序号
+	type="" 设定天体名称。对应地图文件中的type=""
+	typeEnum="" 设置天体的底层代码来源编号。
+	aiWeight="" AI对该天体感兴趣的程度。填大于等于1的数。
+	aiUnitLost="" AI对经过该天体范围的估损。仅对AI3.0，AI4.0，hardAI有效。这里填的值正常情况下是普通势力的飞船走过该天体的一个半径被消灭的飞船数。
+	sizeType="" 该天体的大小类型。对应地图文件中的size=""
+	size="" 天体的大小。这一项同时也会影响天体的占领度需求（称为HP），HP=size*hp 请注意，这个参数只支持填写0.4 0.5 0.6 0.65 0.7 0.8 0.9 1这些数值，如果不是这些数值，那么此天体的定位圈、占领弧和战斗弧都会消失！
+	hp="" 控制天体的HP上限。HP=size*hp 请注意，如果这个参数的数值超过100，那么这个天体在占领到超过了100hp的界限时，占领弧会消失，因此不要设置大于100的值。
+	food="" 天体提供的飞船上限
+	createshipnum="" 单次生产飞船数量
+	createship="" 产兵速度。单位是s/个。如果填“0”那么该天体不产兵。
+	attackrange="" 影响天体攻击范围。天体的范围半径计算公式为：攻击半径r = attackrange * size / 2。这样你就可以知道，如果给定攻击半径r，那么 attackrange = 2r/size
+	isShowRange="" 控制天体是否显示作用范围。0 表示不显示， 1 表示显示。
+	attackspeed="" 攻击速度。单位是s/个。
+	attackpower="" 未知功能参数。目前可认为无效。
+	ImageName="" 控制天体在变形装置即将变形时的图标。如果填NULL，则在变形装置即将变形成该天体时，只会闪烁阴影。
+	nodesize="" 玩家操作飞船准备从一个天体到另一个天体时，会显示两个天体的定位圈和两个端点组成一条线段，此参数控制端点距离天体中心点的距离。
+	perfab="" 天体的图标。仅控制关卡内的图标而不控制预览图标。如果要修改预览图标，需要在dll文件内（源代码中）修改
+	skills="" 该天体使用的技能的编号。可以在NewSkill.txt查看对应编号技能的能力。
+-->

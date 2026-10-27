@@ -1,0 +1,14 @@
+.vs
+Assembly-CSharp/bin/
+Assembly-CSharp/obj/
+Solarmax3vt3_killer/build/
+Solarmax3vt3_killer/dist/
+build-tools/
+build/
+Solarmax3vt3_killer/assets/bin/Data/Managed/Assembly-CSharp.dll
+Solarmax3vt3_killer/AndroidManifest.xml.orig
+build-tools.zip
+Assembly-CSharp/Assembly-CSharp.sln
+Solarmax3vt3_killer/Library/
+old/
+*.apk

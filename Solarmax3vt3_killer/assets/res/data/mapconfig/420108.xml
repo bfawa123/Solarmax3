@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map id="" player_count="2" vertical="False">
+  <maplines>
+    <mapline point1="16" point2="17" />
+    <mapline point1="18" point2="19" />
+  </maplines>
+  <mapbuildings>
+    <mapbuilding tag="0" type="star" size="2" x="-6.0" y="-0.0" camption="2" orbit="4" orbitParam1="-6,0" orbitParam2="-4,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="1" type="star" size="2" x="6.0" y="-0.0" camption="1" orbit="4" orbitParam1="6,0" orbitParam2="4,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="2" type="star" size="1" x="-2.0" y="2.0" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="3" type="star" size="1" x="-2.0" y="-2.0" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="4" type="star" size="1" x="2.0" y="-2.0" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="5" type="star" size="1" x="2.0" y="2.0" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="7" type="dirtstar" size="4" x="-0.0" y="-0.0" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="8" type="dirtstar" size="1" x="-4.5" y="1.5" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="9" type="dirtstar" size="1" x="-4.5" y="-1.5" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="10" type="dirtstar" size="1" x="4.5" y="-1.5" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="11" type="dirtstar" size="1" x="4.5" y="1.5" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="12" type="dirtstar" size="2" x="-0.0" y="3.0" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="13" type="dirtstar" size="2" x="0.0" y="-3.0" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="14" type="dirtstar" size="1" x="-3.0" y="-0.0" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="15" type="dirtstar" size="1" x="3.0" y="-0.0" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="16" type="barrier" size="1" x="-5.0" y="2.0" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="17" type="barrier" size="1" x="-5.0" y="-2.0" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="18" type="barrier" size="1" x="5.0" y="-2.0" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="19" type="barrier" size="1" x="5.0" y="2.0" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" />
+    <mapbuilding tag="21" type="curse" size="1" x="15" y="15" camption="0" orbit="0" orbitParam1="0,0" orbitParam2="0,0" orbitClockWise="False" fAngle="0" transformBulidingID="" curseDelay="10" />
+  </mapbuildings>
+  <mapplayers>
+    <mapplayer tag="0" ship="30" camption="2" />
+    <mapplayer tag="1" ship="30" camption="1" />
+  </mapplayers>
+</map>

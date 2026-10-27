@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<playerguides>
+	<playerguide id="0" type="1" windowType="1" windowname="HomeWindow" tipID="1020" srcX="783" srcY="45" dstX="0" dstY="0" angle="0" moveType="0" duration="0.5" coordsinates="0" startCondition="1" endCondition1="4" />
+	<playerguide id="1" type="1" windowType="0" windowname="LobbyWindowView" tipID="1002" srcX="233" srcY="-213" dstX="0" dstY="0" angle="0" moveType="0" duration="0.5" coordsinates="0" startCondition="1" endCondition1="4" />
+	<playerguide id="2" type="0" windowType="2" windowname="1001010" animation="Guide3" nextID="3,4" srcX="0" srcY="0" dstX="0" dstY="0" angle="0" moveType="2" duration="0" coordsinates="0" occlusionBG="1" endCondition1="8" endCondition2="7" />
+	<playerguide id="3" type="0" windowType="0" windowname="1001010" animation="Guide1" prevID="2" srcX="0" srcY="0" dstX="0" dstY="0" angle="0" moveType="2" duration="0" coordsinates="0" startCondition="0" endCondition1="0" endCondition2="7" />
+	<playerguide id="4" type="2" windowType="4" windowname="1001010" tipID="1003" prevID="2" srcX="131" srcY="474" dstX="131" dstY="474" angle="0" moveType="0" duration="0" coordsinates="0" startCondition="0" endCondition1="5" endCondition2="7" endOtherID="3" />
+	<playerguide id="5" type="2" windowType="2" windowname="1001020" tipID="1004" srcX="836" srcY="13" dstX="836" dstY="13" angle="0" moveType="0" duration="1" coordsinates="0" startCondition="0" endCondition1="5" endCondition2="7" />
+	<playerguide id="6" type="2" windowType="4" windowname="1001030" tipID="1015" srcX="-145" srcY="101" dstX="-145" dstY="101" angle="0" moveType="0" duration="1" coordsinates="0" startCondition="0" endCondition1="5" endCondition2="7" />
+	<playerguide id="7" type="2" windowType="1" windowname="1001040" tipID="1016" srcX="-80" srcY="0" dstX="-80" dstY="0" angle="0" moveType="0" duration="1" coordsinates="0" startCondition="0" endCondition1="5" endCondition2="7" endOtherID="8" />
+	<playerguide id="8" type="0" windowType="1" windowname="1001040" animation="Guide2" srcX="562" srcY="-410" dstX="0" dstY="-410" angle="90" moveType="2" duration="1" coordsinates="0" startCondition="0" endCondition1="1" endCondition2="7" />
+	<playerguide id="9" type="2" windowType="3" windowname="1001050" tipID="1017" srcX="921" srcY="474" dstX="921" dstY="474" angle="0" moveType="0" duration="1" coordsinates="0" startCondition="0" endCondition1="5" endCondition2="7" />
+	<playerguide id="10" type="2" windowType="4" windowname="1001060" tipID="1018" srcX="278" srcY="592" dstX="278" dstY="592" angle="0" moveType="0" duration="1" coordsinates="0" startCondition="0" endCondition1="5" endCondition2="7" />
+	<playerguide id="11" type="2" windowType="4" windowname="1001070" tipID="1019" srcX="532" srcY="571" dstX="532" dstY="571" angle="0" moveType="0" duration="1" coordsinates="0" startCondition="0" endCondition1="5" endCondition2="7" />
+	<playerguide id="12" type="2" windowType="1" windowname="1002010" tipID="1005" srcX="348" srcY="423" dstX="348" dstY="423" angle="0" moveType="0" duration="1" coordsinates="0" startCondition="0" endCondition1="5" endCondition2="7" />
+	<playerguide id="13" type="2" windowType="0" windowname="1002040" tipID="1006" srcX="-97" srcY="0" dstX="-97" dstY="0" angle="0" moveType="0" duration="1" coordsinates="0" startCondition="0" endCondition1="5" endCondition2="7" />
+	<playerguide id="14" type="2" windowType="1" windowname="1003070" tipID="1007" srcX="15" srcY="454" dstX="15" dstY="454" angle="0" moveType="0" duration="1" coordsinates="0" startCondition="0" endCondition1="5" endCondition2="7" />
+	<playerguide id="15" type="2" windowType="2" windowname="1004060" tipID="1008" srcX="838" srcY="18" dstX="838" dstY="18" angle="0" moveType="0" duration="1" coordsinates="0" startCondition="0" endCondition1="5" endCondition2="7" />
+	<playerguide id="16" type="2" windowType="3" windowname="1006010" tipID="1009" srcX="590" srcY="434" dstX="590" dstY="434" angle="0" moveType="0" duration="1" coordsinates="0" startCondition="0" endCondition1="5" endCondition2="7" />
+	<playerguide id="17" type="2" windowType="3" windowname="1007010" tipID="1010" srcX="687" srcY="437" dstX="687" dstY="437" angle="0" moveType="0" duration="1" coordsinates="0" startCondition="0" endCondition1="5" endCondition2="7" />
+	<playerguide id="18" type="2" windowType="3" windowname="1009010" tipID="1011" srcX="720" srcY="448" dstX="720" dstY="448" angle="0" moveType="0" duration="1" coordsinates="0" startCondition="0" endCondition1="5" endCondition2="7" />
+	<playerguide id="19" type="2" windowType="3" windowname="1011010" tipID="1012" srcX="437" srcY="448" dstX="437" dstY="448" angle="0" moveType="0" duration="1" coordsinates="0" startCondition="0" endCondition1="5" endCondition2="7" />
+	<playerguide id="20" type="2" windowType="3" windowname="1013010" tipID="1013" srcX="599" srcY="448" dstX="599" dstY="448" angle="0" moveType="0" duration="1" coordsinates="0" startCondition="0" endCondition1="5" endCondition2="7" />
+	<playerguide id="21" type="2" windowType="3" windowname="1014010" tipID="1014" srcX="513" srcY="218" dstX="513" dstY="218" angle="0" moveType="0" duration="1" coordsinates="0" startCondition="0" endCondition1="5" endCondition2="7" />
+	<playerguide id="22" type="1" windowType="2" windowname="LobbyWindowView" tipID="1021" srcX="1017" srcY="359" dstX="0" dstY="0" angle="0" moveType="0" duration="0.5" coordsinates="0" startCondition="3" endCondition1="6" />
+	<playerguide id="23" type="2" windowType="3" windowname="1016010" tipID="1022" srcX="838" srcY="448" dstX="838" dstY="448" angle="0" moveType="0" duration="1" coordsinates="0" startCondition="0" endCondition1="5" endCondition2="7" />
+	<playerguide id="24" type="2" windowType="4" windowname="1018010" tipID="1023" srcX="-119" srcY="-127" dstX="-119" dstY="-127" angle="0" moveType="0" duration="1" coordsinates="0" startCondition="0" endCondition1="5" endCondition2="7" />
+	<playerguide id="25" type="2" windowType="4" windowname="1020010" tipID="1024" srcX="-119" srcY="500" dstX="-119" dstY="500" angle="0" moveType="0" duration="1" coordsinates="0" startCondition="0" endCondition1="5" endCondition2="7" />
+	<playerguide id="26" type="2" windowType="3" windowname="1022010" tipID="1025" srcX="-10" srcY="0" dstX="-10" dstY="0" angle="0" moveType="0" duration="1" coordsinates="0" startCondition="0" endCondition1="5" endCondition2="7" />
+</playerguides>
+
+
+
+<!-- 所有属性的含义说明 -->
+<!-- 
+	id="" 设置教程的编号。
+	type="" 教程的类型。0 表示手指（箭头）， 1 表示文字， 2 表示带有框的文字。
+	windowType="" 表示教程类型样式。包括：
+		对于type="0"
+			未知
+		对于type="1"
+			0 表示圆圈状的指示标志向右延伸并指向说明文字，也就是文字左侧带有指示标志
+			1 表示圆圈状的指示标志向左延伸并指向说明文字，也就是文字右侧带有指示标志
+		对于type="2"
+			0 表示带有箭头的文字框，且箭头位于文字框右上方
+			1 表示带有箭头的文字框，且箭头位于文字框右下方
+			2 表示带有箭头的文字框，且箭头位于文字框左上方
+			3 表示带有箭头的文字框，且箭头位于文字框左下方
+			4 表示不带指示箭头的文字框
+
+	windowname="" 填写在哪一个地方出现教程。
+	tipID="" 与该教程匹配的文字的编号。在Dictionary.xml中查看。
+	animation="" 表示手指的动画效果。从用途上看与 tipID="" 类似。
+
+	prevID="" 该教程出现需要的上一个教程的编号，对应其 id=""
+	nextID="" 该教程的下一个教程的编号，对应其 id=""
+
+	srcX="" 教程出现起始时刻的x坐标
+	srcY="" 起始y坐标
+	dstX="" 教程移动终点的x坐标
+	dstY="" 终点y坐标
+	angle="" 教程的旋转角度。（例如指示箭头的旋转）
+	moveType="" 移动类型。 0 表示不移动。2 与手指的动画效果搭配，具体作用未知
+	duration="" 没有观察到用处。它 不表示 “在玩家未进行操作的情况下，教程的持续时间”
+	coordsinates="" 表示坐标系，与坐标搭配使用。0 表示星图坐标系 , 1 表示地图坐标系。
+	startCondition="" 教程出现的条件。数字的具体含义等待探索。
+	endCondition1="" 教程消失的第一个条件。数字的具体含义需探索。
+	endCondition2="" 教程消失的第二个条件。满足任一条件就可以让教程消失。
+	endOtherID="" 可能表示教程消失的第三个条件。也可能表示……？
+
+  其余一些说明
+	HomeWindow 表示主界面
+	LobbyWindowView 表示星座界面及关卡界面
+-->
